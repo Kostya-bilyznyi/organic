@@ -6,7 +6,6 @@
  */
 
 get_header(); ?>
-
 	 <!-- End Navbar -->
     <article class="entry">
       <div class="entry-content">
