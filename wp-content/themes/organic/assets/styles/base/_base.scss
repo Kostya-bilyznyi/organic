@@ -1,0 +1,100 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.large-gutters {
+  @media (min-width: 576px) {
+    margin-right: -25px;
+    margin-left: -25px;
+
+    & > .col,
+    & > [class*="col-"] {
+      padding-right: 25px;
+      padding-left: 25px;
+    }
+  }
+}
+
+.xl-gutters {
+  @media (min-width: 576px) {
+    margin-right: -60px;
+    margin-left: -60px;
+
+    & > .col,
+    & > [class*="col-"] {
+      padding-right: 60px;
+      padding-left: 60px;
+    }
+  }
+}
+
+.wp-caption-text {
+  font-size: 0.875rem;
+}
+
+.z-index-back {
+  z-index: 1;
+}
+
+.z-index-flower {
+  z-index: -1;
+}
+
+.z-index-2 {
+  z-index: 2;
+}
+
+.z-index-3 {
+  z-index: 3;
+}
+
+.z-index-4 {
+  z-index: 4;
+}
+
+.image-z-index {
+  z-index: -2;
+}
+
+.object-fit-cover {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.letter-space {
+  letter-spacing: 3px;
+}
+
+.hover-color {
+  &:hover {
+    color: #747474;
+  }
+}
+
+.mt-130 {
+  margin-top: -130px !important;
+}
+
+input:-internal-autofill-selected {
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+input:-webkit-autofill-hover {
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.testimonials-negative-margin {
+  @media (min-width: 992px) {
+    margin-top: -55px;
+    margin-bottom: -55px;
+  }
+}
+
+.position-md-absolute {
+  @media (min-width: 768px) {
+    position: absolute;
+  }
+}

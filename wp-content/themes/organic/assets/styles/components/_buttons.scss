@@ -1,0 +1,88 @@
+/* --------------------------------------------------------------
+# Buttons
+-------------------------------------------------------------- */
+.position {
+  position: absolute;
+  fill: #fff;
+  color: #fff;
+
+  @media (min-width: 992px) {
+    margin-left: -350px;
+    margin-top: 165px;
+  }
+
+  @media (max-width: 991.98px) {
+    margin-left: -375px;
+    margin-top: 200px;
+  }
+
+  @media (max-width: 767.98px) {
+    margin-left: -200px;
+    margin-top: 100px;
+  }
+
+  &:hover {
+    fill: #fff;
+    color: #fff;
+  }
+}
+
+.btn-contact-link {
+  color: #747474;
+  border-color: #747474;
+
+  &:hover {
+    color: #bc5e49;
+    border-color: #bc5e49;
+  }
+}
+
+.shop-button-style {
+  font-family: "Roboto", sans-serif;
+  border-color: #2a5631 !important;
+
+  &:hover {
+    border-color: #bc5e49 !important;
+  }
+}
+
+.btn-link {
+  border: solid;
+  border-width: 2px;
+  border-bottom: 1px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  padding-bottom: 4px;
+  font-weight: 600;
+
+  &:hover {
+    border-color: #bc5e49;
+  }
+}
+
+.btn-link1 {
+  border: solid;
+  border-width: 2px;
+  border-bottom: 1px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  padding-bottom: 4px;
+  font-weight: 600;
+  color: #fff;
+  border-color: #fff !important;
+
+  &:hover {
+    border-color: #c8b6a1 !important;
+    color: #c8b6a1;
+  }
+}
+
+.btn-parsley {
+  &:hover {
+    background-color: #bc5e49;
+    border-color: #bc5e49;
+    color: #fff;
+  }
+}

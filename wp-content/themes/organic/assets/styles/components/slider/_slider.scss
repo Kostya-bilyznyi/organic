@@ -1,0 +1,39 @@
+/* --------------------------------------------------------------
+# Slider
+-------------------------------------------------------------- */
+
+.heme-carousel {
+  .carousel-item {
+    min-height: 666px;
+    background: #000;
+    /* stylelint-disable */
+
+    background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      color-stop(66.66%, #000),
+      color-stop(66.6666666%, #232323)
+    );
+
+    /* stylelint-enable */
+
+    background: -webkit-linear-gradient(left, #000 66.66%, #232323 66.6666666%);
+    background: linear-gradient(90deg, #000 66.66%, #232323 66.6666666%);
+
+    .heme-carousel-caption {
+      padding-top: 2.5rem;
+      padding-bottom: 2.5rem;
+      color: #fff;
+
+      @media (min-width: 992px) {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}

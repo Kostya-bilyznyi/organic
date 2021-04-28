@@ -1,0 +1,25 @@
+/* --------------------------------------------------------------
+# Countdown
+-------------------------------------------------------------- */
+.countdown {
+  .countdown_value {
+    font-size: calc(1.375rem + 1.5vw);
+    font-weight: 700;
+    display: inline-block;
+    line-height: 1.4;
+    text-align: center;
+
+    @media (min-width: 1200px) {
+      font-size: 2.5rem;
+    }
+
+    &:not(:last-child) {
+      padding-right: 2rem;
+    }
+
+    .countdown_lable {
+      font-size: 1rem;
+      display: block;
+    }
+  }
+}

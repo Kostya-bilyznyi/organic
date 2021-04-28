@@ -1,0 +1,149 @@
+/* --------------------------------------------------------------
+# Widgets
+-------------------------------------------------------------- */
+.widget {
+  margin-bottom: 4rem;
+
+  .widget-title {
+    font-size: 1rem;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #999;
+    display: block;
+    text-transform: uppercase;
+  }
+
+  ol,
+  ul {
+    -webkit-padding-start: 1.25rem;
+    -moz-padding-start: 1.25rem;
+    padding-inline-start: 1.25rem;
+  }
+}
+
+.widget_pages ul li,
+.widget_recent_comments ul li,
+.widget_meta ul li,
+.widget_recent_entries ul li,
+.widget_archive ul li,
+.widget_categories ul li,
+.widget_product_categories ul li {
+  width: 100%;
+}
+
+.widget_pages ul li a,
+.widget_recent_comments ul li a,
+.widget_meta ul li a,
+.widget_recent_entries ul li a,
+.widget_archive ul li a,
+.widget_categories ul li a,
+.widget_product_categories ul li a {
+  display: inline-block;
+  padding: 0.5rem 0;
+}
+
+.widget_pages > ul,
+.widget_recent_comments > ul,
+.widget_meta > ul,
+.widget_recent_entries > ul,
+.widget_archive > ul,
+.widget_categories > ul,
+.widget_product_categories > ul {
+  list-style: none;
+}
+
+.widget_pages > ul > li::before,
+.widget_recent_comments > ul > li::before,
+.widget_meta > ul > li::before,
+.widget_recent_entries > ul > li::before,
+.widget_archive > ul > li::before,
+.widget_categories > ul > li::before,
+.widget_product_categories > ul > li::before {
+  content: "";
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border: solid 1px #999;
+  border-radius: 50px;
+  margin-left: -1.25rem;
+  margin-right: 10px;
+}
+
+.widget_recent_comments li {
+  margin-bottom: 1rem;
+}
+
+.widget_nav_menu {
+  ul {
+    padding-left: 0;
+
+    li {
+      width: 100%;
+      list-style: none;
+      padding: 0.6rem 0;
+
+      a {
+        display: inline-block;
+      }
+    }
+
+    .current-menu-item {
+      a {
+        padding: 0.4rem 2rem;
+        margin-left: -2rem;
+        border-radius: 50px;
+        min-width: 130px;
+      }
+    }
+  }
+}
+
+.widget_rss {
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      padding-bottom: 2rem;
+      margin-bottom: 2rem;
+
+      &:not(:last-child) {
+        border-bottom: solid 1px #000;
+      }
+
+      a {
+        &.rsswidget {
+          font-size: 1.2rem;
+          font-family: "Playfair Display", sans-serif;
+          font-weight: 700;
+          line-height: 1.4;
+          margin-bottom: 0.5rem;
+          display: block;
+        }
+      }
+
+      .rss-date {
+        color: #999;
+        font-size: 0.875em;
+        margin-bottom: 0.5rem;
+        display: block;
+      }
+    }
+  }
+}
+
+.search-form .form-control,
+.search-form .btn {
+  border-color: #e4e4e4;
+}
+
+.search-form {
+  .input-group {
+    .form-control {
+      border-color: #e4e4e4;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+  }
+}

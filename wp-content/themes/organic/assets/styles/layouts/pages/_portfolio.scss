@@ -1,0 +1,34 @@
+/* --------------------------------------------------------------
+# Portfolio
+-------------------------------------------------------------- */
+.property-block {
+  margin-bottom: 57px;
+
+  .property-item {
+    .content-image {
+      margin-bottom: 25px;
+    }
+
+    .content-title {
+      margin-bottom: 15px;
+      color: #2a5631;
+    }
+
+    .content-price {
+      color: #c8b6a1;
+      font-size: 1.125rem;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .content-meta {
+      color: #7ea889;
+      margin-left: 0;
+      margin-right: 10px;
+    }
+  }
+}
+
+.portfolio-margin {
+  margin-top: -110px;
+}

@@ -1,0 +1,17 @@
+/* --------------------------------------------------------------
+# 404 Page
+-------------------------------------------------------------- */
+
+.title-404 {
+  color: #747474;
+  font-size: 100px;
+  font-weight: 500;
+  width: 100%;
+  font-family: "Heebo", sans-serif;
+
+  @media (min-width: 992px) {
+    color: #747474;
+    font-size: 200px;
+    font-weight: 500;
+  }
+}

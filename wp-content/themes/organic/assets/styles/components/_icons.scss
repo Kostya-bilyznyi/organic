@@ -1,0 +1,27 @@
+/* --------------------------------------------------------------
+# Icons
+-------------------------------------------------------------- */
+.round-icon-list {
+  padding-left: 0;
+  list-style: none;
+
+  li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    font-size: 1.125rem;
+    border-radius: 50px;
+    text-align: center;
+
+    a {
+      i {
+        color: #000;
+      }
+    }
+
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+}

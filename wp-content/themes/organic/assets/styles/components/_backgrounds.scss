@@ -1,0 +1,233 @@
+.featured-image-blog {
+  //   background-image: url("../images/blog/single-post.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  .featured-image-blog {
+    min-height: 700px;
+  }
+}
+
+.bg-texture-image {
+  //   background-image: url("../images/home/bg-texture.png");
+  background-size: cover;
+  background-position: top left;
+  background-repeat: repeat;
+  background-color: #dfd7c3;
+}
+
+.small-bg-about-us {
+  background-color: #dfd7c3;
+
+  @media (min-width: 992px) {
+    //  background-image: url("../images/home/bg-texture.png"),
+    // url("../images/about-us/a1.jpg");
+    background-position: left top, right top;
+    background-size: 50%, 50%;
+    background-repeat: repeat, no-repeat;
+  }
+
+  @media (max-width: 991.98px) {
+    //  background-image: url("../images/home/bg-texture.png");
+    background-position: top left;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+}
+
+.small-bg-faq {
+  background-color: #dfd7c3;
+
+  @media (min-width: 992px) {
+    //  background-image: url("../images/home/bg-texture.png"),
+    // url("../images/faq/fa1.jpg");
+    background-position: left top, right top;
+    background-size: 50%, 50%;
+    background-repeat: repeat, no-repeat;
+  }
+
+  @media (max-width: 991.98px) {
+    //  background-image: url("../images/home/bg-texture.png");
+    background-position: top left;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+}
+
+.small-bg-contact-us {
+  background-color: #dfd7c3;
+
+  @media (min-width: 992px) {
+    //  background-image: url("../images/home/bg-texture.png"),
+    // url("../images/contact-us/c6.jpg");
+    background-position: left top, right top;
+    background-size: 50%, 50%;
+    background-repeat: repeat, no-repeat;
+  }
+
+  @media (max-width: 991.98px) {
+    //  background-image: url("../images/home/bg-texture.png");
+    background-position: top left;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+}
+
+.small-bg-team {
+  background-color: #dfd7c3;
+
+  @media (min-width: 992px) {
+    //  background-image: url("../images/home/bg-texture.png"),
+    // url("../images/team/t9.jpg");
+    background-position: left top, right top;
+    background-size: 50%, 50%;
+    background-repeat: repeat, no-repeat;
+  }
+
+  @media (max-width: 991.98px) {
+    //  background-image: url("../images/home/bg-texture.png");
+    background-position: top left;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+}
+
+.small-bg-testimonials {
+  background-color: #dfd7c3;
+
+  @media (min-width: 992px) {
+    //  background-image: url("../images/home/bg-texture.png"),
+    // url("../images/testimonials/tst1.jpg");
+    background-position: left top, right top;
+    background-size: 50%, 50%;
+    background-repeat: repeat, no-repeat;
+  }
+
+  @media (max-width: 991.98px) {
+    //  background-image: url("../images/home/bg-texture.png");
+    background-position: top left;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+}
+
+.small-bg-partner {
+  background-color: #dfd7c3;
+
+  @media (min-width: 992px) {
+    //  background-image: url("../images/home/bg-texture.png"),
+    // url("../images/partner/pr1.jpg");
+    background-position: left top, right top;
+    background-size: 50%, 50%;
+    background-repeat: repeat, no-repeat;
+  }
+
+  @media (max-width: 991.98px) {
+    //  background-image: url("../images/home/bg-texture.png");
+    background-position: top left;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+}
+
+.small-bg-blog {
+  background-color: #dfd7c3;
+
+  @media (min-width: 992px) {
+    //  background-image: url("../images/home/bg-texture.png"),
+    // url("../images/contact-us/c4.jpg");
+    background-position: left top, right top;
+    background-size: 50%, 50%;
+    background-repeat: repeat, no-repeat;
+  }
+
+  @media (max-width: 991.98px) {
+    //  background-image: url("../images/home/bg-texture.png");
+    background-position: top left;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+}
+
+.small-bg-portfolio {
+  background-color: #dfd7c3;
+
+  @media (min-width: 992px) {
+    //  background-image: url("../images/home/bg-texture.png"),
+    // url("../images/about-us/a8.jpg");
+    background-position: left top, right top;
+    background-size: 50%, 50%;
+    background-repeat: repeat, no-repeat;
+  }
+
+  @media (max-width: 991.98px) {
+    //  background-image: url("../images/home/bg-texture.png");
+    background-position: top left;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+}
+
+.small-bg-shop {
+  background-color: #dfd7c3;
+
+  @media (min-width: 992px) {
+    //  background-image: url("../images/home/bg-texture.png"),
+    // url("../images/portfolio/pf1.jpg");
+    background-position: left top, right top;
+    background-size: 50%, 50%;
+    background-repeat: repeat, no-repeat;
+  }
+
+  @media (max-width: 991.98px) {
+    //  background-image: url("../images/home/bg-texture.png");
+    background-position: top left;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+}
+
+.small-bg-pricing-table {
+  background-color: #dfd7c3;
+
+  @media (min-width: 992px) {
+    //  background-image: url("../images/home/bg-texture.png"),
+    // url("../images/portfolio/pf2.jpg");
+    background-position: left top, right top;
+    background-size: 50%, 50%;
+    background-repeat: repeat, no-repeat;
+  }
+
+  @media (max-width: 991.98px) {
+    //  background-image: url("../images/home/bg-texture.png");
+    background-position: top left;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+}
+
+.small-bg-service {
+  background-color: #dfd7c3;
+
+  @media (min-width: 992px) {
+    //  background-image: url("../images/home/bg-texture.png"),
+    // url("../images/services/sr1.jpg");
+    background-position: left top, right top;
+    background-size: 50%, 50%;
+    background-repeat: repeat, no-repeat;
+  }
+
+  @media (max-width: 991.98px) {
+    //  background-image: url("../images/home/bg-texture.png");
+    background-position: top left;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+}
+
+.bg-lg-white {
+  @media (min-width: 992px) {
+    background-color: #fff;
+  }
+}

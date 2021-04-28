@@ -1,0 +1,28 @@
+/* --------------------------------------------------------------
+# Team
+-------------------------------------------------------------- */
+.member-content {
+  background-color: #fff;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+
+  .member-text {
+    .member-name {
+      margin-bottom: 15px;
+    }
+
+    .member-tag {
+      margin-bottom: 20px;
+      font-size: 16px;
+      line-height: 28px;
+      font-weight: 600px;
+      color: #7ea889;
+    }
+
+    .member-link {
+      margin-top: 20px;
+    }
+  }
+}

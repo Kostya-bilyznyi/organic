@@ -1,0 +1,357 @@
+/* --------------------------------------------------------------
+# Comments
+-------------------------------------------------------------- */
+.comment-meta {
+  position: relative;
+}
+
+.comment-awaiting-moderation {
+  font-size: 0.9375rem;
+  color: red;
+  margin-left: 60px;
+  margin-top: 13px;
+  font-family: "Playfair Display", sans-serif;
+}
+
+.cnns-comment-subscription {
+  margin-top: 22px;
+
+  label {
+    font-size: 1.0625rem;
+    display: inline;
+    margin-left: 3px;
+    position: relative;
+    top: 1px;
+    color: #7ea889;
+  }
+
+  #disqus_thread {
+    display: block;
+    padding-top: 1em;
+
+    @media only screen and (min-width: 600px) {
+      padding-top: 4em;
+    }
+  }
+}
+
+.comments-title {
+  margin-bottom: 2rem;
+  color: #999;
+  font-weight: 400;
+}
+
+.comments {
+  @media (min-width: 992px) {
+    padding-bottom: 120px;
+  }
+
+  @media (max-width: 991.98px) {
+    padding-bottom: 80px;
+  }
+
+  @media (max-width: 767.98px) {
+    padding-bottom: 60px;
+  }
+}
+
+body {
+  &.has-no-comments {
+    .comments {
+      @media only screen and (max-width: 599px) {
+        padding-top: 0;
+      }
+    }
+
+    .comment-respond {
+      margin-left: 0;
+    }
+
+    .comment-reply-title {
+      margin-top: 0;
+    }
+  }
+}
+
+.comment,
+.comment_container {
+  margin: 0 0 60px;
+  list-style-type: none;
+}
+
+.comment .avatar,
+.comment_container .avatar {
+  border-radius: 100px;
+  float: left;
+  width: 44px;
+  height: 44px;
+  margin-top: 2px;
+  margin-right: 2rem;
+}
+
+.comment-author,
+.comment_container-author {
+  font-size: 1.0625rem;
+  display: block;
+  font-family: "Playfair Display", sans-serif;
+  margin: 0 0 10px;
+
+  @media only screen and (min-width: 600px) {
+    font-size: 1.125rem;
+  }
+}
+
+.comment-author .says,
+.comment_container-author .says {
+  display: none;
+}
+
+.comment-author span,
+.comment-author cite,
+.comment-author a,
+.comment_container-author span,
+.comment_container-author cite,
+.comment_container-author a {
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.comment-author .fn a,
+.comment_container-author .fn a {
+  font-weight: 700;
+}
+
+.comment-notes,
+.comment_container-notes {
+  display: none;
+}
+
+.comment .reply,
+.comment-content,
+.comment .comment-text,
+.comment_container .reply,
+.comment_container-content,
+.comment_container .comment-text {
+  margin-left: 77px;
+}
+
+.comment .reply,
+.comment_container .reply {
+  display: block;
+  margin-top: 15px;
+}
+
+.comment .reply a,
+.comment_container .reply a {
+  font-size: 0.875rem;
+  background: #000;
+  border-radius: 2px;
+  color: #6c757d;
+  display: inline-block;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 500;
+  padding: 0.2em 0.65em;
+  margin-left: -1px;
+  -webkit-transition: 150ms color cubic-bezier(0.3, -0.55, 0.1, 1.1);
+  transition: 150ms color cubic-bezier(0.3, -0.55, 0.1, 1.1);
+}
+
+@media (min-width: 600px) {
+  .comment .reply a,
+  .comment_container .reply a {
+    border-radius: 2px;
+  }
+}
+
+.comment .reply a:hover,
+.comment_container .reply a:hover {
+  color: #000;
+}
+
+.comment-content a,
+.comment_container-content a {
+  word-wrap: break-word;
+  text-decoration: underline;
+}
+
+.comment-content a:hover,
+.comment_container-content a:hover {
+  text-decoration: none;
+}
+
+.comment-body,
+.comment_container-body {
+  clear: both;
+}
+
+.comment .comment-respond,
+.comment_container .comment-respond {
+  margin-top: 40px;
+  margin-bottom: 60px;
+
+  @media only screen and (min-width: 600px) {
+    margin-left: 60px;
+  }
+}
+
+.comment-metadata {
+  font-size: 0.875rem;
+  display: block;
+  margin-top: -10px;
+  margin-bottom: 0.5rem;
+  font-family: "Playfair Display", sans-serif;
+
+  a {
+    color: #999;
+
+    &:hover {
+      color: #000;
+    }
+  }
+}
+
+.comments {
+  .comments__inner {
+    .children {
+      padding: 0;
+      margin-top: 30px;
+
+      @media only screen and (max-width: 700px) {
+        margin-left: 0;
+      }
+
+      @media only screen and (min-width: 400px) {
+        margin-top: 30px;
+        margin-left: 60px;
+
+        .comment {
+          margin: 0 0 25px 0;
+        }
+      }
+    }
+  }
+}
+
+.pingback {
+  margin-bottom: 25px;
+
+  .comment-edit-link {
+    color: gray;
+
+    &:hover {
+      color: #000;
+    }
+  }
+}
+
+article {
+  &.comment-body {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+  }
+}
+
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+  -webkit-box-shadow: 0 0 0 2px #000;
+  box-shadow: 0 0 0 2px #000;
+  padding: 5px;
+  top: 2px;
+  position: relative;
+}
+
+.comment.depth-3 p,
+.comment.depth-4 p,
+.comment.depth-5 p,
+.comment.depth-6 p,
+.comment.depth-7 p {
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.comment-reply-title {
+  font-family: "Playfair Display", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: h2;
+}
+
+.comment-reply-title {
+  small {
+    font-size: 0.875rem;
+    font-weight: normal;
+    color: #999;
+    float: right;
+    position: relative;
+    top: 8px;
+    -webkit-transition: 150ms color cubic-bezier(0.3, -0.55, 0.1, 1.1);
+    transition: 150ms color cubic-bezier(0.3, -0.55, 0.1, 1.1);
+
+    @media only screen and (min-width: 600px) {
+      font-size: 0.9375rem;
+    }
+
+    &:hover {
+      color: #000;
+    }
+  }
+}
+
+.logged-in-as {
+  font-family: "Playfair Display", sans-serif;
+  margin-top: -15px;
+  font-size: 0.875rem;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.no-comments {
+  text-align: center;
+}
+
+.comment-form-comment {
+  label {
+    color: #7ea889;
+  }
+}
+
+.required {
+  color: #dc3545;
+}
+
+.comment-respond {
+  p {
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .form-submit {
+    margin-bottom: 0;
+    margin-top: 30px;
+    display: block;
+
+    input {
+      @media (max-width: 599px) {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.comment-form-cookies-consent {
+  display: block;
+  margin-bottom: 30px !important;
+
+  label {
+    font-size: 0.9375rem;
+    font-weight: 400;
+    padding-left: 8px;
+    color: #7ea889;
+    display: inline-block;
+    -webkit-font-smoothing: auto !important;
+  }
+}

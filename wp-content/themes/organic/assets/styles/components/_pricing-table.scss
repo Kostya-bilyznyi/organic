@@ -1,0 +1,41 @@
+/* --------------------------------------------------------------
+# Pricing table
+-------------------------------------------------------------- */
+.pricing-table-item {
+  margin-bottom: 2rem;
+  padding: 3rem 3rem;
+
+  .pricing-table {
+    &__title {
+      margin-bottom: 0.25rem;
+      font-size: 1.25rem;
+    }
+
+    &__price {
+      margin-bottom: 1rem;
+      font-weight: 700;
+      font-family: "Playfair Display", sans-serif;
+
+      & * {
+        display: inline;
+        font-size: 1.25rem;
+        color: #999;
+        font-family: "Roboto", sans-serif;
+      }
+    }
+
+    &__amount {
+      font-size: calc(1.5rem + 3vw);
+
+      @media (min-width: 1200px) {
+        font-size: 3.75rem;
+      }
+    }
+
+    &__features {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 2rem 0;
+    }
+  }
+}

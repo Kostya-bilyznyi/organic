@@ -1,0 +1,110 @@
+/* --------------------------------------------------------------
+# Home page
+-------------------------------------------------------------- */
+
+.social-icon-style {
+  font-size: 1.125rem;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.map-height {
+  @media (min-width: 768px) {
+    height: 450px;
+  }
+
+  @media (max-width: 767.98px) {
+    height: 320px;
+  }
+}
+
+.padding-hero-icon {
+  padding: 24px 32px;
+}
+
+.input-border {
+  border: solid;
+  border-width: 3px;
+  border-bottom: 1;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: #747474;
+
+  &:focus {
+    border-color: #2a5631;
+  }
+}
+
+.number-border {
+  border: solid;
+  border-width: 1px;
+  border-bottom: 1;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: #747474;
+  text-align: center;
+  background-color: transparent !important;
+}
+
+.border-radius-home {
+  border-radius: 6px;
+}
+
+.icon-left-quote {
+  font-size: calc(1.5rem + 3vw);
+  line-height: 42px;
+  font-weight: 400;
+
+  @media (min-width: 1200px) {
+    font-size: 3.75rem;
+  }
+}
+
+.icon-left-quote-45 {
+  font-size: calc(1.40625rem + 1.875vw);
+  line-height: 42px;
+  font-weight: 400;
+
+  @media (min-width: 1200px) {
+    font-size: 2.8125rem;
+  }
+}
+
+.icon-left-quote-34 {
+  font-size: calc(1.3375rem + 1.05vw);
+  line-height: 36px;
+  font-weight: 400;
+
+  @media (min-width: 1200px) {
+    font-size: 2.125rem;
+  }
+}
+
+.list-group-item {
+  border: solid;
+  border-width: 3;
+  border-left-width: 3;
+  border-color: #c8b6a1;
+  padding: 0.2rem 0.8rem;
+
+  &.active {
+    background-color: #bc5e49;
+    border-color: #bc5e49;
+  }
+}
+
+.list-group-horizontal {
+  & > .list-group-item {
+    & + .list-group-item {
+      border-top-width: 3px;
+      border-left-width: 3px;
+
+      &.active {
+        border-top-width: 3px;
+        border-left-width: 3px;
+      }
+    }
+  }
+}

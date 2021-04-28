@@ -11,7 +11,7 @@
 		<!-- Flickity CSS file-->
 		<link href="<?php echo $temp_html_dir; ?>assets/css/flickity.min.css" rel="stylesheet">
 		<!-- Main CSS file-->
-		<link href="<?php echo $temp_html_dir; ?>assets/css/style.css" rel="stylesheet">
+		<!-- <link href="<?php echo $temp_html_dir; ?>assets/css/style.css" rel="stylesheet"> -->
 		<!-- Fontawesome 5 CSS file-->
 		<link href="<?php echo $temp_html_dir; ?>assets/css/fontawesome-all.min.css" rel="stylesheet">
 		<!-- Magnific Popup CSS-->

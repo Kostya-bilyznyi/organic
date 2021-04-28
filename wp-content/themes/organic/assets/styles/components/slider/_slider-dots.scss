@@ -1,0 +1,19 @@
+/* --------------------------------------------------------------
+# Slider Dots
+-------------------------------------------------------------- */
+
+.flickity-page-dots {
+  @media (min-width: 992px) {
+    bottom: -83px;
+  }
+
+  @media (max-width: 991.98px) {
+    bottom: -50px;
+  }
+
+  .dot {
+    width: 20px;
+    height: 20px;
+    background: #bc5e49;
+  }
+}

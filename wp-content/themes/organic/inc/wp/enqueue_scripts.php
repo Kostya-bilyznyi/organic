@@ -3,8 +3,6 @@
  * Theme CSS & JS
  */
 function theme_scripts() {
-	// Bootstrap CSS
-	// wp_enqueue_style('bootstrap', asset_path( 'styles/components/bootstrap.min.css' ), false, '5.0.0');
 
 	// Main CSS
 	wp_enqueue_style('main-stylesheet', asset_path( 'styles/main.css' ), false, '1.0.0');

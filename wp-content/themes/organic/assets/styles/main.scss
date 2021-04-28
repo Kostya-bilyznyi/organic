@@ -2,3 +2,31 @@
 
 // @import '~bootstrap/dist/css/bootstrap.min.css';
 @import "components/bootstrap.min.css";
+@import "components/infinite";
+@import "components/accordion";
+@import "components/buttons";
+@import "components/countdown";
+@import "components/icons";
+@import "components/gallery";
+@import "components/pricing-table";
+@import "components/iframe";
+@import "components/accessibility";
+@import "components/slider/slider";
+@import "components/slider/slider-dots";
+@import "components/comments";
+@import "components/widgets";
+@import "components/custom-height";
+@import "components/fonts-style";
+@import "components/backgrounds";
+
+// Blocks
+// @import "./layouts/blocks/main-content";
+@import "./layouts/blocks/header";
+@import "./layouts/blocks/footer";
+@import "./layouts/pages/posts";
+@import "./layouts/pages/portfolio";
+@import "./layouts/pages/shop";
+@import "./layouts/pages/search";
+@import "./layouts/pages/team";
+@import "./layouts/pages/404";
+@import "./base/base";

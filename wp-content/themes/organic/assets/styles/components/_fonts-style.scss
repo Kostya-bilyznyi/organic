@@ -1,0 +1,106 @@
+/* --------------------------------------------------------------
+# Fonts styles
+-------------------------------------------------------------- */
+
+.base-font-family {
+  font-family: "Roboto", sans-serif;
+}
+
+.montserrat-family {
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-dm-sans {
+  font-family: "DM+Sans", sans-serif;
+  font-weight: bold;
+}
+
+.font-18 {
+  font-size: 1.125rem;
+}
+
+.font-size-14 {
+  font-size: 0.875rem;
+}
+
+.font-365 {
+  font-size: calc(2.0625rem + 9.75vw);
+  line-height: 150px;
+  color: #f4f4f4;
+
+  @media (min-width: 1200px) {
+    font-size: 9.375rem;
+  }
+}
+
+.font-style {
+  font-style: italic;
+}
+
+.font-weight-medium {
+  font-weight: 500 !important;
+}
+
+.testimonials-font {
+  font-size: calc(1.275rem + 0.3vw);
+  line-height: 38px;
+  font-weight: 400;
+
+  @media (min-width: 1200px) {
+    font-size: 1.5rem;
+  }
+}
+
+.price-font {
+  font-size: calc(1.5rem + 3vw);
+  line-height: 50px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+
+  @media (min-width: 1200px) {
+    font-size: 3.75rem;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  @media (max-width: 767.98px) {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+
+.cormorant-garamond-family {
+  font-family: "Cormorant Garamond", Sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.font-letter-space {
+  font-size: 0.875rem;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2.1px;
+  color: #bc5e49;
+  text-transform: uppercase;
+}
+
+.h3-md {
+  @media (max-width: 991.98px) {
+    font-size: calc(1.275rem + 0.3vw);
+    line-height: 30px;
+  }
+
+  @media (max-width: 991.98px) and (min-width: 1200px) {
+    font-size: 1.5rem;
+  }
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.font-weight-normal {
+  font-weight: normal;
+}

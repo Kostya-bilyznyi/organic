@@ -1,0 +1,155 @@
+/* --------------------------------------------------------------
+# Footer
+-------------------------------------------------------------- */
+
+.site-footer {
+  ol,
+  ul {
+    @media (min-width: 992px) {
+      -webkit-padding-start: 1rem;
+      -moz-padding-start: 1rem;
+      padding-inline-start: 1rem;
+    }
+  }
+
+  .footer-widgets {
+    @media (max-width: 991.98px) {
+      padding-top: 80px;
+      padding-bottom: 60px;
+    }
+
+    @media (min-width: 992px) {
+      padding-top: 100px;
+      padding-bottom: 95px;
+    }
+
+    .footer-widget {
+      font-weight: 500;
+      margin-bottom: 25px;
+
+      a {
+        color: #747474;
+        font-weight: normal;
+
+        &:hover {
+          color: #bc5e49;
+        }
+      }
+
+      .widget-title {
+        color: #ebf0dc;
+        margin-bottom: 20px;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+
+        @media (min-width: 768px) {
+          margin-bottom: 0;
+        }
+
+        li {
+          padding: 0.4rem 0;
+          font-weight: 500;
+        }
+
+        ul {
+          -webkit-padding-start: 0;
+          -moz-padding-start: 0;
+          padding-inline-start: 0;
+
+          @media (min-width: 992px) {
+            -webkit-padding-start: 1rem;
+            -moz-padding-start: 1rem;
+            padding-inline-start: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  .footer-bottom-area {
+    padding-bottom: 50px;
+    color: #747474;
+    padding-top: 0;
+
+    @media (min-width: 992px) {
+      padding-top: 34px;
+      padding-bottom: 34px;
+    }
+
+    a {
+      color: #747474;
+    }
+
+    .icon {
+      font-size: 18px;
+      width: 1.25em;
+      color: #2a5631;
+
+      &:hover {
+        color: #bc5e49;
+      }
+    }
+
+    .border-icon {
+      border-radius: 35px;
+      padding-right: 10px;
+      padding-left: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    .footer-nav {
+      &.list-inline {
+        li {
+          display: inline-block;
+          padding-top: 6px;
+          padding-bottom: 6px;
+          font-weight: 500;
+
+          &:not(:last-child) {
+            margin-right: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.footer-form {
+  color: #747474;
+  font-family: "Roboto", sans-serif;
+  border-width: 3px;
+  font-weight: bold;
+
+  &:hover {
+    color: #bc5e49;
+    border-color: #bc5e49;
+  }
+}
+
+.testimonials-line-height {
+  line-height: 38px;
+}
+
+.tab-font {
+  @media (max-width: 767.98px) {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+.form-control {
+  background-color: #f4f4f4;
+}
+
+.footer-input {
+  background-color: transparent;
+  padding-left: 0;
+
+  &:focus {
+    background-color: transparent;
+  }
+}
