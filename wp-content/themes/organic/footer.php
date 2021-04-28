@@ -79,32 +79,6 @@
       </div>
     </footer>
     <!-- End Footer-->
-    <!-- javascript files-->
-    <!-- jquery-->
-    <script src="<?php echo $temp_html_dir; ?>assets/js/jquery.min.js"></script>
-    <!-- lozad js-->
-    <script src="<?php echo $temp_html_dir; ?>assets/js/lozad.min.js"></script>
-    <!-- Bootstrap js-->
-    <script src="<?php echo $temp_html_dir; ?>assets/js/bootstrap.bundle.min.js"></script>
-    <!-- Aos js-->
-    <script src="<?php echo $temp_html_dir; ?>assets/js/aos.js"></script>
-    <!-- Slick flickity js-->
-    <script src="<?php echo $temp_html_dir; ?>assets/js/flickity.pkgd.min.js"></script>
-    <!-- Magnific popup js-->
-    <script src="<?php echo $temp_html_dir; ?>assets/js/jquery.magnific-popup.min.js"></script>
-    <!-- Countdown js-->
-    <script src="<?php echo $temp_html_dir; ?>assets/js/jquery.countdown.js"></script>
-    <!-- CountTo js-->
-    <script src="<?php echo $temp_html_dir; ?>assets/js/jquery.countTo.js"></script>
-    <!-- Masonry js-->
-    <script src="<?php echo $temp_html_dir; ?>assets/js/masonry.pkgd.min.js"></script>
-    <!-- search-->
-    <script src="<?php echo $temp_html_dir; ?>assets/js/search.js"></script>
-    <script src="<?php echo $temp_html_dir; ?>assets/js/instafeed.min.js"></script>
-    <!-- Global - Main js-->
-    <script src="<?php echo $temp_html_dir; ?>assets/js/global.js"></script>
-
-
 		<?php wp_footer(); ?>
 	</body>
 </html>

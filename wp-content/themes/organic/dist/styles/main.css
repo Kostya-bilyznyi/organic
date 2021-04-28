@@ -1796,7 +1796,11 @@ article.comment-body {
   font-weight: normal;
 }
 
-/* line 1, assets/styles/components/_backgrounds.scss */
+/* --------------------------------------------------------------
+# Background styles
+-------------------------------------------------------------- */
+
+/* line 5, assets/styles/components/_backgrounds.scss */
 
 .featured-image-blog {
   background-size: cover;
@@ -1804,13 +1808,13 @@ article.comment-body {
   background-repeat: no-repeat;
 }
 
-/* line 7, assets/styles/components/_backgrounds.scss */
+/* line 11, assets/styles/components/_backgrounds.scss */
 
 .featured-image-blog .featured-image-blog {
   min-height: 700px;
 }
 
-/* line 12, assets/styles/components/_backgrounds.scss */
+/* line 16, assets/styles/components/_backgrounds.scss */
 
 .bg-texture-image {
   background-size: cover;
@@ -1819,14 +1823,14 @@ article.comment-body {
   background-color: #dfd7c3;
 }
 
-/* line 20, assets/styles/components/_backgrounds.scss */
+/* line 24, assets/styles/components/_backgrounds.scss */
 
 .small-bg-about-us {
   background-color: #dfd7c3;
 }
 
 @media (min-width: 992px) {
-  /* line 20, assets/styles/components/_backgrounds.scss */
+  /* line 24, assets/styles/components/_backgrounds.scss */
 
   .small-bg-about-us {
     background-position: left top, right top;
@@ -1836,7 +1840,7 @@ article.comment-body {
 }
 
 @media (max-width: 991.98px) {
-  /* line 20, assets/styles/components/_backgrounds.scss */
+  /* line 24, assets/styles/components/_backgrounds.scss */
 
   .small-bg-about-us {
     background-position: top left;
@@ -1845,14 +1849,14 @@ article.comment-body {
   }
 }
 
-/* line 39, assets/styles/components/_backgrounds.scss */
+/* line 43, assets/styles/components/_backgrounds.scss */
 
 .small-bg-faq {
   background-color: #dfd7c3;
 }
 
 @media (min-width: 992px) {
-  /* line 39, assets/styles/components/_backgrounds.scss */
+  /* line 43, assets/styles/components/_backgrounds.scss */
 
   .small-bg-faq {
     background-position: left top, right top;
@@ -1862,7 +1866,7 @@ article.comment-body {
 }
 
 @media (max-width: 991.98px) {
-  /* line 39, assets/styles/components/_backgrounds.scss */
+  /* line 43, assets/styles/components/_backgrounds.scss */
 
   .small-bg-faq {
     background-position: top left;
@@ -1871,14 +1875,14 @@ article.comment-body {
   }
 }
 
-/* line 58, assets/styles/components/_backgrounds.scss */
+/* line 62, assets/styles/components/_backgrounds.scss */
 
 .small-bg-contact-us {
   background-color: #dfd7c3;
 }
 
 @media (min-width: 992px) {
-  /* line 58, assets/styles/components/_backgrounds.scss */
+  /* line 62, assets/styles/components/_backgrounds.scss */
 
   .small-bg-contact-us {
     background-position: left top, right top;
@@ -1888,7 +1892,7 @@ article.comment-body {
 }
 
 @media (max-width: 991.98px) {
-  /* line 58, assets/styles/components/_backgrounds.scss */
+  /* line 62, assets/styles/components/_backgrounds.scss */
 
   .small-bg-contact-us {
     background-position: top left;
@@ -1897,14 +1901,14 @@ article.comment-body {
   }
 }
 
-/* line 77, assets/styles/components/_backgrounds.scss */
+/* line 81, assets/styles/components/_backgrounds.scss */
 
 .small-bg-team {
   background-color: #dfd7c3;
 }
 
 @media (min-width: 992px) {
-  /* line 77, assets/styles/components/_backgrounds.scss */
+  /* line 81, assets/styles/components/_backgrounds.scss */
 
   .small-bg-team {
     background-position: left top, right top;
@@ -1914,7 +1918,7 @@ article.comment-body {
 }
 
 @media (max-width: 991.98px) {
-  /* line 77, assets/styles/components/_backgrounds.scss */
+  /* line 81, assets/styles/components/_backgrounds.scss */
 
   .small-bg-team {
     background-position: top left;
@@ -1923,14 +1927,14 @@ article.comment-body {
   }
 }
 
-/* line 96, assets/styles/components/_backgrounds.scss */
+/* line 100, assets/styles/components/_backgrounds.scss */
 
 .small-bg-testimonials {
   background-color: #dfd7c3;
 }
 
 @media (min-width: 992px) {
-  /* line 96, assets/styles/components/_backgrounds.scss */
+  /* line 100, assets/styles/components/_backgrounds.scss */
 
   .small-bg-testimonials {
     background-position: left top, right top;
@@ -1940,7 +1944,7 @@ article.comment-body {
 }
 
 @media (max-width: 991.98px) {
-  /* line 96, assets/styles/components/_backgrounds.scss */
+  /* line 100, assets/styles/components/_backgrounds.scss */
 
   .small-bg-testimonials {
     background-position: top left;
@@ -1949,14 +1953,14 @@ article.comment-body {
   }
 }
 
-/* line 115, assets/styles/components/_backgrounds.scss */
+/* line 119, assets/styles/components/_backgrounds.scss */
 
 .small-bg-partner {
   background-color: #dfd7c3;
 }
 
 @media (min-width: 992px) {
-  /* line 115, assets/styles/components/_backgrounds.scss */
+  /* line 119, assets/styles/components/_backgrounds.scss */
 
   .small-bg-partner {
     background-position: left top, right top;
@@ -1966,7 +1970,7 @@ article.comment-body {
 }
 
 @media (max-width: 991.98px) {
-  /* line 115, assets/styles/components/_backgrounds.scss */
+  /* line 119, assets/styles/components/_backgrounds.scss */
 
   .small-bg-partner {
     background-position: top left;
@@ -1975,14 +1979,14 @@ article.comment-body {
   }
 }
 
-/* line 134, assets/styles/components/_backgrounds.scss */
+/* line 138, assets/styles/components/_backgrounds.scss */
 
 .small-bg-blog {
   background-color: #dfd7c3;
 }
 
 @media (min-width: 992px) {
-  /* line 134, assets/styles/components/_backgrounds.scss */
+  /* line 138, assets/styles/components/_backgrounds.scss */
 
   .small-bg-blog {
     background-position: left top, right top;
@@ -1992,7 +1996,7 @@ article.comment-body {
 }
 
 @media (max-width: 991.98px) {
-  /* line 134, assets/styles/components/_backgrounds.scss */
+  /* line 138, assets/styles/components/_backgrounds.scss */
 
   .small-bg-blog {
     background-position: top left;
@@ -2001,14 +2005,14 @@ article.comment-body {
   }
 }
 
-/* line 153, assets/styles/components/_backgrounds.scss */
+/* line 157, assets/styles/components/_backgrounds.scss */
 
 .small-bg-portfolio {
   background-color: #dfd7c3;
 }
 
 @media (min-width: 992px) {
-  /* line 153, assets/styles/components/_backgrounds.scss */
+  /* line 157, assets/styles/components/_backgrounds.scss */
 
   .small-bg-portfolio {
     background-position: left top, right top;
@@ -2018,7 +2022,7 @@ article.comment-body {
 }
 
 @media (max-width: 991.98px) {
-  /* line 153, assets/styles/components/_backgrounds.scss */
+  /* line 157, assets/styles/components/_backgrounds.scss */
 
   .small-bg-portfolio {
     background-position: top left;
@@ -2027,14 +2031,14 @@ article.comment-body {
   }
 }
 
-/* line 172, assets/styles/components/_backgrounds.scss */
+/* line 176, assets/styles/components/_backgrounds.scss */
 
 .small-bg-shop {
   background-color: #dfd7c3;
 }
 
 @media (min-width: 992px) {
-  /* line 172, assets/styles/components/_backgrounds.scss */
+  /* line 176, assets/styles/components/_backgrounds.scss */
 
   .small-bg-shop {
     background-position: left top, right top;
@@ -2044,7 +2048,7 @@ article.comment-body {
 }
 
 @media (max-width: 991.98px) {
-  /* line 172, assets/styles/components/_backgrounds.scss */
+  /* line 176, assets/styles/components/_backgrounds.scss */
 
   .small-bg-shop {
     background-position: top left;
@@ -2053,14 +2057,14 @@ article.comment-body {
   }
 }
 
-/* line 191, assets/styles/components/_backgrounds.scss */
+/* line 195, assets/styles/components/_backgrounds.scss */
 
 .small-bg-pricing-table {
   background-color: #dfd7c3;
 }
 
 @media (min-width: 992px) {
-  /* line 191, assets/styles/components/_backgrounds.scss */
+  /* line 195, assets/styles/components/_backgrounds.scss */
 
   .small-bg-pricing-table {
     background-position: left top, right top;
@@ -2070,7 +2074,7 @@ article.comment-body {
 }
 
 @media (max-width: 991.98px) {
-  /* line 191, assets/styles/components/_backgrounds.scss */
+  /* line 195, assets/styles/components/_backgrounds.scss */
 
   .small-bg-pricing-table {
     background-position: top left;
@@ -2079,14 +2083,14 @@ article.comment-body {
   }
 }
 
-/* line 210, assets/styles/components/_backgrounds.scss */
+/* line 214, assets/styles/components/_backgrounds.scss */
 
 .small-bg-service {
   background-color: #dfd7c3;
 }
 
 @media (min-width: 992px) {
-  /* line 210, assets/styles/components/_backgrounds.scss */
+  /* line 214, assets/styles/components/_backgrounds.scss */
 
   .small-bg-service {
     background-position: left top, right top;
@@ -2096,7 +2100,7 @@ article.comment-body {
 }
 
 @media (max-width: 991.98px) {
-  /* line 210, assets/styles/components/_backgrounds.scss */
+  /* line 214, assets/styles/components/_backgrounds.scss */
 
   .small-bg-service {
     background-position: top left;
@@ -2106,7 +2110,7 @@ article.comment-body {
 }
 
 @media (min-width: 992px) {
-  /* line 229, assets/styles/components/_backgrounds.scss */
+  /* line 233, assets/styles/components/_backgrounds.scss */
 
   .bg-lg-white {
     background-color: #fff;
@@ -3296,7 +3300,11 @@ p.has-drop-cap:not(:focus)::first-letter {
   }
 }
 
-/* line 1, assets/styles/base/_base.scss */
+/* --------------------------------------------------------------
+# Base styles
+-------------------------------------------------------------- */
+
+/* line 5, assets/styles/base/_base.scss */
 
 img {
   max-width: 100%;
@@ -3304,14 +3312,14 @@ img {
 }
 
 @media (min-width: 576px) {
-  /* line 6, assets/styles/base/_base.scss */
+  /* line 10, assets/styles/base/_base.scss */
 
   .large-gutters {
     margin-right: -25px;
     margin-left: -25px;
   }
 
-  /* line 11, assets/styles/base/_base.scss */
+  /* line 15, assets/styles/base/_base.scss */
 
   .large-gutters > .col,
   .large-gutters > [class*="col-"] {
@@ -3321,14 +3329,14 @@ img {
 }
 
 @media (min-width: 576px) {
-  /* line 19, assets/styles/base/_base.scss */
+  /* line 23, assets/styles/base/_base.scss */
 
   .xl-gutters {
     margin-right: -60px;
     margin-left: -60px;
   }
 
-  /* line 24, assets/styles/base/_base.scss */
+  /* line 28, assets/styles/base/_base.scss */
 
   .xl-gutters > .col,
   .xl-gutters > [class*="col-"] {
@@ -3337,81 +3345,81 @@ img {
   }
 }
 
-/* line 32, assets/styles/base/_base.scss */
+/* line 36, assets/styles/base/_base.scss */
 
 .wp-caption-text {
   font-size: 0.875rem;
 }
 
-/* line 36, assets/styles/base/_base.scss */
+/* line 40, assets/styles/base/_base.scss */
 
 .z-index-back {
   z-index: 1;
 }
 
-/* line 40, assets/styles/base/_base.scss */
+/* line 44, assets/styles/base/_base.scss */
 
 .z-index-flower {
   z-index: -1;
 }
 
-/* line 44, assets/styles/base/_base.scss */
+/* line 48, assets/styles/base/_base.scss */
 
 .z-index-2 {
   z-index: 2;
 }
 
-/* line 48, assets/styles/base/_base.scss */
+/* line 52, assets/styles/base/_base.scss */
 
 .z-index-3 {
   z-index: 3;
 }
 
-/* line 52, assets/styles/base/_base.scss */
+/* line 56, assets/styles/base/_base.scss */
 
 .z-index-4 {
   z-index: 4;
 }
 
-/* line 56, assets/styles/base/_base.scss */
+/* line 60, assets/styles/base/_base.scss */
 
 .image-z-index {
   z-index: -2;
 }
 
-/* line 60, assets/styles/base/_base.scss */
+/* line 64, assets/styles/base/_base.scss */
 
 .object-fit-cover {
   -o-object-fit: cover;
   object-fit: cover;
 }
 
-/* line 65, assets/styles/base/_base.scss */
+/* line 69, assets/styles/base/_base.scss */
 
 .letter-space {
   letter-spacing: 3px;
 }
 
-/* line 70, assets/styles/base/_base.scss */
+/* line 74, assets/styles/base/_base.scss */
 
 .hover-color:hover {
   color: #747474;
 }
 
-/* line 75, assets/styles/base/_base.scss */
+/* line 79, assets/styles/base/_base.scss */
 
 .mt-130 {
   margin-top: -130px !important;
 }
 
-/* line 79, assets/styles/base/_base.scss */
+/* line 83, assets/styles/base/_base.scss */
 
 input:-internal-autofill-selected {
   -webkit-transition: background-color 5000s ease-in-out 0s;
   transition: background-color 5000s ease-in-out 0s;
 }
 
-/* line 84, assets/styles/base/_base.scss */
+/* line 88, assets/styles/base/_base.scss */
 
 input:-webkit-autofill-hover {
   -webkit-transition: background-color 5000s ease-in-out 0s;
@@ -3419,7 +3427,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (min-width: 992px) {
-  /* line 89, assets/styles/base/_base.scss */
+  /* line 93, assets/styles/base/_base.scss */
 
   .testimonials-negative-margin {
     margin-top: -55px;
@@ -3428,7 +3436,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (min-width: 768px) {
-  /* line 96, assets/styles/base/_base.scss */
+  /* line 100, assets/styles/base/_base.scss */
 
   .position-md-absolute {
     position: absolute;

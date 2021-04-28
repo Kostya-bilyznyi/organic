@@ -128,7 +128,16 @@
     "yargs": "~11.0.0"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "bootstrap": "^5.0.0-beta1",
-    "jquery": "^3.3.1"
+    "flickity": "^2.2.2",
+    "instafeed": "^1.4.0",
+    "jquery": "^3.3.1",
+    "jquery-countdown": "^2.2.0",
+    "jquery-countto": "^1.2.0",
+    "lazyload": "^2.0.0-rc.2",
+    "lozad": "^1.16.0",
+    "magnific-popup": "^1.1.0",
+    "masonry-layout": "^4.2.2"
   }
 }
