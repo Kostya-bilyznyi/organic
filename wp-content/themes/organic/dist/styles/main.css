@@ -2617,6 +2617,25 @@ input:-webkit-autofill-hover {
   font-weight: 700;
 }
 
+/* line 110, assets/styles/base/_base.scss */
+
+#breadcrumbs {
+  margin-bottom: 20px;
+}
+
+/* line 114, assets/styles/base/_base.scss */
+
+.sep {
+  width: 6px;
+  height: 10px;
+  background-image: url(data:image/svg+xml;charset=utf8,%3Csvg%20width%3D%2211%22%20height%3D%2220%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%3Cpath%20d%3D%22M.38%2019.01c.49.49%201.28.49%201.77%200l8.31-8.31a.996.996%200%20000-1.41L2.15.98a1.25%201.25%200%2000-1.77%200%201.25%201.25%200%20000%201.77L7.62%2010%20.37%2017.25c-.48.48-.48%201.28.01%201.76z%22%20fill%3D%22%232A5631%22%2F%3E%0A%3C%2Fsvg%3E);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  margin: 0 5px;
+}
+
 /* --------------------------------------------------------------
 # Header
 -------------------------------------------------------------- */

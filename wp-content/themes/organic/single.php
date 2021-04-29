@@ -1,5 +1,8 @@
+<?php $temp_html_dir = THEME_DIR_URI . '/' . 'organic/'
+/*
+$breadcrumb = yoast_breadcrumb( '<div id="breadcrumbs">','</div>' ); */ ?>
+
 <?php get_header(); ?>
-<?php $temp_html_dir = THEME_DIR_URI . '/' . 'organic/' ?>
     <article class="entry">
       <div class="entry-content">
         <!--featured image-->
@@ -8,26 +11,39 @@
             <div class="row">
               <div class="col-lg-6 offset-lg-3">
                 <div class="text-center">
-                  <div class="entry-meta-top"><span class="entry-author">Amjad Ali</span><span class="entry-meta-date"> sep 20,2020</span>
+
+						 <?php echo yoast_breadcrumb( '<div class="font-weight-bold text-flame-pea" id="breadcrumbs">','</div>', false ); ?>
+						 
+                  <div class="entry-meta-top"><span class="entry-author"><?php the_author(); ?></span><span class="entry-meta-date"><?php the_date('M j, Y'); ?></span>
                   </div>
-                  <h1 class="mb-0">Winter giam nonumy eirmod tempor invidunt etum ne</h1>
+
+						<?php $title = get_the_title();
+						if( !empty( $title ) ) : ?>
+                  	<h1 class="mb-0"><?php echo $title; ?></h1>
+						<?php endif; ?>
+
                 </div>
-              </div><img class="mt-px-lg-61 mt-px-md-64 mt-px-48 height-px-630 w-100 object-fit-cover" src="<?php echo $temp_html_dir; ?>assets/images/about-us/a8.jpg" alt="a8 single post2">
-            </div>
+              </div>
+
+				  <?php $post_thumbnail_url = get_the_post_thumbnail_url();
+				  if( !empty( $post_thumbnail_url ) ) : ?>
+						<img class="mt-px-lg-61 mt-px-md-64 mt-px-48 height-px-630 w-100 object-fit-cover" src="<?php echo $post_thumbnail_url; ?>" alt="a8 single post2">
+					<?php endif; ?>
+
+				</div>
           </div>
         </div>
         <div class="container mt-lg-8 mt-md-7 mt-5">
           <div class="row justify-content-lg-center">
             <div class="col-lg-8">
-              <p class="lead mb-4">Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam justo duo dolores et ea rebum.</p>
-              <div class="pt-2">
-                <p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et sadipscing  accusam et justo duo dolores rebum.
-              </div>
-              <blockquote class="mt-5">
-                <div class="border-start border-grain-brown border-3 ps-4">
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
-                  <cite class="font-weight-bold text-flame-pea"> - Richard Thomas</cite>
-                </div>
+
+					<?php the_content(); ?>
+
+              	<blockquote class="mt-5">
+						<div class="border-start border-grain-brown border-3 ps-4">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+							<cite class="font-weight-bold text-flame-pea"> - Richard Thomas</cite>
+						</div>
               </blockquote>
             </div>
           </div>
