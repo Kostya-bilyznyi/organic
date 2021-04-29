@@ -2614,7 +2614,7 @@ input:-webkit-autofill-hover {
 /* line 106, assets/styles/base/_base.scss */
 
 .navbar-icon-size {
-  font-weight: 700;
+  font-weight: 700 !important;
 }
 
 /* line 110, assets/styles/base/_base.scss */

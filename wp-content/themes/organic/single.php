@@ -1,31 +1,21 @@
-<?php $temp_html_dir = THEME_DIR_URI . '/' . 'organic/'
-/*
-$breadcrumb = yoast_breadcrumb( '<div id="breadcrumbs">','</div>' ); */ ?>
+<?php 
+get_header();
 
-<?php get_header(); ?>
+$temp_html_dir = THEME_DIR_URI . '/' . 'organic/';
+$date = get_the_date('M j, Y');
+$title = get_the_title();
+$post_thumbnail_url = get_the_post_thumbnail_url();
+$content = get_the_content();
+$post_author = get_the_author();  ?>
+
     <article class="entry">
       <div class="entry-content">
         <!--featured image-->
         <div class="bg-texture-image pt-px-lg-119 pt-md-7 pt-6 overflow-hidden">
           <div class="container position-relative"><img class="d-lg-block d-none position-absolute top-px-lg-5 start-px-n-lg-25" src="<?php echo $temp_html_dir; ?>assets/images/flowers/f100.png" alt="f100 flower image"><img class="d-lg-block d-none position-absolute top-px-lg-30 end-px-n-lg-35" src="<?php echo $temp_html_dir; ?>assets/images/flowers/f11.png" alt="f11 flower image">
             <div class="row">
-              <div class="col-lg-6 offset-lg-3">
-                <div class="text-center">
+					<?php echo get_theme_page_title_block( $title, $post_author, $date );
 
-						 <?php echo yoast_breadcrumb( '<div class="font-weight-bold text-flame-pea" id="breadcrumbs">','</div>', false ); ?>
-						 
-                  <div class="entry-meta-top"><span class="entry-author"><?php the_author(); ?></span><span class="entry-meta-date"><?php the_date('M j, Y'); ?></span>
-                  </div>
-
-						<?php $title = get_the_title();
-						if( !empty( $title ) ) : ?>
-                  	<h1 class="mb-0"><?php echo $title; ?></h1>
-						<?php endif; ?>
-
-                </div>
-              </div>
-
-				  <?php $post_thumbnail_url = get_the_post_thumbnail_url();
 				  if( !empty( $post_thumbnail_url ) ) : ?>
 						<img class="mt-px-lg-61 mt-px-md-64 mt-px-48 height-px-630 w-100 object-fit-cover" src="<?php echo $post_thumbnail_url; ?>" alt="a8 single post2">
 					<?php endif; ?>
@@ -37,7 +27,7 @@ $breadcrumb = yoast_breadcrumb( '<div id="breadcrumbs">','</div>' ); */ ?>
           <div class="row justify-content-lg-center">
             <div class="col-lg-8">
 
-					<?php the_content(); ?>
+					<?php echo $content; ?>
 
               	<blockquote class="mt-5">
 						<div class="border-start border-grain-brown border-3 ps-4">
