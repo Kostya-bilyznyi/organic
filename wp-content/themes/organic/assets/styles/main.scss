@@ -1,6 +1,12 @@
-// @import "file";
+// npm styles
+@import "~flickity/dist/flickity.min.css";
+@import "~magnific-popup/dist/magnific-popup.css";
+@import "~@fortawesome/fontawesome-free/css/fontawesome-all.min.css";
 
-// @import '~bootstrap/dist/css/bootstrap.min.css';
+// Fonts
+@import "./layouts/fonts/fonts";
+
+// Components
 @import "components/bootstrap.min.css";
 @import "components/infinite";
 @import "components/accordion";
@@ -20,13 +26,16 @@
 @import "components/backgrounds";
 
 // Blocks
-// @import "./layouts/blocks/main-content";
 @import "./layouts/blocks/header";
 @import "./layouts/blocks/footer";
+
+// Pages
 @import "./layouts/pages/posts";
 @import "./layouts/pages/portfolio";
 @import "./layouts/pages/shop";
 @import "./layouts/pages/search";
 @import "./layouts/pages/team";
 @import "./layouts/pages/404";
+
+// Base
 @import "./base/base";

@@ -128,6 +128,7 @@
     "yargs": "~11.0.0"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
     "aos": "^2.3.4",
     "bootstrap": "^5.0.0-beta1",
     "flickity": "^2.2.2",

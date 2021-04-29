@@ -2,22 +2,9 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
   <head>
-  
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<!-- Bootstrap CSS file-->
-		<!-- <link href="<?php echo $temp_html_dir; ?>assets/css/bootstrap.min.css" rel="stylesheet"> -->
-		<!-- Flickity CSS file-->
-		<link href="<?php echo $temp_html_dir; ?>assets/css/flickity.min.css" rel="stylesheet">
-		<!-- Main CSS file-->
-		<!-- <link href="<?php echo $temp_html_dir; ?>assets/css/style.css" rel="stylesheet"> -->
-		<!-- Fontawesome 5 CSS file-->
-		<link href="<?php echo $temp_html_dir; ?>assets/css/fontawesome-all.min.css" rel="stylesheet">
-		<!-- Magnific Popup CSS-->
-		<link href="<?php echo $temp_html_dir; ?>assets/css/magnific-popup.css" rel="stylesheet">
-		<!-- Google Fonts-->
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&amp;family=Roboto:wght@400;700&amp;DM+Sans:wght@700&amp;display=swap">
 		<?php wp_head(); ?>
 	</head>
   	<body <?php body_class(); ?>>
@@ -25,7 +12,7 @@
     <!-- Navbar-->
     <div class="bg-bay-leaf py-2">
       <div class="continer"><a class="text-center" href="#">
-          <p class="font-size-14 text-white mb-0">Black Friday | Hundreds of brands, up to 50% off!<span> <i class="fas fa-long-arrow-alt-right"></i></span></p></a></div>
+         <p class="font-size-14 text-white mb-0">Black Friday | Hundreds of brands, up to 50% off!<span> <i class="fas fa-long-arrow-alt-right"></i></span></p></a></div>
     </div>
     <div class="site-header">
       <nav class="navbar navbar-expand-lg navbar-light pe-lg-7 ps-lg-6 px-4">
@@ -58,9 +45,9 @@
             <div class="col-lg-2 d-none d-lg-block">
               <ul class="list-unstyled nav-modules text-end">
                 <!-- Social nav-->
-                <li class="list-inline-item"><span class="i h6 fas fa-user-circle navbar-icon-size me-px-18" data-bs-toggle="modal" data-bs-target="#user-login"></span></li>
-                <li class="list-inline-item"><span class="i h6 fas fa-search navbar-icon-size me-px-18 openBtn" onclick="openSearch()"></span></li>
-                <li class="list-inline-item"><span class="i h6 fas fa-bars navbar-icon-size" data-bs-toggle="modal" data-bs-target="#checkout-modal"></span></li>
+                <li class="list-inline-item"><span class="i fas fa-user-circle navbar-icon-size me-px-18" data-bs-toggle="modal" data-bs-target="#user-login"></span></li>
+                <li class="list-inline-item"><span class="i fas fa-search navbar-icon-size me-px-18 openBtn" onclick="openSearch()"></span></li>
+                <li class="list-inline-item"><span class="i fas fa-bars navbar-icon-size" data-bs-toggle="modal" data-bs-target="#checkout-modal"></span></li>
               </ul>
             </div>
           </div>
