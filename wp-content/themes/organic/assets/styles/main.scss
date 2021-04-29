@@ -25,6 +25,9 @@
 @import "components/fonts-style";
 @import "components/backgrounds";
 
+// Base
+@import "./base/base";
+
 // Blocks
 @import "./layouts/blocks/header";
 @import "./layouts/blocks/footer";
@@ -36,6 +39,3 @@
 @import "./layouts/pages/search";
 @import "./layouts/pages/team";
 @import "./layouts/pages/404";
-
-// Base
-@import "./base/base";

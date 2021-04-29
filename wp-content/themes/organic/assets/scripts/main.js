@@ -3,7 +3,6 @@
  *
  */
 
-import 'jquery/dist/jquery.min';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import lozad from 'lozad/dist/lozad.min.js';
 import AOS from 'aos/dist/aos';
