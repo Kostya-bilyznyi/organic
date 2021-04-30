@@ -1,4 +1,3 @@
-
 <?php
 
 function get_theme_page_title_block( $title, $post_author = true, $date = true,  $has_breadcrumbs = true ) {
