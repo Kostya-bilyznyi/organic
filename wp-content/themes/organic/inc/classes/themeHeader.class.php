@@ -116,6 +116,8 @@ class ThemeHeader {
 	}
 
 	function get_header_icons() {
+
+		
 		$block = <<<HTML
 
 			<div class="col-lg-2 d-none d-lg-block">
