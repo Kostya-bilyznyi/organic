@@ -1,14 +1,31 @@
 <?php
-
 class ThemeHeader {
+
+	public $acf_fields;
+	public $home_url;
+	public $logo_alt;
+
+	function __construct() {
+		$this->acf_fields = get_field('header', 'options');
+		$this->home_url = home_url('/');
+		$this->logo_alt = get_bloginfo( 'name' );
+	}
+
 	function get_sale_section() {
+
+		$sale_bunner_link = $this->acf_fields['sale_bunner_link'];
+		$sale_bunner_tiile = $sale_bunner_link['title'];
+		$sale_bunner_url = $sale_bunner_link['url'];
+		$sale_bunner_icon = $this->acf_fields['sale_bunner_icon'];
+
 		$block = <<<HTML
 			<div class="bg-bay-leaf py-2">
 				<div class="continer">
-					<a class="text-center" href="#">
-						<p class="font-size-14 text-white mb-0">Black Friday | Hundreds of brands, up to 50% off!
+					<a class="text-center" href="{$sale_bunner_url} ">
+						<p class="font-size-14 text-white mb-0">
+							{$sale_bunner_tiile}
 							<span>
-								<i class="fas fa-long-arrow-alt-right"></i>
+								{$sale_bunner_icon}
 							</span>
 						</p>
 					</a>
@@ -20,17 +37,19 @@ class ThemeHeader {
 	}
 
 	function get_header_mobail() {
+
+		$home_url = $this->home_url;
+		$logo_img_url = $this->acf_fields['logo'];
+		$logo_alt =  $this->logo_alt;
+
 		$block = <<<HTML
-			<!-- mobail start-->
-			<a class="navbar-brand text-center d-md-block d-lg-none" href="index.html">
-				<svg xmlns="http://www.w3.org/2000/svg" width="119" height="43" viewBox="0 0 119 43">
-					<text id="Oganic1" transform="translate(0 35)" fill="#2a5631" font-size="32" font-family="PlayfairDisplay-Bold, Playfair Display" font-weight="700" letter-spacing="-0.05em"><tspan x="0" y="0">OGANIC</tspan></text>
-				</svg>
+
+			<a class="navbar-brand text-center d-md-block d-lg-none" href="{$home_url}">
+				<img class="navbar-brand__img" src="{$logo_img_url}" alt="{$logo_alt}"/>
 			</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<!-- mobail end-->
 
 		HTML;	
 
@@ -38,13 +57,16 @@ class ThemeHeader {
 	}
 
 		function get_header_logo() {
+			
+		$home_url = $this->home_url;
+		$logo_img_url = $this->acf_fields['logo'];
+		$logo_alt =  $this->logo_alt;
+
 		$block = <<<HTML
 
 			<div class="col-lg-2">
-				<a class="navbar-brand mx-auto d-none d-lg-block" href="index.html">
-					<svg xmlns="http://www.w3.org/2000/svg" width="119" height="43" viewBox="0 0 119 43">
-						<text id="Oganic" transform="translate(0 35)" fill="#2a5631" font-size="32" font-family="PlayfairDisplay-Bold, Playfair Display" font-weight="700" letter-spacing="-0.05em"><tspan x="0" y="0">OGANIC</tspan></text>
-					</svg>
+				<a class="navbar-brand mx-auto d-none d-lg-block" href="{$home_url}">
+					<img class="navbar-brand__img" src="{$logo_img_url}" alt="{$logo_alt}"/>
 				</a>
 			</div>
 
