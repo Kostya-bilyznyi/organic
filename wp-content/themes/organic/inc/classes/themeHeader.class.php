@@ -39,7 +39,7 @@ class ThemeHeader {
 	function get_header_mobail() {
 
 		$home_url = $this->home_url;
-		$logo_img_url = $this->acf_fields['logo'];
+		$logo_img_url = $this->acf_fields['mobail_logo'];
 		$logo_alt =  $this->logo_alt;
 
 		$block = <<<HTML
