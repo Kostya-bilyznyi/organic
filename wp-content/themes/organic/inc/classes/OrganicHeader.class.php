@@ -12,8 +12,8 @@ class OrganicHeader {
 		$sale_bunner_url = $sale_bunner_link['url'];
 		$sale_bunner_icon = $this->acf_fields['sale_bunner_icon'];
 
-		$block = <<<SALE
-<div class="bg-bay-leaf py-2">
+		$block = <<<HTML
+<div class="bg-bay-leaf">
 	<div class="continer">
 		<a class="text-center" href="{$sale_bunner_url}">
 			<p class="font-size-14 text-white mb-0">
@@ -25,7 +25,7 @@ class OrganicHeader {
 		</a>
 	</div>
 </div>
-SALE;	
+HTML;	
 
 		return $block;
 	}
