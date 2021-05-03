@@ -1,13 +1,9 @@
 <?php
 class OrganicHeader {
 	public $acf_fields;
-	public $home_url;
-	public $logo_alt;
 
 	function __construct() {
 		$this->acf_fields = get_field('header', 'options'); 
-		$this->home_url = home_url('/');
-		$this->logo_alt = get_bloginfo( 'name' );
 	}
 
 	function get_sale_section() {
