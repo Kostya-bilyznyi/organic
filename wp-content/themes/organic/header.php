@@ -1,7 +1,7 @@
-<?php
+<?php /*
 require_once THEME_DIR .'/inc/classes/ThemeHeader.class.php';
 
-$header = new ThemeHeader(); 
+$header = new ThemeHeader(); */
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -23,9 +23,9 @@ $header = new ThemeHeader();
 
 					<div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-						<?php /* echo $header->get_header_logo(); */ ?>
+						<?php /* echo $header->get_header_logo(); ?>
 						<?php echo $header->get_header_menu(); ?>
-						<?php echo $header->get_header_icons();  ?>
+						<?php echo $header->get_header_icons();   */?>
 <?php
 $hero = get_field('header', 'options');
 if( $hero ): ?>
