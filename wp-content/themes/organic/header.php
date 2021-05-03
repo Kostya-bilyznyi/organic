@@ -29,13 +29,13 @@ $header = new ThemeHeader();
 						<?php echo $header->get_header_icons(); */ ?>
 
 
-						<?php
+						<?php /*
 
 							$hero = get_field('header', 'options');
 							if( $hero ): ?>
 								
 								<img src="<?php echo $hero['logo']; ?>" alt="">
-							<?php endif; ?>
+							<?php endif; */ ?>
 
 					</div>
 				</div>
