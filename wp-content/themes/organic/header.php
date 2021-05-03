@@ -1,8 +1,8 @@
 <?php 
 $temp_html_dir = THEME_DIR_URI . '/' . 'organic/';
-require_once THEME_DIR .'/inc/classes/themeHeader.class.php';
-/*
-$header = new ThemeHeader(); */
+require_once THEME_DIR .'/inc/classes/ThemeHeader.class.php';
+
+$header = new ThemeHeader(); 
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -15,27 +15,19 @@ $header = new ThemeHeader(); */
   	<body <?php body_class(); ?>>
 		<?php wp_body_open(); ?>
 
-		<?php /* echo $header->get_sale_section(); */ ?>
+		<?php  echo $header->get_sale_section();  ?>
 
 		<div class="site-header">
 			<nav class="navbar navbar-expand-lg navbar-light pe-lg-7 ps-lg-6 px-4">
 				<div class="container-fluid px-0">
-					<?php /* echo $header->get_header_mobail(); ?>
+					<?php /*  echo $header->get_header_mobail(); */ ?>
 
 					<div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-						<?php /* echo $header->get_header_logo();  ?>
+						<?php /* echo $header->get_header_logo(); */ ?>
 						<?php echo $header->get_header_menu(); ?>
-						<?php echo $header->get_header_icons(); */ ?>
+						<?php echo $header->get_header_icons();  ?>
 
-
-						<?php 
-
-							$hero = get_field('header', 'options');
-							if( $hero ): ?>
-								
-								<img src="<?php echo $hero['logo']; ?>" alt="">
-							<?php endif; ?>
 
 					</div>
 				</div>

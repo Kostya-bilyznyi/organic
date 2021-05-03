@@ -1,4 +1,4 @@
-<?php /*
+<?php 
 class ThemeHeader {
 
 	public $acf_fields;
@@ -6,9 +6,9 @@ class ThemeHeader {
 	public $logo_alt;
 
 	function __construct() {
-		$this->acf_fields = get_field('header', 'options');
+		$this->acf_fields = get_field('header', 'options'); /*
 		$this->home_url = home_url('/');
-		$this->logo_alt = get_bloginfo( 'name' );
+		$this->logo_alt = get_bloginfo( 'name' ); */
 	}
 
 	function get_sale_section() {
@@ -21,7 +21,7 @@ class ThemeHeader {
 		$block = <<<HTML
 			<div class="bg-bay-leaf py-2">
 				<div class="continer">
-					<a class="text-center" href="{$sale_bunner_url} ">
+					<a class="text-center" href="{$sale_bunner_url}">
 						<p class="font-size-14 text-white mb-0">
 							{$sale_bunner_tiile}
 							<span>
@@ -35,7 +35,7 @@ class ThemeHeader {
 
 		return $block;
 	}
-
+/*
 	function get_header_mobail() {
 
 		$home_url = $this->home_url;
@@ -56,7 +56,7 @@ class ThemeHeader {
 		return $block;
 	}
 
-		function get_header_logo() {
+	function get_header_logo() {
 			
 		$home_url = $this->home_url;
 		$logo_img_url = $this->acf_fields['logo'];
@@ -74,7 +74,7 @@ class ThemeHeader {
 
 		return $block;
 	}
-
+*/
 	function get_header_menu() {
 		$block = <<<HTML
 
@@ -135,4 +135,3 @@ class ThemeHeader {
 	}
 }
 
-*/
