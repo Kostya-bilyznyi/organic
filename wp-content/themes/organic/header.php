@@ -24,9 +24,15 @@ $header = new ThemeHeader();
 
 					<div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-						<?php /* echo $header->get_header_logo(); */ ?>
+						<?php /* echo $header->get_header_logo();  ?>
 						<?php echo $header->get_header_menu(); ?>
-						<?php echo $header->get_header_icons();  ?>
+						<?php echo $header->get_header_icons(); */ ?>
+						<?php echo $header->get_header_top(); ?>
+						<?php
+						echo $header->get_logo();
+						echo $header->get_main_icons();
+						echo $header->get_search();
+						?>
 
 					</div>
 				</div>
