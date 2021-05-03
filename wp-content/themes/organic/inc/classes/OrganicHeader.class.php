@@ -9,7 +9,7 @@ class OrganicHeader {
 	/**
 	 * Sale section
 	 */
-	function get_sale_section() {
+/*	function get_sale_section() {
 		$sale_bunner_link = $this->acf_fields['sale_bunner_link'];
 		$sale_bunner_tiile = $this->acf_fields['sale_bunner_link']['title'];
 		$sale_bunner_url = $this->acf_fields['sale_bunner_link']['url'];
@@ -31,24 +31,19 @@ class OrganicHeader {
 HTML;
 
 		return $block;
-	}
+	} */
 
-	/**
-	 * Header mobail
-	 */
-	function get_header_mobail() {
+	function get_header_logo() {
 		$home_url = home_url('/');
-		$logo_img_url = $this->acf_fields['mobail_logo'];
-		$logo_alt = get_bloginfo('name');
+		$logo_img_url = $this->acf_fields['logo'];
 
-		$block = <<<HTML
-<a class="navbar-brand text-center d-md-block d-lg-none" href="{$home_url}">
-	<img class="navbar-brand__img" src="{$logo_img_url}" alt="{$logo_alt}"/>
-</a>
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-	<span class="navbar-toggler-icon"></span>
-</button>
-HTML;
+		$block = <<<LOGO
+<div class="col-lg-2">
+	<a class="navbar-brand mx-auto d-none d-lg-block" href="{$home_url}">
+		<img class="navbar-brand__img" src="{$logo_img_url}" alt="logo"/>
+	</a>
+</div>
+LOGO;	
 
 		return $block;
 	}
