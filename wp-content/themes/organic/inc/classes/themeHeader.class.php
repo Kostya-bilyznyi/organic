@@ -2,13 +2,13 @@
 class ThemeHeader {
 
 	public $acf_fields;
-	// public $home_url;
-	// public $logo_alt;
+	public $home_url;
+	public $logo_alt;
 
 	function __construct() {
 		$this->acf_fields = get_field('header', 'options'); 
-		// $this->home_url = home_url('/');
-		// $this->logo_alt = get_bloginfo( 'name' ); 
+		$this->home_url = home_url('/');
+		$this->logo_alt = get_bloginfo( 'name' ); 
 	}
 
 	function get_sale_section() {
@@ -18,7 +18,7 @@ class ThemeHeader {
 		$sale_bunner_url = $sale_bunner_link['url'];
 		$sale_bunner_icon = $this->acf_fields['sale_bunner_icon'];
 
-$block = <<<HTML
+		$block = <<<HTML
 <div class="bg-bay-leaf py-2">
 	<div class="continer">
 		<a class="text-center" href="{$sale_bunner_url}">
@@ -35,7 +35,7 @@ HTML;
 
 		return $block;
 	}
-/*
+
 	function get_header_mobail() {
 
 		$home_url = $this->home_url;
@@ -74,7 +74,7 @@ HTML;
 
 		return $block;
 	}
-*/
+
 	function get_header_menu() {
 		$block = <<<HTML
 

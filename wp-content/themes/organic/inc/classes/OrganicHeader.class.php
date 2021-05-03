@@ -1,22 +1,83 @@
 <?php
 class OrganicHeader {
-	/**
-	 * Logo
-	 */
-		function get_test_text() {
+
+	public $acf_fields;
+	public $home_url;
+	public $logo_alt;
+
+	function __construct() {
+		$this->acf_fields = get_field('header', 'options'); 
+		$this->home_url = home_url('/');
+		$this->logo_alt = get_bloginfo( 'name' ); 
+	}
+
+	function get_sale_section() {
+
+		$sale_bunner_link = $this->acf_fields['sale_bunner_link'];
+		$sale_bunner_tiile = $sale_bunner_link['title'];
+		$sale_bunner_url = $sale_bunner_link['url'];
+		$sale_bunner_icon = $this->acf_fields['sale_bunner_icon'];
 
 		$block = <<<HTML
-
-			<p>TEST TEXT</p>
-
-HTML;
+<div class="bg-bay-leaf py-2">
+	<div class="continer">
+		<a class="text-center" href="{$sale_bunner_url}">
+			<p class="font-size-14 text-white mb-0">
+				{$sale_bunner_tiile}
+				<span>
+					{$sale_bunner_icon}
+				</span>
+			</p>
+		</a>
+	</div>
+</div>
+HTML;	
 
 		return $block;
 	}
 
+	function get_header_mobail() {
 
-		function get_header_menu() {
+		$home_url = $this->home_url;
+		$logo_img_url = $this->acf_fields['mobail_logo'];
+		$logo_alt =  $this->logo_alt;
+
 		$block = <<<HTML
+
+<a class="navbar-brand text-center d-md-block d-lg-none" href="{$home_url}">
+	<img class="navbar-brand__img" src="{$logo_img_url}" alt="{$logo_alt}"/>
+</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+</button>
+
+HTML;	
+
+		return $block;
+	}
+
+	function get_header_logo() {
+			
+		$home_url = $this->home_url;
+		$logo_img_url = $this->acf_fields['logo'];
+		$logo_alt =  $this->logo_alt;
+
+		$block = <<<HTML
+
+<div class="col-lg-2">
+	<a class="navbar-brand mx-auto d-none d-lg-block" href="{$home_url}">
+		<img class="navbar-brand__img" src="{$logo_img_url}" alt="{$logo_alt}"/>
+	</a>
+</div>
+
+HTML;	
+
+		return $block;
+	}
+
+	function get_header_menu() {
+		$block = <<<HTML
+
 <div class="col-lg-8">
 	<ul class="navbar-nav justify-content-lg-center">
 		<li class="nav-item ml-0">
@@ -48,14 +109,17 @@ HTML;
 		<li class="nav-item"><a class="nav-link" href="element-accordions.html">Element</a></li>
 	</ul>
 </div>
+
 HTML;
 
 		return $block;
 	}
 
+	function get_header_icons() {
 
-		function get_header_icons() {
+		
 		$block = <<<HTML
+
 <div class="col-lg-2 d-none d-lg-block">
 	<ul class="list-unstyled nav-modules text-end">
 	<!-- Social nav-->
@@ -64,8 +128,10 @@ HTML;
 		<li class="list-inline-item"><span class="i fas fa-bars navbar-icon-size" data-bs-toggle="modal" data-bs-target="#checkout-modal"></span></li>
 	</ul>
 </div>
+
 HTML;
 
 		return $block;
 	}
 }
+
