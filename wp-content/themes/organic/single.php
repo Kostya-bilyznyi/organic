@@ -91,7 +91,6 @@ $post_author = get_the_author();  ?>
           </div>
         </div>
 
-  <?php echo $temp_html_dir; ?> 
        <!--check out cart-->
         <div class="modal fade" id="checkout-modal" tabindex="-1" aria-hidden="true">
           <div class="container-fluid mt-8">
