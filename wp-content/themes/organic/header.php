@@ -1,7 +1,7 @@
 <?php
 require_once THEME_DIR . '/inc/classes/OrganicHeader.class.php';
 
-// $header = new OrganicHeader(); 
+$header = new OrganicHeader(); 
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -18,6 +18,8 @@ require_once THEME_DIR . '/inc/classes/OrganicHeader.class.php';
 			<nav class="navbar navbar-expand-lg navbar-light pe-lg-7 ps-lg-6 px-4">
 				<div class="container-fluid px-0">
 
+					<?php echo $header->get_header_menu(); ?>
+					<?php echo $header->get_header_icons(); ?>
 
 					<div class="collapse navbar-collapse" id="navbarNavDropdown">
 
