@@ -18,7 +18,7 @@ class OrganicHeader {
 		$sale_bunner_url = $sale_bunner_link['url'];
 		$sale_bunner_icon = $this->acf_fields['sale_bunner_icon'];
 
-		$block = <<<HTML
+		$block = <<<SALE
 <div class="bg-bay-leaf py-2">
 	<div class="continer">
 		<a class="text-center" href="{$sale_bunner_url}">
@@ -31,7 +31,7 @@ class OrganicHeader {
 		</a>
 	</div>
 </div>
-HTML;	
+SALE;	
 
 		return $block;
 	}
@@ -42,14 +42,14 @@ HTML;
 		$logo_img_url = $this->acf_fields['mobail_logo'];
 		$logo_alt =  $this->logo_alt;
 
-		$block = <<<HTML
+		$block = <<<MOB
 <a class="navbar-brand text-center d-md-block d-lg-none" href="{$home_url}">
 	<img class="navbar-brand__img" src="{$logo_img_url}" alt="{$logo_alt}"/>
 </a>
 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 	<span class="navbar-toggler-icon"></span>
 </button>
-HTML;	
+MOB;	
 
 		return $block;
 	}
@@ -60,20 +60,20 @@ HTML;
 		$logo_img_url = $this->acf_fields['logo'];
 		$logo_alt =  $this->logo_alt;
 
-		$block = <<<HTML
+		$block = <<<LOGO
 <div class="col-lg-2">
 	<a class="navbar-brand mx-auto d-none d-lg-block" href="{$home_url}">
 		<img class="navbar-brand__img" src="{$logo_img_url}" alt="{$logo_alt}"/>
 	</a>
 </div>
-HTML;	
+LOGO;	
 
 		return $block;
 	}
 
 	function get_header_menu() {
 
-		$block = <<<HTML
+		$block = <<<MENU
 <div class="col-lg-8">
 	<ul class="navbar-nav justify-content-lg-center">
 		<li class="nav-item ml-0">
@@ -105,23 +105,22 @@ HTML;
 		<li class="nav-item"><a class="nav-link" href="element-accordions.html">Element</a></li>
 	</ul>
 </div>
-HTML;
+MENU;
 
 		return $block;
 	}
 
 	function get_header_icons() {
 		
-		$block = <<<HTML
+		$block = <<<ICONS
 <div class="col-lg-2 d-none d-lg-block">
 	<ul class="list-unstyled nav-modules text-end">
-	<!-- Social nav-->
 		<li class="list-inline-item"><span class="i fas fa-user-circle navbar-icon-size me-px-18" data-bs-toggle="modal" data-bs-target="#user-login"></span></li>
 		<li class="list-inline-item"><span class="i fas fa-search navbar-icon-size me-px-18 openBtn" onclick="openSearch()"></span></li>
 		<li class="list-inline-item"><span class="i fas fa-bars navbar-icon-size" data-bs-toggle="modal" data-bs-target="#checkout-modal"></span></li>
 	</ul>
 </div>
-HTML;
+ICONS;
 
 		return $block;
 	}

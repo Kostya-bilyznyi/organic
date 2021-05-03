@@ -1,7 +1,7 @@
 <?php
-require_once THEME_DIR . '/inc/classes/themeHeader.class.php';
+require_once THEME_DIR . '/inc/classes/OrganicHeader.class.php';
 
-$header = new ThemeHeader(); 
+$header = new OrganicHeader(); 
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
