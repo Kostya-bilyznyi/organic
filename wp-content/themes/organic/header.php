@@ -1,8 +1,8 @@
 <?php 
 $temp_html_dir = THEME_DIR_URI . '/' . 'organic/';
 require_once THEME_DIR .'/inc/classes/themeHeader.class.php';
-
-$header = new ThemeHeader(); 
+/*
+$header = new ThemeHeader(); */
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -29,13 +29,13 @@ $header = new ThemeHeader();
 						<?php echo $header->get_header_icons(); */ ?>
 
 
-						<?php /*
+						<?php 
 
 							$hero = get_field('header', 'options');
 							if( $hero ): ?>
 								
 								<img src="<?php echo $hero['logo']; ?>" alt="">
-							<?php endif; */ ?>
+							<?php endif; ?>
 
 					</div>
 				</div>

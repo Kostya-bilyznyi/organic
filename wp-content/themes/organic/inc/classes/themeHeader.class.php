@@ -1,4 +1,4 @@
-<?php 
+<?php /*
 class ThemeHeader {
 
 	public $acf_fields;
@@ -135,3 +135,4 @@ class ThemeHeader {
 	}
 }
 
+*/
