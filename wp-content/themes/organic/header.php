@@ -1,7 +1,7 @@
 <?php
-require_once THEME_DIR . '/inc/classes/ThemeHeader.class.php';
+require_once THEME_DIR . '/inc/classes/OrganicHeader.class.php';
 
-$header = new ThemeHeader(); 
+// $header = new OrganicHeader(); 
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -14,18 +14,14 @@ $header = new ThemeHeader();
   	<body <?php body_class(); ?>>
 		<?php wp_body_open(); ?>
 
-		<?php  echo $header->get_sale_section();  ?>
-
 		<div class="site-header">
 			<nav class="navbar navbar-expand-lg navbar-light pe-lg-7 ps-lg-6 px-4">
 				<div class="container-fluid px-0">
-					<?php /*  echo $header->get_header_mobail(); */ ?>
+
 
 					<div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-						<?php /* echo $header->get_header_logo(); */ ?>
-						<?php echo $header->get_header_menu(); ?>
-						<?php echo $header->get_header_icons();   ?>
+
 <?php
 $hero = get_field('header', 'options');
 if( $hero ): ?>
