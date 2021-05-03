@@ -18,7 +18,8 @@ class OrganicHeader {
 		$sale_bunner_url = $sale_bunner_link['url'];
 		$sale_bunner_icon = $this->acf_fields['sale_bunner_icon'];
 
-		$block = <<<HTML
+$block = <<<HTML
+
 <div class="bg-bay-leaf py-2">
 	<div class="continer">
 		<a class="text-center" href="{$sale_bunner_url}">
@@ -31,6 +32,7 @@ class OrganicHeader {
 		</a>
 	</div>
 </div>
+
 HTML;	
 
 		return $block;
@@ -42,7 +44,7 @@ HTML;
 		$logo_img_url = $this->acf_fields['mobail_logo'];
 		$logo_alt =  $this->logo_alt;
 
-		$block = <<<HTML
+$block = <<<HTML
 
 <a class="navbar-brand text-center d-md-block d-lg-none" href="{$home_url}">
 	<img class="navbar-brand__img" src="{$logo_img_url}" alt="{$logo_alt}"/>
@@ -62,7 +64,7 @@ HTML;
 		$logo_img_url = $this->acf_fields['logo'];
 		$logo_alt =  $this->logo_alt;
 
-		$block = <<<HTML
+$block = <<<HTML
 
 <div class="col-lg-2">
 	<a class="navbar-brand mx-auto d-none d-lg-block" href="{$home_url}">
@@ -76,7 +78,8 @@ HTML;
 	}
 
 	function get_header_menu() {
-		$block = <<<HTML
+
+$block = <<<HTML
 
 <div class="col-lg-8">
 	<ul class="navbar-nav justify-content-lg-center">
@@ -116,9 +119,8 @@ HTML;
 	}
 
 	function get_header_icons() {
-
 		
-		$block = <<<HTML
+$block = <<<HTML
 
 <div class="col-lg-2 d-none d-lg-block">
 	<ul class="list-unstyled nav-modules text-end">
