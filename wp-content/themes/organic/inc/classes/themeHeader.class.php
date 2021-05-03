@@ -1,6 +1,5 @@
 <?php
 class ThemeHeader {
-
 	public $acf_fields;
 	public $home_url;
 	public $logo_alt;
@@ -12,7 +11,6 @@ class ThemeHeader {
 	}
 
 	function get_sale_section() {
-
 		$sale_bunner_link = $this->acf_fields['sale_bunner_link'];
 		$sale_bunner_tiile = $sale_bunner_link['title'];
 		$sale_bunner_url = $sale_bunner_link['url'];
@@ -37,7 +35,6 @@ SALE;
 	}
 
 	function get_header_mobail() {
-
 		$home_url = $this->home_url;
 		$logo_img_url = $this->acf_fields['mobail_logo'];
 		$logo_alt =  $this->logo_alt;
@@ -55,7 +52,6 @@ MOB;
 	}
 
 	function get_header_logo() {
-			
 		$home_url = $this->home_url;
 		$logo_img_url = $this->acf_fields['logo'];
 		$logo_alt =  $this->logo_alt;
@@ -72,7 +68,6 @@ LOGO;
 	}
 
 	function get_header_menu() {
-
 		$block = <<<MENU
 <div class="col-lg-8">
 	<ul class="navbar-nav justify-content-lg-center">
@@ -111,7 +106,6 @@ MENU;
 	}
 
 	function get_header_icons() {
-		
 		$block = <<<ICONS
 <div class="col-lg-2 d-none d-lg-block">
 	<ul class="list-unstyled nav-modules text-end">
