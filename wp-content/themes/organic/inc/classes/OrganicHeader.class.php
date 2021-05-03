@@ -120,4 +120,3 @@ ICONS;
 		return $block;
 	}
 }
-
