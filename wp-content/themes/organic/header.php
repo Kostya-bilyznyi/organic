@@ -20,13 +20,13 @@ $header = new OrganicHeader();
 			<nav class="navbar navbar-expand-lg navbar-light pe-lg-7 ps-lg-6 px-4">
 				<div class="container-fluid px-0">
 
-					<?php echo $header->get_header_mobail(); ?>
+					<?php /* echo $header->get_header_mobail(); */?>
 
 					<div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-						<?php echo $header->get_header_logo(); ?>
+						<?php /* echo $header->get_header_logo(); ?>
 						<?php echo $header->get_header_menu(); ?>
-						<?php echo $header->get_header_icons(); ?>
+						<?php echo $header->get_header_icons(); */ ?>
 
 					</div>
 				</div>

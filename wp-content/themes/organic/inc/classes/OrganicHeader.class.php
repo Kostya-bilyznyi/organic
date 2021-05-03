@@ -2,13 +2,13 @@
 class OrganicHeader {
 
 	public $acf_fields;
-	public $home_url;
-	public $logo_alt;
+	// public $home_url;
+	// public $logo_alt;
 
 	function __construct() {
 		$this->acf_fields = get_field('header', 'options'); 
-		$this->home_url = home_url('/');
-		$this->logo_alt = get_bloginfo( 'name' ); 
+		// $this->home_url = home_url('/');
+		// $this->logo_alt = get_bloginfo( 'name' ); 
 	}
 
 	function get_sale_section() {
@@ -35,7 +35,7 @@ SALE;
 
 		return $block;
 	}
-
+/*
 	function get_header_mobail() {
 
 		$home_url = $this->home_url;
@@ -123,6 +123,6 @@ MENU;
 ICONS;
 
 		return $block;
-	}
+	} */
 }
 
