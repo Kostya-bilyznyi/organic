@@ -18,6 +18,7 @@
  * @package WordPress
  */
 
+
 $cred_env = ($_SERVER['HTTP_HOST'] == 'organic.loc') ? 'dev' : 'prod';
 
 global $cred;
