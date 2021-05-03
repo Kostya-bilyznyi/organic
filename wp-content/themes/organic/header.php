@@ -1,8 +1,8 @@
 <?php 
 $temp_html_dir = THEME_DIR_URI . '/' . 'organic/';
 require_once THEME_DIR .'/inc/classes/themeHeader.class.php';
-
-$header = new ThemeHeader();
+/*
+$header = new ThemeHeader(); */
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
