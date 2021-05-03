@@ -29,7 +29,7 @@ class ThemeHeader {
 		</a>
 	</div>
 </div>
-SALE;	
+SALE;
 
 		return $block;
 	}
@@ -46,7 +46,7 @@ SALE;
 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 	<span class="navbar-toggler-icon"></span>
 </button>
-MOB;	
+MOB;
 
 		return $block;
 	}
@@ -62,7 +62,7 @@ MOB;
 		<img class="navbar-brand__img" src="{$logo_img_url}" alt="{$logo_alt}"/>
 	</a>
 </div>
-LOGO;	
+LOGO;
 
 		return $block;
 	}
