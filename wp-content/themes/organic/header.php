@@ -1,5 +1,5 @@
 <?php
-require_once THEME_DIR . '/inc/classes/ThemeHeader.class.php';
+require_once THEME_DIR . '/inc/classes/themeHeader.class.php';
 
 $header = new ThemeHeader(); 
 ?>
