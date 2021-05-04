@@ -8,7 +8,7 @@ function gformInitDatepicker() {
 }
 
 function gformInitSingleDatepicker( $element ) {
-	var inputId = $element.attr( 'id' ),
+	var inputId = $element.attr( 'id' ) ? $element.attr( 'id' ) : '',
 		optionsObj = {
 			yearRange: '-100:+20',
 			showOn: 'focus',
@@ -45,8 +45,9 @@ function gformInitSingleDatepicker( $element ) {
 
 	if ($element.hasClass('datepicker_with_icon')) {
 		optionsObj.showOn = 'both';
-		optionsObj.buttonImage = jQuery(this).parent().siblings("[id^='gforms_calendar_icon_input']").val();
+		optionsObj.buttonImage = $element.parent().siblings("[id^='gforms_calendar_icon_input']").val();
 		optionsObj.buttonImageOnly = true;
+		optionsObj.buttonText = '';
 	}
 
 	inputId = inputId.split('_');

@@ -24,6 +24,7 @@
             <div class="col-lg-4 col-md-6 col-12">
               <div class="position-relative">
                 <div class="ms-px-lg-13">
+						 <?php dynamic_sidebar('footer-col-4'); ?>
                   <h5 class="mb-px-16">Newsletter</h5>
                   <p class="footer-text-size mb-4">Sign up here to get the latest news, updates and special offers delivered to your inbox.</p>
                   <form id="contact-form" method="post" action="assets/php/contact.php">
