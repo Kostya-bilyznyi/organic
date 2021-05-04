@@ -80,6 +80,10 @@ img {
   margin-top: -130px !important;
 }
 
+.display-block {
+  display: block;
+}
+
 input:-internal-autofill-selected {
   -webkit-transition: background-color 5000s ease-in-out 0s;
   transition: background-color 5000s ease-in-out 0s;

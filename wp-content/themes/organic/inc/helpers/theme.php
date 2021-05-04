@@ -9,13 +9,13 @@ function get_theme_page_title_block( $title, $post_author = true, $date = true, 
 	$html_date_author = ($date && $post_author ) ? '<div class="entry-meta-top">' . $html_post_author . $html_date . '</div>' : null;
 
 	$block = <<<HTML
-		<div class="col-lg-6 offset-lg-3">
-			<div class="text-center">
-				{$html_breadcrumbs}
-				{$html_date_author}
-				<h1 class="mb-0">{$title}</h1>
-			</div>
-		</div>
+<div class="col-lg-6 offset-lg-3">
+	<div class="text-center">
+		{$html_breadcrumbs}
+		{$html_date_author}
+		<h1 class="mb-0">{$title}</h1>
+	</div>
+</div>
 HTML;
 
 	return $block;

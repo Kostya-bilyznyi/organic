@@ -13,28 +13,12 @@
             </div>
             <div class="col-lg-2 col-md-6 col-12 mt-lg-0 mt-md-5 mt-4">
               <div class="ms-px-lg-9">
-                <h5 class="mb-px-16">Get in touch</h5>
-                <p class="footer-text-size mb-5">info@address.com</p>
-                <div class="pt-1">
-                  <h5 class="mb-px-28">Headquarters</h5>
-                </div>
-                <div class="pe-px-lg-0 pe-px-md-60 pe-px-40">
-                  <p class="footer-text-size mb-4">9235 Bayberry Drive Hendersonville, NC 28792</p>
-                </div>
+	 					<?php dynamic_sidebar('footer-col-2'); ?>
               </div>
             </div>
             <div class="col-lg-2 col-md-6 col-12 mt-lg-0 mt-md-5 mt-4">
               <div class="ms-px-lg-14">
-                <h5>Useful</h5>
-                <div class="footer-widget footer-widget-2">
-                  <ul class="pt-px-17"> 
-                    <li><a href="page-partners.html">Certificates</a></li>
-                    <li><a href="page-abuot-us.html">Platform</a></li>
-                    <li><a href="page-faq.html">FAQ </a></li>
-                    <li><a href="page-contact.html">Legal & Privacy</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                  </ul>
-                </div>
+					  <?php dynamic_sidebar('footer-col-3'); ?>
               </div>
             </div>
             <div class="col-lg-4 col-md-6 col-12">

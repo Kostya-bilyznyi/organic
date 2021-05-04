@@ -14,6 +14,45 @@ function organic_widget_arias(){
 		'before_sidebar' => '',
 		'after_sidebar'  => '',
 	) );
+
+	register_sidebar( array(
+		'name'          => __('Footer Column 2'),
+		'id'            => "footer-col-2",
+		'description'   => '',
+		'class'         => '',
+		'before_widget' => '',
+		'after_widget'  => '',
+		'before_title'  => '',
+		'after_title'   => '',
+		'before_sidebar' => '',
+		'after_sidebar'  => '',
+	) );
+
+	register_sidebar( array(
+		'name'          => __('Footer Column 3'),
+		'id'            => "footer-col-3",
+		'description'   => '',
+		'class'         => '',
+		'before_widget' => '<div class="footer-widget footer-widget-2"><ul class="pt-px-17">',
+		'after_widget'  => '</ul></div>',
+		'before_title'  => '<h5>',
+		'after_title'   => '</h5>',
+		'before_sidebar' => '',
+		'after_sidebar'  => '',
+	) );
+
+	register_sidebar( array(
+		'name'          => __('Footer Column 4'),
+		'id'            => "footer-col-4",
+		'description'   => '',
+		'class'         => '',
+		'before_widget' => '',
+		'after_widget'  => '',
+		'before_title'  => '',
+		'after_title'   => '',
+		'before_sidebar' => '',
+		'after_sidebar'  => '',
+	) );
 }
 
 add_action( 'widgets_init', 'organic_widget_arias' );

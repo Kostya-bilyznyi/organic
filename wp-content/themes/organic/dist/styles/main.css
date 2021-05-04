@@ -2582,12 +2582,18 @@ img {
 
 /* line 83, assets/styles/base/_base.scss */
 
+.display-block {
+  display: block;
+}
+
+/* line 87, assets/styles/base/_base.scss */
+
 input:-internal-autofill-selected {
   -webkit-transition: background-color 5000s ease-in-out 0s;
   transition: background-color 5000s ease-in-out 0s;
 }
 
-/* line 88, assets/styles/base/_base.scss */
+/* line 92, assets/styles/base/_base.scss */
 
 input:-webkit-autofill-hover {
   -webkit-transition: background-color 5000s ease-in-out 0s;
@@ -2595,7 +2601,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (min-width: 992px) {
-  /* line 93, assets/styles/base/_base.scss */
+  /* line 97, assets/styles/base/_base.scss */
 
   .testimonials-negative-margin {
     margin-top: -55px;
@@ -2604,26 +2610,26 @@ input:-webkit-autofill-hover {
 }
 
 @media (min-width: 768px) {
-  /* line 100, assets/styles/base/_base.scss */
+  /* line 104, assets/styles/base/_base.scss */
 
   .position-md-absolute {
     position: absolute;
   }
 }
 
-/* line 106, assets/styles/base/_base.scss */
+/* line 110, assets/styles/base/_base.scss */
 
 .navbar-icon-size {
   font-weight: 700 !important;
 }
 
-/* line 110, assets/styles/base/_base.scss */
+/* line 114, assets/styles/base/_base.scss */
 
 #breadcrumbs {
   margin-bottom: 20px;
 }
 
-/* line 114, assets/styles/base/_base.scss */
+/* line 118, assets/styles/base/_base.scss */
 
 .sep {
   width: 6px;
