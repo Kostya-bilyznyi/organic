@@ -102,12 +102,25 @@ MENU;
 	}
 
 	function get_header_icons() {
+		$social_list = get_field('header_social_networks', 'options');
+		if( empty( $social_list ) ) {
+			return false;
+		}
+
+		$html_social = null;
+		foreach ( $social_list as $social_item ) {
+			
+			$network_url = $social_item['social_link'];
+			$icon = $social_item['social_icon'];
+			
+			$html_social .= '<li class="list-inline-item me-px-21"><a target="_blank" href="' . $network_url . '">' . $icon . '</a></li>';
+		}
+
 		$block = <<<ICONS
 <div class="col-lg-2 d-none d-lg-block">
 	<ul class="list-unstyled nav-modules text-end">
-	<!-- Social nav-->
+		{$html_social}
 		<li class="list-inline-item"><span class="i fas fa-user-circle navbar-icon-size me-px-18" data-bs-toggle="modal" data-bs-target="#user-login"></span></li>
-		<li class="list-inline-item"><span class="i fas fa-search navbar-icon-size me-px-18 openBtn" onclick="openSearch()"></span></li>
 		<li class="list-inline-item"><span class="i fas fa-bars navbar-icon-size" data-bs-toggle="modal" data-bs-target="#checkout-modal"></span></li>
 	</ul>
 </div>

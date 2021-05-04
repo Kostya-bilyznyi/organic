@@ -25,6 +25,7 @@ $header = new OrganicHeader();
 						echo $header->get_header_logo();
 						echo $header->get_header_menu();
 						echo $header->get_header_icons(); ?>
+						
 					</div>
 				</div>
 			</nav>
