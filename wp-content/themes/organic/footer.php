@@ -4,10 +4,10 @@
         <div class="container">
           <div class="row gx-lg-40">
             <div class="col-lg-4">
+	 				
               <div class="position-relative">
                 <div class="footer-widget footer-widget-1">
-                  <h2 class="mb-px-36">Eat nutritious food because it makes your health so good.</h2>
-                  <h4 class="text-flame-pea base-font-family text-uppercase">Oganic</h4><img class="ms-px-n-45 d-lg-block d-none position-absolute top-px-5 start-px-n-115" src="<?php echo $temp_html_dir; ?>assets/images/flowers/f4.png" alt="hero flower image">
+						<?php dynamic_sidebar('footer-col-1'); ?>
                 </div>
               </div>
             </div>
