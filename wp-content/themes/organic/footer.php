@@ -34,7 +34,7 @@
                       <div class="col-lg-3 col-md-4 text-md-start text-center"><a class="footer-form h6 btn-link pb-px-12 d-block" href="#">Submit<i class="fas fa-long-arrow-alt-right ms-px-14"></i></a></div>
                     </div>
                   </form>
-                </div><img class="position-absolute top-px-n-lg-10 end-px-n-lg-100 top-px-n-md-70 end-px-n-md-150" src="<?php echo $temp_html_dir; ?>assets/images/flowers/f17.png" alt="hero flower image">
+                </div>
               </div>
             </div>
           </div>
