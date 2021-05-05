@@ -2648,6 +2648,26 @@ input:-webkit-autofill-hover {
 
 /* line 6, assets/styles/layouts/blocks/header.scss */
 
+.site-header__search {
+  padding: 30px 20%;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 6, assets/styles/layouts/blocks/header.scss */
+
+  .site-header__search {
+    padding: 10px 10%;
+  }
+}
+
+/* line 13, assets/styles/layouts/blocks/header.scss */
+
+.site-header__search input[type="text"] {
+  width: calc(100% - 100px);
+}
+
+/* line 18, assets/styles/layouts/blocks/header.scss */
+
 .site-header .navbar-collapse {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
@@ -2655,7 +2675,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (max-width: 991.98px) {
-  /* line 6, assets/styles/layouts/blocks/header.scss */
+  /* line 18, assets/styles/layouts/blocks/header.scss */
 
   .site-header .navbar-collapse {
     background-color: transparent;
@@ -2663,7 +2683,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (max-width: 768px) {
-  /* line 6, assets/styles/layouts/blocks/header.scss */
+  /* line 18, assets/styles/layouts/blocks/header.scss */
 
   .site-header .navbar-collapse {
     display: block !important;
@@ -2671,7 +2691,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (min-width: 992px) {
-  /* line 18, assets/styles/layouts/blocks/header.scss */
+  /* line 30, assets/styles/layouts/blocks/header.scss */
 
   .site-header .navbar {
     padding-top: 25px;
@@ -2680,7 +2700,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (max-width: 991.98px) {
-  /* line 18, assets/styles/layouts/blocks/header.scss */
+  /* line 30, assets/styles/layouts/blocks/header.scss */
 
   .site-header .navbar {
     padding-top: 20px;
@@ -2688,14 +2708,14 @@ input:-webkit-autofill-hover {
   }
 }
 
-/* line 29, assets/styles/layouts/blocks/header.scss */
+/* line 41, assets/styles/layouts/blocks/header.scss */
 
 .site-header .navbar .navbar-nav {
   margin-left: auto !important;
 }
 
 @media (max-width: 991.98px) {
-  /* line 29, assets/styles/layouts/blocks/header.scss */
+  /* line 41, assets/styles/layouts/blocks/header.scss */
 
   .site-header .navbar .navbar-nav {
     background-color: #dfd7c3;
@@ -2703,7 +2723,7 @@ input:-webkit-autofill-hover {
   }
 }
 
-/* line 38, assets/styles/layouts/blocks/header.scss */
+/* line 50, assets/styles/layouts/blocks/header.scss */
 
 .site-header .navbar li {
   color: #747474;
@@ -2713,7 +2733,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (max-width: 991.98px) {
-  /* line 38, assets/styles/layouts/blocks/header.scss */
+  /* line 50, assets/styles/layouts/blocks/header.scss */
 
   .site-header .navbar li {
     padding-bottom: 10px;
@@ -2721,14 +2741,14 @@ input:-webkit-autofill-hover {
   }
 }
 
-/* line 63, assets/styles/layouts/blocks/header.scss */
+/* line 75, assets/styles/layouts/blocks/header.scss */
 
 .site-header .navbar li.mega-current_page_item a::before {
   display: none;
 }
 
 @media (min-width: 768px) {
-  /* line 63, assets/styles/layouts/blocks/header.scss */
+  /* line 75, assets/styles/layouts/blocks/header.scss */
 
   .site-header .navbar li.mega-current_page_item a::before {
     content: "" !important;
@@ -2742,7 +2762,7 @@ input:-webkit-autofill-hover {
   }
 }
 
-/* line 80, assets/styles/layouts/blocks/header.scss */
+/* line 92, assets/styles/layouts/blocks/header.scss */
 
 .site-header .navbar li a {
   font-family: "Roboto", sans-serif;
@@ -2752,28 +2772,28 @@ input:-webkit-autofill-hover {
   position: relative;
 }
 
-/* line 87, assets/styles/layouts/blocks/header.scss */
+/* line 99, assets/styles/layouts/blocks/header.scss */
 
 .site-header .navbar li a:not(:last-child) {
   margin-right: 0;
 }
 
 @media (min-width: 768px) {
-  /* line 80, assets/styles/layouts/blocks/header.scss */
+  /* line 92, assets/styles/layouts/blocks/header.scss */
 
   .site-header .navbar li a {
     position: relative;
   }
 }
 
-/* line 95, assets/styles/layouts/blocks/header.scss */
+/* line 107, assets/styles/layouts/blocks/header.scss */
 
 .site-header .navbar li a:hover::before {
   display: none;
 }
 
 @media (min-width: 768px) {
-  /* line 95, assets/styles/layouts/blocks/header.scss */
+  /* line 107, assets/styles/layouts/blocks/header.scss */
 
   .site-header .navbar li a:hover::before {
     content: "" !important;
@@ -2788,7 +2808,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (min-width: 768px) {
-  /* line 110, assets/styles/layouts/blocks/header.scss */
+  /* line 122, assets/styles/layouts/blocks/header.scss */
 
   .site-header .navbar li a .active::before,
   .site-header .navbar li a:hover::before {
@@ -2802,7 +2822,7 @@ input:-webkit-autofill-hover {
   }
 }
 
-/* line 124, assets/styles/layouts/blocks/header.scss */
+/* line 136, assets/styles/layouts/blocks/header.scss */
 
 .site-header .navbar li ul {
   list-style: none;
@@ -2817,7 +2837,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (max-width: 991.98px) {
-  /* line 124, assets/styles/layouts/blocks/header.scss */
+  /* line 136, assets/styles/layouts/blocks/header.scss */
 
   .site-header .navbar li ul {
     padding: 0;
@@ -2825,7 +2845,7 @@ input:-webkit-autofill-hover {
   }
 }
 
-/* line 140, assets/styles/layouts/blocks/header.scss */
+/* line 152, assets/styles/layouts/blocks/header.scss */
 
 .site-header .navbar li ul li {
   color: #4c4c4c;
@@ -2833,21 +2853,21 @@ input:-webkit-autofill-hover {
   font-weight: 500;
 }
 
-/* line 145, assets/styles/layouts/blocks/header.scss */
+/* line 157, assets/styles/layouts/blocks/header.scss */
 
 .site-header .navbar li ul li:hover {
   background-color: #000;
   color: #fff;
 }
 
-/* line 151, assets/styles/layouts/blocks/header.scss */
+/* line 163, assets/styles/layouts/blocks/header.scss */
 
 .site-header .navbar li ul li a::before {
   display: none !important;
 }
 
 @media (max-width: 991.98px) {
-  /* line 140, assets/styles/layouts/blocks/header.scss */
+  /* line 152, assets/styles/layouts/blocks/header.scss */
 
   .site-header .navbar li ul li {
     padding: 13px 20px;
@@ -2855,7 +2875,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (max-width: 991.98px) {
-  /* line 160, assets/styles/layouts/blocks/header.scss */
+  /* line 172, assets/styles/layouts/blocks/header.scss */
 
   .site-header .navbar li ul li.current_page_item {
     color: #fff;
@@ -2863,41 +2883,41 @@ input:-webkit-autofill-hover {
   }
 }
 
-/* line 171, assets/styles/layouts/blocks/header.scss */
+/* line 183, assets/styles/layouts/blocks/header.scss */
 
 .site-header .navbar .nav-item-account i {
   font-size: 1.191rem;
   padding-right: 5px;
 }
 
-/* line 178, assets/styles/layouts/blocks/header.scss */
+/* line 190, assets/styles/layouts/blocks/header.scss */
 
 .site-header .nav-modules {
   padding: 0;
   margin: 0;
 }
 
-/* line 182, assets/styles/layouts/blocks/header.scss */
+/* line 194, assets/styles/layouts/blocks/header.scss */
 
 .site-header .nav-modules li {
   margin-left: 0;
 }
 
-/* line 186, assets/styles/layouts/blocks/header.scss */
+/* line 198, assets/styles/layouts/blocks/header.scss */
 
 .site-header .nav-modules .nav-item-search {
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
-/* line 190, assets/styles/layouts/blocks/header.scss */
+/* line 202, assets/styles/layouts/blocks/header.scss */
 
 .site-header .nav-modules .nav-item-search:not(:last-child) {
   margin-right: 1.5rem;
 }
 
 @media (max-width: 767.98px) {
-  /* line 194, assets/styles/layouts/blocks/header.scss */
+  /* line 206, assets/styles/layouts/blocks/header.scss */
 
   .site-header .nav-modules .nav-item-search .navbar-search-bar {
     padding-top: 0.6666666667rem;
@@ -2905,7 +2925,7 @@ input:-webkit-autofill-hover {
   }
 }
 
-/* line 200, assets/styles/layouts/blocks/header.scss */
+/* line 212, assets/styles/layouts/blocks/header.scss */
 
 .site-header .nav-modules .nav-item-search .navbar-search-bar input {
   border-width: 1px;
@@ -2919,7 +2939,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (min-width: 992px) {
-  /* line 200, assets/styles/layouts/blocks/header.scss */
+  /* line 212, assets/styles/layouts/blocks/header.scss */
 
   .site-header .nav-modules .nav-item-search .navbar-search-bar input {
     width: 320px;
@@ -2928,7 +2948,7 @@ input:-webkit-autofill-hover {
   }
 }
 
-/* line 217, assets/styles/layouts/blocks/header.scss */
+/* line 229, assets/styles/layouts/blocks/header.scss */
 
 .site-header .nav-modules .nav-item-search .navbar-search-bar .btn {
   border-left: none;
@@ -2941,7 +2961,7 @@ input:-webkit-autofill-hover {
   font-size: 0.875rem;
 }
 
-/* line 230, assets/styles/layouts/blocks/header.scss */
+/* line 242, assets/styles/layouts/blocks/header.scss */
 
 .site-header .nav-modules .btn-link {
   font-size: 1.125rem;
@@ -2951,7 +2971,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (max-width: 767.98px) {
-  /* line 237, assets/styles/layouts/blocks/header.scss */
+  /* line 249, assets/styles/layouts/blocks/header.scss */
 
   .site-header .nav-modules .nav-item-social-nav {
     padding-top: 0.6666666667rem;
@@ -2959,7 +2979,7 @@ input:-webkit-autofill-hover {
   }
 }
 
-/* line 243, assets/styles/layouts/blocks/header.scss */
+/* line 255, assets/styles/layouts/blocks/header.scss */
 
 .site-header .nav-modules .nav-item-social-nav:not(:last-child) {
   margin-right: 1.2rem;
@@ -2967,28 +2987,28 @@ input:-webkit-autofill-hover {
   border-right: solid 1px #000;
 }
 
-/* line 250, assets/styles/layouts/blocks/header.scss */
+/* line 262, assets/styles/layouts/blocks/header.scss */
 
 .site-header .nav-modules .nav-item-social-nav a:not(:last-child) {
   margin-right: 1rem;
 }
 
 @media (max-width: 767.98px) {
-  /* line 250, assets/styles/layouts/blocks/header.scss */
+  /* line 262, assets/styles/layouts/blocks/header.scss */
 
   .site-header .nav-modules .nav-item-social-nav a:not(:last-child) {
     margin-right: 1.3rem;
   }
 }
 
-/* line 261, assets/styles/layouts/blocks/header.scss */
+/* line 273, assets/styles/layouts/blocks/header.scss */
 
 .site-header .navbar-toggler {
   border-radius: 0;
   background-color: #fff;
 }
 
-/* line 267, assets/styles/layouts/blocks/header.scss */
+/* line 279, assets/styles/layouts/blocks/header.scss */
 
 .btn-outline-black-header {
   border: solid;
@@ -2999,21 +3019,21 @@ input:-webkit-autofill-hover {
   padding-bottom: 10px;
 }
 
-/* line 277, assets/styles/layouts/blocks/header.scss */
+/* line 289, assets/styles/layouts/blocks/header.scss */
 
 .nav-pills .nav-link {
   padding: 0.75rem 2rem;
   border-radius: 2rem;
 }
 
-/* line 281, assets/styles/layouts/blocks/header.scss */
+/* line 293, assets/styles/layouts/blocks/header.scss */
 
 .nav-pills .nav-link.active {
   color: #fff;
 }
 
 @media (min-width: 992px) {
-  /* line 288, assets/styles/layouts/blocks/header.scss */
+  /* line 300, assets/styles/layouts/blocks/header.scss */
 
   .header.ml-negative {
     margin-left: -40px;
@@ -3021,7 +3041,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (min-width: 992px) {
-  /* line 294, assets/styles/layouts/blocks/header.scss */
+  /* line 306, assets/styles/layouts/blocks/header.scss */
 
   .header.mr-negative {
     margin-right: -40px;
@@ -3029,7 +3049,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (min-width: 992px) {
-  /* line 301, assets/styles/layouts/blocks/header.scss */
+  /* line 313, assets/styles/layouts/blocks/header.scss */
 
   .mt-negative {
     margin-top: -40px;
@@ -3037,7 +3057,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (min-width: 768px) {
-  /* line 307, assets/styles/layouts/blocks/header.scss */
+  /* line 319, assets/styles/layouts/blocks/header.scss */
 
   .border-image {
     border: solid;
@@ -3048,14 +3068,14 @@ input:-webkit-autofill-hover {
 }
 
 @media (min-width: 992px) {
-  /* line 316, assets/styles/layouts/blocks/header.scss */
+  /* line 328, assets/styles/layouts/blocks/header.scss */
 
   .header-margin {
     margin-bottom: -145px;
   }
 }
 
-/* line 322, assets/styles/layouts/blocks/header.scss */
+/* line 334, assets/styles/layouts/blocks/header.scss */
 
 .navbar-icon-size {
   font-size: 17px;
@@ -3064,7 +3084,7 @@ input:-webkit-autofill-hover {
   color: #2a5631;
 }
 
-/* line 330, assets/styles/layouts/blocks/header.scss */
+/* line 342, assets/styles/layouts/blocks/header.scss */
 
 .nav-tabs .nav-link {
   border: 2px solid transparent;
@@ -3074,13 +3094,13 @@ input:-webkit-autofill-hover {
   font-size: 20px;
 }
 
-/* line 340, assets/styles/layouts/blocks/header.scss */
+/* line 352, assets/styles/layouts/blocks/header.scss */
 
 .mega-menu-link::before {
   display: none;
 }
 
-/* line 345, assets/styles/layouts/blocks/header.scss */
+/* line 357, assets/styles/layouts/blocks/header.scss */
 
 a.mega-menu-link {
   font-family: "Roboto", sans-serif !important;

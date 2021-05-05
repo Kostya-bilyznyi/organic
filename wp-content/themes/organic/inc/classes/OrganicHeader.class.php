@@ -30,21 +30,6 @@ SALE;
 		return $block;
 	}
 
-	function get_header_search() {
-		$search = get_search_form();
-
-		$block = <<<SRCH
-<a class="navbar-brand text-center d-md-block d-lg-none" href="{$home_url}">
-	<img class="navbar-brand__img" src="{$logo_img_url}" alt="{$logo_alt}"/>
-</a>
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-	<span class="navbar-toggler-icon"></span>
-</button>
-SRCH;
-
-		return $block;
-	}
-
 	function get_header_logo() {
 		$home_url = home_url('/');
 		$logo_img_url = $this->acf_fields['logo'];
