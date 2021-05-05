@@ -2646,12 +2646,12 @@ input:-webkit-autofill-hover {
 # Header
 -------------------------------------------------------------- */
 
-@media (max-width: 991.98px) {
-  /* line 6, assets/styles/layouts/blocks/header.scss */
+/* line 6, assets/styles/layouts/blocks/header.scss */
 
-  .site-header .navbar-collapse {
-    margin-top: 20px;
-  }
+.site-header .navbar-collapse {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
 }
 
 @media (max-width: 991.98px) {
@@ -2662,8 +2662,16 @@ input:-webkit-autofill-hover {
   }
 }
 
+@media (max-width: 768px) {
+  /* line 6, assets/styles/layouts/blocks/header.scss */
+
+  .site-header .navbar-collapse {
+    display: block !important;
+  }
+}
+
 @media (min-width: 992px) {
-  /* line 16, assets/styles/layouts/blocks/header.scss */
+  /* line 18, assets/styles/layouts/blocks/header.scss */
 
   .site-header .navbar {
     padding-top: 25px;
@@ -2672,7 +2680,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (max-width: 991.98px) {
-  /* line 16, assets/styles/layouts/blocks/header.scss */
+  /* line 18, assets/styles/layouts/blocks/header.scss */
 
   .site-header .navbar {
     padding-top: 20px;
@@ -2680,14 +2688,14 @@ input:-webkit-autofill-hover {
   }
 }
 
-/* line 27, assets/styles/layouts/blocks/header.scss */
+/* line 29, assets/styles/layouts/blocks/header.scss */
 
 .site-header .navbar .navbar-nav {
   margin-left: auto !important;
 }
 
 @media (max-width: 991.98px) {
-  /* line 27, assets/styles/layouts/blocks/header.scss */
+  /* line 29, assets/styles/layouts/blocks/header.scss */
 
   .site-header .navbar .navbar-nav {
     background-color: #dfd7c3;
@@ -2695,9 +2703,9 @@ input:-webkit-autofill-hover {
   }
 }
 
-/* line 36, assets/styles/layouts/blocks/header.scss */
+/* line 38, assets/styles/layouts/blocks/header.scss */
 
-.site-header .navbar .nav-item {
+.site-header .navbar li {
   color: #747474;
   font-size: 1.125rem;
   margin-right: 9px;
@@ -2705,49 +2713,85 @@ input:-webkit-autofill-hover {
 }
 
 @media (max-width: 991.98px) {
-  /* line 36, assets/styles/layouts/blocks/header.scss */
+  /* line 38, assets/styles/layouts/blocks/header.scss */
 
-  .site-header .navbar .nav-item {
+  .site-header .navbar li {
     padding-bottom: 10px;
     padding-top: 10px;
   }
 }
 
-/* line 47, assets/styles/layouts/blocks/header.scss */
+/* line 63, assets/styles/layouts/blocks/header.scss */
 
-.site-header .navbar .nav-item.active {
-  color: #2a5631;
+.site-header .navbar li.mega-current_page_item a::before {
+  display: none;
 }
 
-/* line 51, assets/styles/layouts/blocks/header.scss */
+@media (min-width: 768px) {
+  /* line 63, assets/styles/layouts/blocks/header.scss */
 
-.site-header .navbar .nav-item .nav-link {
+  .site-header .navbar li.mega-current_page_item a::before {
+    content: "" !important;
+    border-bottom: solid 2px #bc5e49 !important;
+    width: calc(100% - 30px) !important;
+    display: block !important;
+    position: absolute !important;
+    bottom: 5px !important;
+    left: 15px;
+    z-index: 1 !important;
+  }
+}
+
+/* line 80, assets/styles/layouts/blocks/header.scss */
+
+.site-header .navbar li a {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   line-height: 25px;
-  color: #747474;
   font-weight: 500;
+  position: relative;
 }
 
-/* line 58, assets/styles/layouts/blocks/header.scss */
+/* line 87, assets/styles/layouts/blocks/header.scss */
 
-.site-header .navbar .nav-item .nav-link:not(:last-child) {
+.site-header .navbar li a:not(:last-child) {
   margin-right: 0;
 }
 
-@media (min-width: 992px) {
-  /* line 51, assets/styles/layouts/blocks/header.scss */
+@media (min-width: 768px) {
+  /* line 80, assets/styles/layouts/blocks/header.scss */
 
-  .site-header .navbar .nav-item .nav-link {
+  .site-header .navbar li a {
     position: relative;
   }
 }
 
-@media (min-width: 992px) {
-  /* line 66, assets/styles/layouts/blocks/header.scss */
+/* line 95, assets/styles/layouts/blocks/header.scss */
 
-  .site-header .navbar .nav-item .nav-link .active::before,
-  .site-header .navbar .nav-item .nav-link:hover::before {
+.site-header .navbar li a:hover::before {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  /* line 95, assets/styles/layouts/blocks/header.scss */
+
+  .site-header .navbar li a:hover::before {
+    content: "" !important;
+    border-bottom: solid 2px #bc5e49 !important;
+    width: calc(100% - 30px) !important;
+    display: block;
+    position: absolute !important;
+    bottom: 5px !important;
+    left: 15px;
+    z-index: 1 !important;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 110, assets/styles/layouts/blocks/header.scss */
+
+  .site-header .navbar li a .active::before,
+  .site-header .navbar li a:hover::before {
     content: "";
     border-bottom: solid 2px #bc5e49;
     width: calc(100% - 15px);
@@ -2758,9 +2802,10 @@ input:-webkit-autofill-hover {
   }
 }
 
-/* line 80, assets/styles/layouts/blocks/header.scss */
+/* line 124, assets/styles/layouts/blocks/header.scss */
 
-.site-header .navbar .nav-item .dropdown-menu {
+.site-header .navbar li ul {
+  list-style: none;
   font-size: 1rem;
   font-weight: 800px;
   padding: 8px 0;
@@ -2772,81 +2817,87 @@ input:-webkit-autofill-hover {
 }
 
 @media (max-width: 991.98px) {
-  /* line 80, assets/styles/layouts/blocks/header.scss */
+  /* line 124, assets/styles/layouts/blocks/header.scss */
 
-  .site-header .navbar .nav-item .dropdown-menu {
+  .site-header .navbar li ul {
     padding: 0;
     background-color: #dfd7c3;
   }
 }
 
-/* line 95, assets/styles/layouts/blocks/header.scss */
+/* line 140, assets/styles/layouts/blocks/header.scss */
 
-.site-header .navbar .nav-item .dropdown-menu .dropdown-item {
+.site-header .navbar li ul li {
   color: #4c4c4c;
   padding: 7px 32px;
   font-weight: 500;
 }
 
-/* line 100, assets/styles/layouts/blocks/header.scss */
+/* line 145, assets/styles/layouts/blocks/header.scss */
 
-.site-header .navbar .nav-item .dropdown-menu .dropdown-item:hover {
+.site-header .navbar li ul li:hover {
   background-color: #000;
   color: #fff;
 }
 
-@media (max-width: 991.98px) {
-  /* line 95, assets/styles/layouts/blocks/header.scss */
+/* line 151, assets/styles/layouts/blocks/header.scss */
 
-  .site-header .navbar .nav-item .dropdown-menu .dropdown-item {
+.site-header .navbar li ul li a::before {
+  display: none !important;
+}
+
+@media (max-width: 991.98px) {
+  /* line 140, assets/styles/layouts/blocks/header.scss */
+
+  .site-header .navbar li ul li {
     padding: 13px 20px;
   }
 }
 
 @media (max-width: 991.98px) {
-  /* line 109, assets/styles/layouts/blocks/header.scss */
+  /* line 160, assets/styles/layouts/blocks/header.scss */
 
-  .site-header .navbar .nav-item .dropdown-menu .dropdown-item.active {
+  .site-header .navbar li ul li.current_page_item {
     color: #fff;
     background-color: #2a5631;
   }
 }
 
-/* line 120, assets/styles/layouts/blocks/header.scss */
+/* line 171, assets/styles/layouts/blocks/header.scss */
 
 .site-header .navbar .nav-item-account i {
   font-size: 1.191rem;
   padding-right: 5px;
 }
 
-/* line 127, assets/styles/layouts/blocks/header.scss */
+/* line 178, assets/styles/layouts/blocks/header.scss */
 
 .site-header .nav-modules {
   padding: 0;
   margin: 0;
 }
 
-/* line 131, assets/styles/layouts/blocks/header.scss */
+/* line 182, assets/styles/layouts/blocks/header.scss */
 
 .site-header .nav-modules li {
   margin-left: 0;
 }
 
-/* line 135, assets/styles/layouts/blocks/header.scss */
+/* line 186, assets/styles/layouts/blocks/header.scss */
 
 .site-header .nav-modules .nav-item-search {
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
-/* line 139, assets/styles/layouts/blocks/header.scss */
+/* line 190, assets/styles/layouts/blocks/header.scss */
 
 .site-header .nav-modules .nav-item-search:not(:last-child) {
   margin-right: 1.5rem;
 }
 
 @media (max-width: 767.98px) {
-  /* line 143, assets/styles/layouts/blocks/header.scss */
+  /* line 194, assets/styles/layouts/blocks/header.scss */
 
   .site-header .nav-modules .nav-item-search .navbar-search-bar {
     padding-top: 0.6666666667rem;
@@ -2854,7 +2905,7 @@ input:-webkit-autofill-hover {
   }
 }
 
-/* line 149, assets/styles/layouts/blocks/header.scss */
+/* line 200, assets/styles/layouts/blocks/header.scss */
 
 .site-header .nav-modules .nav-item-search .navbar-search-bar input {
   border-width: 1px;
@@ -2868,7 +2919,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (min-width: 992px) {
-  /* line 149, assets/styles/layouts/blocks/header.scss */
+  /* line 200, assets/styles/layouts/blocks/header.scss */
 
   .site-header .nav-modules .nav-item-search .navbar-search-bar input {
     width: 320px;
@@ -2877,7 +2928,7 @@ input:-webkit-autofill-hover {
   }
 }
 
-/* line 166, assets/styles/layouts/blocks/header.scss */
+/* line 217, assets/styles/layouts/blocks/header.scss */
 
 .site-header .nav-modules .nav-item-search .navbar-search-bar .btn {
   border-left: none;
@@ -2890,7 +2941,7 @@ input:-webkit-autofill-hover {
   font-size: 0.875rem;
 }
 
-/* line 179, assets/styles/layouts/blocks/header.scss */
+/* line 230, assets/styles/layouts/blocks/header.scss */
 
 .site-header .nav-modules .btn-link {
   font-size: 1.125rem;
@@ -2900,7 +2951,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (max-width: 767.98px) {
-  /* line 186, assets/styles/layouts/blocks/header.scss */
+  /* line 237, assets/styles/layouts/blocks/header.scss */
 
   .site-header .nav-modules .nav-item-social-nav {
     padding-top: 0.6666666667rem;
@@ -2908,7 +2959,7 @@ input:-webkit-autofill-hover {
   }
 }
 
-/* line 192, assets/styles/layouts/blocks/header.scss */
+/* line 243, assets/styles/layouts/blocks/header.scss */
 
 .site-header .nav-modules .nav-item-social-nav:not(:last-child) {
   margin-right: 1.2rem;
@@ -2916,28 +2967,28 @@ input:-webkit-autofill-hover {
   border-right: solid 1px #000;
 }
 
-/* line 199, assets/styles/layouts/blocks/header.scss */
+/* line 250, assets/styles/layouts/blocks/header.scss */
 
 .site-header .nav-modules .nav-item-social-nav a:not(:last-child) {
   margin-right: 1rem;
 }
 
 @media (max-width: 767.98px) {
-  /* line 199, assets/styles/layouts/blocks/header.scss */
+  /* line 250, assets/styles/layouts/blocks/header.scss */
 
   .site-header .nav-modules .nav-item-social-nav a:not(:last-child) {
     margin-right: 1.3rem;
   }
 }
 
-/* line 210, assets/styles/layouts/blocks/header.scss */
+/* line 261, assets/styles/layouts/blocks/header.scss */
 
 .site-header .navbar-toggler {
   border-radius: 0;
   background-color: #fff;
 }
 
-/* line 216, assets/styles/layouts/blocks/header.scss */
+/* line 267, assets/styles/layouts/blocks/header.scss */
 
 .btn-outline-black-header {
   border: solid;
@@ -2948,21 +2999,21 @@ input:-webkit-autofill-hover {
   padding-bottom: 10px;
 }
 
-/* line 226, assets/styles/layouts/blocks/header.scss */
+/* line 277, assets/styles/layouts/blocks/header.scss */
 
 .nav-pills .nav-link {
   padding: 0.75rem 2rem;
   border-radius: 2rem;
 }
 
-/* line 230, assets/styles/layouts/blocks/header.scss */
+/* line 281, assets/styles/layouts/blocks/header.scss */
 
 .nav-pills .nav-link.active {
   color: #fff;
 }
 
 @media (min-width: 992px) {
-  /* line 237, assets/styles/layouts/blocks/header.scss */
+  /* line 288, assets/styles/layouts/blocks/header.scss */
 
   .header.ml-negative {
     margin-left: -40px;
@@ -2970,7 +3021,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (min-width: 992px) {
-  /* line 243, assets/styles/layouts/blocks/header.scss */
+  /* line 294, assets/styles/layouts/blocks/header.scss */
 
   .header.mr-negative {
     margin-right: -40px;
@@ -2978,7 +3029,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (min-width: 992px) {
-  /* line 250, assets/styles/layouts/blocks/header.scss */
+  /* line 301, assets/styles/layouts/blocks/header.scss */
 
   .mt-negative {
     margin-top: -40px;
@@ -2986,7 +3037,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (min-width: 768px) {
-  /* line 256, assets/styles/layouts/blocks/header.scss */
+  /* line 307, assets/styles/layouts/blocks/header.scss */
 
   .border-image {
     border: solid;
@@ -2997,14 +3048,14 @@ input:-webkit-autofill-hover {
 }
 
 @media (min-width: 992px) {
-  /* line 265, assets/styles/layouts/blocks/header.scss */
+  /* line 316, assets/styles/layouts/blocks/header.scss */
 
   .header-margin {
     margin-bottom: -145px;
   }
 }
 
-/* line 271, assets/styles/layouts/blocks/header.scss */
+/* line 322, assets/styles/layouts/blocks/header.scss */
 
 .navbar-icon-size {
   font-size: 17px;
@@ -3013,7 +3064,7 @@ input:-webkit-autofill-hover {
   color: #2a5631;
 }
 
-/* line 279, assets/styles/layouts/blocks/header.scss */
+/* line 330, assets/styles/layouts/blocks/header.scss */
 
 .nav-tabs .nav-link {
   border: 2px solid transparent;
@@ -3021,6 +3072,18 @@ input:-webkit-autofill-hover {
   border-left: 0;
   border-right: 0;
   font-size: 20px;
+}
+
+/* line 340, assets/styles/layouts/blocks/header.scss */
+
+.mega-menu-link::before {
+  display: none;
+}
+
+/* line 345, assets/styles/layouts/blocks/header.scss */
+
+a.mega-menu-link {
+  font-family: "Roboto", sans-serif !important;
 }
 
 /* --------------------------------------------------------------
@@ -3120,7 +3183,76 @@ input:-webkit-autofill-hover {
   }
 }
 
-/* line 72, assets/styles/layouts/blocks/footer.scss */
+/* line 75, assets/styles/layouts/blocks/footer.scss */
+
+.site-footer .footer-widgets .textwidget .gform_wrapper form .gform_heading .gform_title {
+  margin-bottom: 16px !important;
+  font-size: 20px;
+}
+
+/* line 82, assets/styles/layouts/blocks/footer.scss */
+
+.site-footer .footer-widgets .textwidget .gform_wrapper form .gform_body ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+/* line 88, assets/styles/layouts/blocks/footer.scss */
+
+.site-footer .footer-widgets .textwidget .gform_wrapper form .gform_body ul li label {
+  margin: 0 0 1.5rem 0 !important;
+}
+
+/* line 93, assets/styles/layouts/blocks/footer.scss */
+
+.site-footer .footer-widgets .textwidget .gform_wrapper form .gform_body ul li .ginput_container input {
+  display: block;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #2a5631;
+  background-color: transparent;
+  background-clip: padding-box;
+  border: 2px solid #e4e4e4;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 0;
+  margin-bottom: 20px !important;
+}
+
+/* line 114, assets/styles/layouts/blocks/footer.scss */
+
+.site-footer .footer-widgets .textwidget .gform_wrapper form .gform_footer {
+  position: relative;
+}
+
+/* line 117, assets/styles/layouts/blocks/footer.scss */
+
+.site-footer .footer-widgets .textwidget .gform_wrapper form .gform_footer input[type="submit"] {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  color: #2a5631;
+}
+
+/* line 124, assets/styles/layouts/blocks/footer.scss */
+
+.site-footer .footer-widgets .textwidget .gform_wrapper form .gform_footer::after {
+  content: "";
+  position: absolute;
+  left: 55px;
+  top: 7px;
+  height: 16px;
+  width: 15px;
+  background-image: url(data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%3E%3Cpath%20fill%3D%22%232a5631%22%20d%3D%22M506.134%20241.843l-.018-.019-104.504-104c-7.829-7.791-20.492-7.762-28.285.068-7.792%207.829-7.762%2020.492.067%2028.284L443.558%20236H20c-11.046%200-20%208.954-20%2020s8.954%2020%2020%2020h423.557l-70.162%2069.824c-7.829%207.792-7.859%2020.455-.067%2028.284%207.793%207.831%2020.457%207.858%2028.285.068l104.504-104%20.018-.019c7.833-7.818%207.808-20.522-.001-28.314z%22%2F%3E%3C%2Fsvg%3E);
+}
+
+/* line 139, assets/styles/layouts/blocks/footer.scss */
 
 .site-footer .footer-bottom-area {
   padding-bottom: 50px;
@@ -3129,7 +3261,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (min-width: 992px) {
-  /* line 72, assets/styles/layouts/blocks/footer.scss */
+  /* line 139, assets/styles/layouts/blocks/footer.scss */
 
   .site-footer .footer-bottom-area {
     padding-top: 34px;
@@ -3137,27 +3269,29 @@ input:-webkit-autofill-hover {
   }
 }
 
-/* line 82, assets/styles/layouts/blocks/footer.scss */
+/* line 149, assets/styles/layouts/blocks/footer.scss */
 
-.site-footer .footer-bottom-area a {
-  color: #747474;
+.site-footer .footer-bottom-area .textwidget {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-/* line 86, assets/styles/layouts/blocks/footer.scss */
+/* line 153, assets/styles/layouts/blocks/footer.scss */
 
-.site-footer .footer-bottom-area .icon {
+.site-footer .footer-bottom-area i {
   font-size: 18px;
   width: 1.25em;
   color: #2a5631;
 }
 
-/* line 91, assets/styles/layouts/blocks/footer.scss */
+/* line 158, assets/styles/layouts/blocks/footer.scss */
 
-.site-footer .footer-bottom-area .icon:hover {
+.site-footer .footer-bottom-area i:hover {
   color: #bc5e49;
 }
 
-/* line 96, assets/styles/layouts/blocks/footer.scss */
+/* line 163, assets/styles/layouts/blocks/footer.scss */
 
 .site-footer .footer-bottom-area .border-icon {
   border-radius: 35px;
@@ -3167,7 +3301,7 @@ input:-webkit-autofill-hover {
   padding-bottom: 10px;
 }
 
-/* line 106, assets/styles/layouts/blocks/footer.scss */
+/* line 173, assets/styles/layouts/blocks/footer.scss */
 
 .site-footer .footer-bottom-area .footer-nav.list-inline li {
   display: inline-block;
@@ -3176,13 +3310,13 @@ input:-webkit-autofill-hover {
   font-weight: 500;
 }
 
-/* line 112, assets/styles/layouts/blocks/footer.scss */
+/* line 179, assets/styles/layouts/blocks/footer.scss */
 
 .site-footer .footer-bottom-area .footer-nav.list-inline li:not(:last-child) {
   margin-right: 0.5rem;
 }
 
-/* line 121, assets/styles/layouts/blocks/footer.scss */
+/* line 188, assets/styles/layouts/blocks/footer.scss */
 
 .footer-form {
   color: #747474;
@@ -3191,21 +3325,21 @@ input:-webkit-autofill-hover {
   font-weight: bold;
 }
 
-/* line 127, assets/styles/layouts/blocks/footer.scss */
+/* line 194, assets/styles/layouts/blocks/footer.scss */
 
 .footer-form:hover {
   color: #bc5e49;
   border-color: #bc5e49;
 }
 
-/* line 133, assets/styles/layouts/blocks/footer.scss */
+/* line 200, assets/styles/layouts/blocks/footer.scss */
 
 .testimonials-line-height {
   line-height: 38px;
 }
 
 @media (max-width: 767.98px) {
-  /* line 137, assets/styles/layouts/blocks/footer.scss */
+  /* line 204, assets/styles/layouts/blocks/footer.scss */
 
   .tab-font {
     font-size: 24px;
@@ -3213,20 +3347,20 @@ input:-webkit-autofill-hover {
   }
 }
 
-/* line 144, assets/styles/layouts/blocks/footer.scss */
+/* line 211, assets/styles/layouts/blocks/footer.scss */
 
 .form-control {
   background-color: #f4f4f4;
 }
 
-/* line 148, assets/styles/layouts/blocks/footer.scss */
+/* line 215, assets/styles/layouts/blocks/footer.scss */
 
 .footer-input {
   background-color: transparent;
   padding-left: 0;
 }
 
-/* line 152, assets/styles/layouts/blocks/footer.scss */
+/* line 219, assets/styles/layouts/blocks/footer.scss */
 
 .footer-input:focus {
   background-color: transparent;

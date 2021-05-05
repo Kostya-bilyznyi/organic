@@ -44,3 +44,51 @@ ADDR;
 }
 
 add_shortcode( 'footer-address-info' , 'footer_address_info_shortcode' );
+
+function footer_copyright() {
+	$copyright = get_field('footer_copyright', 'options');
+	$year = date("Y");
+
+	$block = <<<COPY
+<div class="col-lg-6 col-md-6">
+	<div class="footer-widget text-md-start text-center">
+		<p class="m-md-0">&copy; {$year} {$copyright}</p>
+	</div>
+</div>
+COPY;
+
+	return $block;
+}
+
+add_shortcode( 'footer-copyright' , 'footer_copyright' );
+
+
+function footer_social_icons() {
+		$social_list = get_field('footer_social_networks', 'options');
+		if( empty( $social_list ) ) {
+			return false;
+		}
+
+		$html_social = null;
+		foreach ( $social_list as $social_item ) {
+			
+			$network_url = $social_item['social_link'];
+			$icon = $social_item['social_icon'];
+			
+			$html_social .= '<li class="list-inline-item me-px-21"><a target="_blank" href="' . $network_url . '">' . $icon . '</a></li>';
+		}
+
+	$block = <<<ICON
+<div class="col-lg-6 col-md-6">
+	<div class="text-md-end text-center">
+		<ul class="list-unstyled list-inlinetrue">
+			{$html_social}
+		</ul>
+	</div>
+</div>
+ICON;
+
+	return $block;
+}
+
+add_shortcode( 'footer-social-icons' , 'footer_social_icons' );

@@ -53,6 +53,19 @@ function organic_widget_arias(){
 		'before_sidebar' => '',
 		'after_sidebar'  => '',
 	) );
+
+	register_sidebar( array(
+		'name'          => __('Footer Bottom'),
+		'id'            => "footer-col-5",
+		'description'   => '',
+		'class'         => '',
+		'before_widget' => '',
+		'after_widget'  => '',
+		'before_title'  => '',
+		'after_title'   => '',
+		'before_sidebar' => '',
+		'after_sidebar'  => '',
+	) );
 }
 
 add_action( 'widgets_init', 'organic_widget_arias' );

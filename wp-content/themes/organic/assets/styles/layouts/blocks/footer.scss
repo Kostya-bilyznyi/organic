@@ -67,6 +67,73 @@
         }
       }
     }
+
+    .textwidget {
+      .gform_wrapper {
+        form {
+          .gform_heading {
+            .gform_title {
+              margin-bottom: 16px !important;
+              font-size: 20px;
+            }
+          }
+
+          .gform_body {
+            ul {
+              margin: 0;
+              list-style: none;
+              padding: 0;
+
+              li {
+                label {
+                  margin: 0 0 1.5rem 0 !important;
+                }
+
+                .ginput_container {
+                  input {
+                    display: block;
+                    width: 100%;
+                    padding: 1rem 1.5rem;
+                    font-family: "Roboto", sans-serif;
+                    font-size: 1rem;
+                    font-weight: 400;
+                    line-height: 1.7;
+                    color: #2a5631;
+                    background-color: transparent;
+                    background-clip: padding-box;
+                    border: 2px solid #e4e4e4;
+                    appearance: none;
+                    border-radius: 0;
+                    margin-bottom: 20px !important;
+                  }
+                }
+              }
+            }
+          }
+
+          .gform_footer {
+            position: relative;
+
+            input[type="submit"] {
+              padding: 0;
+              background-color: transparent;
+              border: none;
+              color: #2a5631;
+            }
+
+            &::after {
+              content: "";
+              position: absolute;
+              left: 55px;
+              top: 7px;
+              height: 16px;
+              width: 15px;
+              background-image: url(data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%3E%3Cpath%20fill%3D%22%232a5631%22%20d%3D%22M506.134%20241.843l-.018-.019-104.504-104c-7.829-7.791-20.492-7.762-28.285.068-7.792%207.829-7.762%2020.492.067%2028.284L443.558%20236H20c-11.046%200-20%208.954-20%2020s8.954%2020%2020%2020h423.557l-70.162%2069.824c-7.829%207.792-7.859%2020.455-.067%2028.284%207.793%207.831%2020.457%207.858%2028.285.068l104.504-104%20.018-.019c7.833-7.818%207.808-20.522-.001-28.314z%22%2F%3E%3C%2Fsvg%3E);
+            }
+          }
+        }
+      }
+    }
   }
 
   .footer-bottom-area {
@@ -79,11 +146,11 @@
       padding-bottom: 34px;
     }
 
-    a {
-      color: #747474;
+    .textwidget {
+      display: flex;
     }
 
-    .icon {
+    i {
       font-size: 18px;
       width: 1.25em;
       color: #2a5631;
