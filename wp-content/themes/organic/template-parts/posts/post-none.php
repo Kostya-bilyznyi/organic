@@ -1,0 +1,1 @@
+<span><?php _e('Sorry, but there are no posts', 'organictxt') ?></span>

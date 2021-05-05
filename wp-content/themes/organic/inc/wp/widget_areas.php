@@ -66,6 +66,19 @@ function organic_widget_arias(){
 		'before_sidebar' => '',
 		'after_sidebar'  => '',
 	) );
+
+	register_sidebar( array(
+		'name'          => __('Blog right sidebar'),
+		'id'            => "blog-right-sidebar",
+		'description'   => '',
+		'class'         => '',
+		'before_widget' => '<div class="blog-right-sidebar">',
+		'after_widget'  => '</div>',
+		'before_title'  => '',
+		'after_title'   => '',
+		'before_sidebar' => '',
+		'after_sidebar'  => '',
+	) );
 }
 
 add_action( 'widgets_init', 'organic_widget_arias' );

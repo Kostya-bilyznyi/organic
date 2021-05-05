@@ -14,3 +14,4 @@ require_once THEME_DIR .'/inc/wp/theme_support.php';
 require_once THEME_DIR .'/inc/wp/menus.php';
 require_once THEME_DIR .'/inc/acf/options_page.php';
 require_once THEME_DIR .'/inc/shortcodes/footer_shortcodes.php';
+require_once THEME_DIR .'/inc/shortcodes/archive-shortcodes.php';

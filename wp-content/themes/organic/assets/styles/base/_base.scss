@@ -125,3 +125,35 @@ input:-webkit-autofill-hover {
   display: inline-block;
   margin: 0 5px;
 }
+
+.search {
+  &__input-wrap {
+    position: relative;
+
+    input[type="text"] {
+      height: 52px;
+      border: 2px solid #000;
+      font-size: 1rem;
+      line-height: 1.375rem;
+      font-family: "Fieldwork", sans-serif;
+      font-weight: 400;
+      letter-spacing: 0.22px;
+      outline: none;
+      width: 100%;
+      background: transparent;
+    }
+
+    .search__button {
+      position: absolute;
+      right: 18px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 18px;
+      height: 19px;
+      mask: url("../images/search-icon.svg") 0 0/18px 19px;
+      mask-repeat: no-repeat;
+      border: none;
+      background: #000;
+    }
+  }
+}
