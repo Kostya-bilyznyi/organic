@@ -74,8 +74,21 @@ function organic_widget_arias(){
 		'class'         => '',
 		'before_widget' => '<div class="blog-right-sidebar">',
 		'after_widget'  => '</div>',
-		'before_title'  => '',
-		'after_title'   => '',
+		'before_title'  => '<h5 class="widget-title">',
+		'after_title'   => '<h5>',
+		'before_sidebar' => '',
+		'after_sidebar'  => '',
+	) );
+
+	register_sidebar( array(
+		'name'          => __('Archive left sidebar'),
+		'id'            => "archive-left-sidebar",
+		'description'   => '',
+		'class'         => '',
+		'before_widget' => '<div class="archive-left-sidebar">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h5 class="widget-title">',
+		'after_title'   => '<h5>',
 		'before_sidebar' => '',
 		'after_sidebar'  => '',
 	) );

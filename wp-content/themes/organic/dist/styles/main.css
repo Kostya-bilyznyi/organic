@@ -1368,25 +1368,13 @@ article.comment-body {
 
 /* line 7, assets/styles/components/_widgets.scss */
 
-.widget .widget-title {
-  font-size: 1rem;
-  font-family: "Playfair Display", sans-serif;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  color: #999;
-  display: block;
-  text-transform: uppercase;
-}
-
-/* line 17, assets/styles/components/_widgets.scss */
-
 .widget ol,
 .widget ul {
   -webkit-padding-start: 1.25rem;
   padding-inline-start: 1.25rem;
 }
 
-/* line 25, assets/styles/components/_widgets.scss */
+/* line 15, assets/styles/components/_widgets.scss */
 
 .widget_pages ul li,
 .widget_recent_comments ul li,
@@ -1398,7 +1386,7 @@ article.comment-body {
   width: 100%;
 }
 
-/* line 35, assets/styles/components/_widgets.scss */
+/* line 25, assets/styles/components/_widgets.scss */
 
 .widget_pages ul li a,
 .widget_recent_comments ul li a,
@@ -1411,7 +1399,7 @@ article.comment-body {
   padding: 0.5rem 0;
 }
 
-/* line 46, assets/styles/components/_widgets.scss */
+/* line 36, assets/styles/components/_widgets.scss */
 
 .widget_pages > ul,
 .widget_recent_comments > ul,
@@ -1423,7 +1411,7 @@ article.comment-body {
   list-style: none;
 }
 
-/* line 56, assets/styles/components/_widgets.scss */
+/* line 46, assets/styles/components/_widgets.scss */
 
 .widget_pages > ul > li::before,
 .widget_recent_comments > ul > li::before,
@@ -1442,19 +1430,19 @@ article.comment-body {
   margin-right: 10px;
 }
 
-/* line 73, assets/styles/components/_widgets.scss */
+/* line 63, assets/styles/components/_widgets.scss */
 
 .widget_recent_comments li {
   margin-bottom: 1rem;
 }
 
-/* line 78, assets/styles/components/_widgets.scss */
+/* line 68, assets/styles/components/_widgets.scss */
 
 .widget_nav_menu ul {
   padding-left: 0;
 }
 
-/* line 81, assets/styles/components/_widgets.scss */
+/* line 71, assets/styles/components/_widgets.scss */
 
 .widget_nav_menu ul li {
   width: 100%;
@@ -1462,13 +1450,13 @@ article.comment-body {
   padding: 0.6rem 0;
 }
 
-/* line 86, assets/styles/components/_widgets.scss */
+/* line 76, assets/styles/components/_widgets.scss */
 
 .widget_nav_menu ul li a {
   display: inline-block;
 }
 
-/* line 92, assets/styles/components/_widgets.scss */
+/* line 82, assets/styles/components/_widgets.scss */
 
 .widget_nav_menu ul .current-menu-item a {
   padding: 0.4rem 2rem;
@@ -1477,27 +1465,27 @@ article.comment-body {
   min-width: 130px;
 }
 
-/* line 103, assets/styles/components/_widgets.scss */
+/* line 93, assets/styles/components/_widgets.scss */
 
 .widget_rss ul {
   list-style: none;
   padding: 0;
 }
 
-/* line 107, assets/styles/components/_widgets.scss */
+/* line 97, assets/styles/components/_widgets.scss */
 
 .widget_rss ul li {
   padding-bottom: 2rem;
   margin-bottom: 2rem;
 }
 
-/* line 111, assets/styles/components/_widgets.scss */
+/* line 101, assets/styles/components/_widgets.scss */
 
 .widget_rss ul li:not(:last-child) {
   border-bottom: solid 1px #000;
 }
 
-/* line 116, assets/styles/components/_widgets.scss */
+/* line 106, assets/styles/components/_widgets.scss */
 
 .widget_rss ul li a.rsswidget {
   font-size: 1.2rem;
@@ -1508,7 +1496,7 @@ article.comment-body {
   display: block;
 }
 
-/* line 126, assets/styles/components/_widgets.scss */
+/* line 116, assets/styles/components/_widgets.scss */
 
 .widget_rss ul li .rss-date {
   color: #999;
@@ -1517,14 +1505,14 @@ article.comment-body {
   display: block;
 }
 
-/* line 136, assets/styles/components/_widgets.scss */
+/* line 126, assets/styles/components/_widgets.scss */
 
 .search-form .form-control,
 .search-form .btn {
   border-color: #e4e4e4;
 }
 
-/* line 143, assets/styles/components/_widgets.scss */
+/* line 133, assets/styles/components/_widgets.scss */
 
 .search-form .input-group .form-control {
   border-color: #e4e4e4;
@@ -1532,10 +1520,9 @@ article.comment-body {
   border-bottom-left-radius: 0;
 }
 
-/* line 152, assets/styles/components/_widgets.scss */
+/* line 141, assets/styles/components/_widgets.scss */
 
-.blog-right-sidebar .archive-posts-title {
-  margin-top: 4rem;
+.widget-title {
   font-size: 1rem;
   font-family: "Playfair Display", sans-serif;
   font-weight: 700;
@@ -1545,22 +1532,17 @@ article.comment-body {
   text-transform: uppercase;
 }
 
-/* line 163, assets/styles/components/_widgets.scss */
+/* line 153, assets/styles/components/_widgets.scss */
 
-.blog-right-sidebar:nth-child(3) {
-  margin-top: 4rem;
-  font-size: 1rem;
-  font-family: "Playfair Display", sans-serif;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  color: #999;
-  display: block;
-  text-transform: uppercase;
+.blog-right-sidebar form,
+.archive-left-sidebar form {
+  margin-bottom: 30px;
 }
 
 /* line 179, assets/styles/components/_widgets.scss */
 
-.blog-right-sidebar:nth-child(3) ul li a {
+.blog-right-sidebar ul li a,
+.archive-left-sidebar ul li a {
   text-transform: none;
   padding: 0.5rem 0;
   font-family: "Roboto", sans-serif;
@@ -1573,14 +1555,16 @@ article.comment-body {
 
 /* line 192, assets/styles/components/_widgets.scss */
 
-.blog-right-sidebar:nth-child(3) ul:not(.children) > li {
+.blog-right-sidebar ul:not(.children) > li,
+.archive-left-sidebar ul:not(.children) > li {
   list-style: none;
   position: relative;
 }
 
 /* line 196, assets/styles/components/_widgets.scss */
 
-.blog-right-sidebar:nth-child(3) ul:not(.children) > li::before {
+.blog-right-sidebar ul:not(.children) > li::before,
+.archive-left-sidebar ul:not(.children) > li::before {
   content: "";
   display: inline-block;
   width: 13px;

@@ -31,3 +31,9 @@ $header = new OrganicHeader();
 				<?php get_search_form(); ?>
 			</div>
 		</div>
+
+		 <?php 
+		 echo $header->get_header_card();
+		 echo $header->get_header_form(); ?>
+
+

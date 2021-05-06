@@ -102,4 +102,116 @@ ICONS;
 
 		return $block;
 	}
+
+
+	function get_header_card() {
+
+		$block = <<<CARD
+<div class="modal fade" id="checkout-modal" tabindex="-1" aria-hidden="true">
+	<div class="container-fluid mt-8">
+		<div class="row">
+			<div class="col-lg-6 offset-6">
+				<div class="modal-dialog modal-xl">
+				<div class="modal-content">
+					<div class="modal-body"> 
+						<h3 class="text-center mb-4 mt-3">Check Out Item</h3>
+						<table class="table mb-2 table-bordered bg-white-smoke">
+						<thead>
+							<tr class="text-black text-center align-middle">
+								<th scope="col">Product</th>
+								<th scope="col">Price</th>
+								<th scope="col">Quantity</th>
+								<th scope="col">Discount</th>
+								<th scope="col">Total</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="text-black text-center align-middle">
+								<td> <img class="height-px-50 object-fit-cover" src="assets/images/shop/s3.jpg" alt="Shop3"></td>
+								<td>350$</td>
+								<td>2</td>
+								<td>20$</td>
+								<td>330$</td>
+							</tr>
+							<tr class="text-black text-center align-middle">
+								<td> <img class="height-px-50 object-fit-cover" src="assets/images/shop/s4.jpg" alt="Shop3"></td>
+								<td>250$</td>
+								<td>3</td>
+								<td>15$</td>
+								<td>235$</td>
+							</tr>
+							<tr class="text-black text-center align-middle">
+								<td> <img class="height-px-50 object-fit-cover" src="assets/images/shop/s5.jpg" alt="Shop3"></td>
+								<td>150$</td>
+								<td>4</td>
+								<td>10$</td>
+								<td>140$  </td>
+							</tr>
+							<tr class="text-black text-center align-middle text-center">
+								<td class="font-weight-bold">Grand Total</td>
+								<td class="text-end font-weight-bold" colspan="4">705$ </td>
+							</tr>
+						</tbody>
+						</table>
+					</div>
+					<div class="modal-footer border-0">
+						<button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Add items</button>
+						<button class="btn btn-primary" type="button" data-bs-dismiss="modal">Check Out</button>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+CARD;
+
+		return $block;
+	
+	}
+
+	function get_header_form() {
+
+		$block = <<<FORM
+<div class="modal fade" id="user-login" tabindex="-1" aria-hidden="true">
+	<div class="container-fluid mt-8">
+	<div class="row">
+		<div class="col-lg-4 offset-8">
+			<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<div class="row">
+					<div class="col-lg-11">
+						<h3 class="mb-4 mt-1">Subscription account For Hanan</h3>
+					</div>
+					<div class="col-lg-1 my-auto">
+						<div class="ms-n1">
+							<button class="btn btn-black close rounded-0 px-2 py-2" type="button" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						</div>
+					</div>
+					</div>
+					<form>
+					<div class="form-group">
+						<input class="form-control input-border" id="user-name" type="text" placeholder="User name">
+					</div>
+					<div class="form-group mt-4">
+						<input class="form-control input-border" id="Pasword-name" type="password" placeholder="********">
+					</div>
+					</form>
+				</div>
+				<div class="modal-footer border-0">
+					<button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Register</button>
+					<button class="btn btn-black" type="button" data-bs-dismiss="modal">Login</button>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</div>
+FORM;
+
+		return $block;
+	
+	}
 }
