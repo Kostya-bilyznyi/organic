@@ -426,7 +426,7 @@ img.mfp-img {
 
 .accordion .card .card-header a::before {
   content: "\F106";
-  font-family: "Font Awesome 5 Free", sans-serif;
+  font-family: "Font Awesome 5 Free", serif;
   font-weight: 900;
   position: absolute;
   right: 0;
@@ -512,7 +512,7 @@ img.mfp-img {
 /* line 40, assets/styles/components/_buttons.scss */
 
 .shop-button-style {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", serif;
   border-color: #2a5631 !important;
 }
 
@@ -896,7 +896,7 @@ img.mfp-img {
   color: red;
   margin-left: 60px;
   margin-top: 13px;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Playfair Display", serif;
 }
 
 /* line 16, assets/styles/components/_comments.scss */
@@ -1009,7 +1009,7 @@ body.has-no-comments .comment-reply-title {
 .comment_container-author {
   font-size: 1.0625rem;
   display: block;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Playfair Display", serif;
   margin: 0 0 10px;
 }
 
@@ -1084,7 +1084,7 @@ body.has-no-comments .comment-reply-title {
   border-radius: 2px;
   color: #6c757d;
   display: inline-block;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Playfair Display", serif;
   font-weight: 500;
   padding: 0.2em 0.65em;
   margin-left: -1px;
@@ -1154,7 +1154,7 @@ body.has-no-comments .comment-reply-title {
   display: block;
   margin-top: -10px;
   margin-bottom: 0.5rem;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Playfair Display", serif;
 }
 
 /* line 205, assets/styles/components/_comments.scss */
@@ -1250,7 +1250,7 @@ article.comment-body {
 /* line 274, assets/styles/components/_comments.scss */
 
 .comment-reply-title {
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Playfair Display", serif;
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: h2;
@@ -1286,7 +1286,7 @@ article.comment-body {
 /* line 302, assets/styles/components/_comments.scss */
 
 .logged-in-as {
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Playfair Display", serif;
   margin-top: -15px;
   font-size: 0.875rem;
 }
@@ -2531,7 +2531,14 @@ article.comment-body {
 # Base styles
 -------------------------------------------------------------- */
 
-/* line 5, assets/styles/base/_base.scss */
+/* line 4, assets/styles/base/_base.scss */
+
+body {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 16px !important;
+}
+
+/* line 9, assets/styles/base/_base.scss */
 
 img {
   max-width: 100%;
@@ -2539,14 +2546,14 @@ img {
 }
 
 @media (min-width: 576px) {
-  /* line 10, assets/styles/base/_base.scss */
+  /* line 14, assets/styles/base/_base.scss */
 
   .large-gutters {
     margin-right: -25px;
     margin-left: -25px;
   }
 
-  /* line 15, assets/styles/base/_base.scss */
+  /* line 19, assets/styles/base/_base.scss */
 
   .large-gutters > .col,
   .large-gutters > [class*="col-"] {
@@ -2556,14 +2563,14 @@ img {
 }
 
 @media (min-width: 576px) {
-  /* line 23, assets/styles/base/_base.scss */
+  /* line 27, assets/styles/base/_base.scss */
 
   .xl-gutters {
     margin-right: -60px;
     margin-left: -60px;
   }
 
-  /* line 28, assets/styles/base/_base.scss */
+  /* line 32, assets/styles/base/_base.scss */
 
   .xl-gutters > .col,
   .xl-gutters > [class*="col-"] {
@@ -2572,87 +2579,87 @@ img {
   }
 }
 
-/* line 36, assets/styles/base/_base.scss */
+/* line 40, assets/styles/base/_base.scss */
 
 .wp-caption-text {
   font-size: 0.875rem;
 }
 
-/* line 40, assets/styles/base/_base.scss */
+/* line 44, assets/styles/base/_base.scss */
 
 .z-index-back {
   z-index: 1;
 }
 
-/* line 44, assets/styles/base/_base.scss */
+/* line 48, assets/styles/base/_base.scss */
 
 .z-index-flower {
   z-index: -1;
 }
 
-/* line 48, assets/styles/base/_base.scss */
+/* line 52, assets/styles/base/_base.scss */
 
 .z-index-2 {
   z-index: 2;
 }
 
-/* line 52, assets/styles/base/_base.scss */
+/* line 56, assets/styles/base/_base.scss */
 
 .z-index-3 {
   z-index: 3;
 }
 
-/* line 56, assets/styles/base/_base.scss */
+/* line 60, assets/styles/base/_base.scss */
 
 .z-index-4 {
   z-index: 4;
 }
 
-/* line 60, assets/styles/base/_base.scss */
+/* line 64, assets/styles/base/_base.scss */
 
 .image-z-index {
   z-index: -2;
 }
 
-/* line 64, assets/styles/base/_base.scss */
+/* line 68, assets/styles/base/_base.scss */
 
 .object-fit-cover {
   -o-object-fit: cover;
   object-fit: cover;
 }
 
-/* line 69, assets/styles/base/_base.scss */
+/* line 73, assets/styles/base/_base.scss */
 
 .letter-space {
   letter-spacing: 3px;
 }
 
-/* line 74, assets/styles/base/_base.scss */
+/* line 78, assets/styles/base/_base.scss */
 
 .hover-color:hover {
   color: #747474;
 }
 
-/* line 79, assets/styles/base/_base.scss */
+/* line 83, assets/styles/base/_base.scss */
 
 .mt-130 {
   margin-top: -130px !important;
 }
 
-/* line 83, assets/styles/base/_base.scss */
+/* line 87, assets/styles/base/_base.scss */
 
 .display-block {
   display: block;
 }
 
-/* line 87, assets/styles/base/_base.scss */
+/* line 91, assets/styles/base/_base.scss */
 
 input:-internal-autofill-selected {
   -webkit-transition: background-color 5000s ease-in-out 0s;
   transition: background-color 5000s ease-in-out 0s;
 }
 
-/* line 92, assets/styles/base/_base.scss */
+/* line 96, assets/styles/base/_base.scss */
 
 input:-webkit-autofill-hover {
   -webkit-transition: background-color 5000s ease-in-out 0s;
@@ -2660,7 +2667,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (min-width: 992px) {
-  /* line 97, assets/styles/base/_base.scss */
+  /* line 101, assets/styles/base/_base.scss */
 
   .testimonials-negative-margin {
     margin-top: -55px;
@@ -2669,26 +2676,26 @@ input:-webkit-autofill-hover {
 }
 
 @media (min-width: 768px) {
-  /* line 104, assets/styles/base/_base.scss */
+  /* line 108, assets/styles/base/_base.scss */
 
   .position-md-absolute {
     position: absolute;
   }
 }
 
-/* line 110, assets/styles/base/_base.scss */
+/* line 114, assets/styles/base/_base.scss */
 
 .navbar-icon-size {
   font-weight: 700 !important;
 }
 
-/* line 114, assets/styles/base/_base.scss */
+/* line 118, assets/styles/base/_base.scss */
 
 #breadcrumbs {
   margin-bottom: 20px;
 }
 
-/* line 118, assets/styles/base/_base.scss */
+/* line 122, assets/styles/base/_base.scss */
 
 .sep {
   width: 6px;
@@ -2701,20 +2708,20 @@ input:-webkit-autofill-hover {
   margin: 0 5px;
 }
 
-/* line 130, assets/styles/base/_base.scss */
+/* line 134, assets/styles/base/_base.scss */
 
 .search__input-wrap {
   position: relative;
 }
 
-/* line 133, assets/styles/base/_base.scss */
+/* line 137, assets/styles/base/_base.scss */
 
 .search__input-wrap input[type="text"] {
   height: 52px;
   border: 2px solid #000;
   font-size: 1rem;
   line-height: 1.375rem;
-  font-family: "Fieldwork", sans-serif;
+  font-family: "Fieldwork", serif;
   font-weight: 400;
   letter-spacing: 0.22px;
   outline: none;
@@ -2722,7 +2729,7 @@ input:-webkit-autofill-hover {
   background: transparent;
 }
 
-/* line 146, assets/styles/base/_base.scss */
+/* line 150, assets/styles/base/_base.scss */
 
 .search__input-wrap .search__button {
   position: absolute;
@@ -2738,6 +2745,12 @@ input:-webkit-autofill-hover {
           mask-repeat: no-repeat;
   border: none;
   background: #000;
+}
+
+/* line 165, assets/styles/base/_base.scss */
+
+.margin-30-0 {
+  margin: 30px auto;
 }
 
 /* --------------------------------------------------------------

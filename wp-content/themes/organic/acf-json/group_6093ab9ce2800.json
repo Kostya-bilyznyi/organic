@@ -56,7 +56,7 @@
                             "required": 1,
                             "conditional_logic": 0,
                             "wrapper": {
-                                "width": "",
+                                "width": "50",
                                 "class": "",
                                 "id": ""
                             },
@@ -80,7 +80,7 @@
                             "required": 1,
                             "conditional_logic": 0,
                             "wrapper": {
-                                "width": "",
+                                "width": "50",
                                 "class": "",
                                 "id": ""
                             },
@@ -250,9 +250,9 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "return_format": "",
+                                    "return_format": "array",
                                     "preview_size": "medium",
-                                    "library": "",
+                                    "library": "all",
                                     "min_width": "",
                                     "min_height": "",
                                     "min_size": "",
@@ -310,9 +310,9 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "return_format": "",
+                                    "return_format": "array",
                                     "preview_size": "medium",
-                                    "library": "",
+                                    "library": "all",
                                     "min_width": "",
                                     "min_height": "",
                                     "min_size": "",
@@ -554,5 +554,5 @@
     ],
     "active": true,
     "description": "",
-    "modified": 1620292108
+    "modified": 1620310357
 }
