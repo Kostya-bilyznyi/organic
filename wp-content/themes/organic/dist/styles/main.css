@@ -2753,6 +2753,12 @@ input:-webkit-autofill-hover {
   margin: 30px auto;
 }
 
+/* line 169, assets/styles/base/_base.scss */
+
+.single-team__info {
+  text-align: center;
+}
+
 /* --------------------------------------------------------------
 # Header
 -------------------------------------------------------------- */
