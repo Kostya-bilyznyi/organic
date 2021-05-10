@@ -3,7 +3,7 @@ define('THEME_DIR', get_template_directory());
 define('THEME_DIR_URI', get_template_directory_uri());
 
 // Temporary HTML layouts
-$temp_html_dir = THEME_DIR_URI .'/junno/'; // TODO: delete before production
+$temp_html_dir = THEME_DIR_URI .'/organic/'; // TODO: delete before production
 
 require_once THEME_DIR .'/inc/helpers/file.php';
 require_once THEME_DIR .'/inc/helpers/theme.php';
