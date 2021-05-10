@@ -5,6 +5,10 @@
   position: relative;
 }
 
+.commentlist {
+  padding: 0;
+}
+
 .comment-awaiting-moderation {
   font-size: 0.9375rem;
   color: red;
@@ -75,7 +79,7 @@ body {
 
 .comment,
 .comment_container {
-  margin: 0 0 60px;
+  margin: 0 0 30px;
   list-style-type: none;
 }
 
@@ -145,7 +149,6 @@ body {
 .comment .reply a,
 .comment_container .reply a {
   font-size: 0.875rem;
-  background: #000;
   border-radius: 2px;
   color: #6c757d;
   display: inline-block;
@@ -153,7 +156,6 @@ body {
   font-weight: 500;
   padding: 0.2em 0.65em;
   margin-left: -1px;
-  -webkit-transition: 150ms color cubic-bezier(0.3, -0.55, 0.1, 1.1);
   transition: 150ms color cubic-bezier(0.3, -0.55, 0.1, 1.1);
 }
 
@@ -183,6 +185,8 @@ body {
 .comment-body,
 .comment_container-body {
   clear: both;
+  //   border: 1px solid gray;
+  margin-bottom: 30px;
 }
 
 .comment .comment-respond,
@@ -326,7 +330,7 @@ article {
 .comment-respond {
   p {
     position: relative;
-    margin-bottom: 20px;
+    //  margin-bottom: 20px;
   }
 
   .form-submit {

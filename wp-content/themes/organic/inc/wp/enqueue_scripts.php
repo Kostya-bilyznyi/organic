@@ -3,6 +3,9 @@
  * Theme CSS & JS
  */
 function theme_scripts() {
+		
+	// WP comments
+	wp_enqueue_script('comment-reply');
 
 	// Main CSS
 	wp_enqueue_style('main-stylesheet', asset_path( 'styles/main.css' ), false, '1.0.0');
@@ -25,3 +28,4 @@ function theme_scripts() {
 	wp_localize_script('main-javascript', 'themeVars', $theme_vars);
 }
 add_action('wp_enqueue_scripts', 'theme_scripts');
+
