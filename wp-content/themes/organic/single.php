@@ -65,9 +65,9 @@ $post_author = get_the_author();  ?>
           <div class="row justify-content-lg-center mt-4">
             <div class="col-lg-8">
               <!-- Comments Area-->
-              <div class="comments comments-area container-small mt-4" id="comments">
-                <div class="comment-respond" id="respond">
-						<?php comments_template(); ?> 
+              <div class="comments comments-area container-small mt-4">
+                <div class="comment-respond">
+						<?php comments_template(); ?>
                 </div>
                 <!-- #respond-->
               </div>
