@@ -11,7 +11,7 @@ import 'magnific-popup/dist/jquery.magnific-popup.min.js';
 import 'flickity/dist/flickity.pkgd.min.js';
 import 'jquery-countto/jquery.countTo.js';
 import 'masonry-layout/dist/masonry.pkgd.min.js';
-
+import './modules/teamArchive';
 
 (function ($) {
 	"use strict";

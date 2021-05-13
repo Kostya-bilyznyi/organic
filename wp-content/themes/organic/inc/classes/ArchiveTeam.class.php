@@ -1,143 +1,118 @@
 <?php
 class ArchiveTeam {
-	// Свойства класса (по умолчанию пустые, данные появляются после вызова определенных методов)
-	public $html_departments; // HTML код списка департаментов (ссылки-переключатели)
-	public $final_data; // Ассоциативный массив: 1-й уровень - ID департамента, 2-й уровень - данные сотрудников
+	public $html_departments; 
+	public $array_with_members_in_departaments; 
 
-	/**
-	 * Метод, который обрабатывает данные всех департаментов
-	 */
 	function get_departments() {
-		// Получаем массив со всеми департаментами
-		$departments_data = get_terms(array(
+		$departments_list = get_terms( array(
 			'taxonomy' => 'departments'
 		));
 
-		// Присваиваем свойству открытие HTML списка (перед циклом)
-		$this->html_departments = '<ul>';
+		$this->html_departments = '<ul class="org-team-section__departments-list">';
+		$active_counter = 1;
 
-		// Начало цикла по перебору каждого департамента из массива
-		$dep_count = 0;
-		foreach($departments_data as $repartment) {
-			$dep_count++;
+		foreach( $departments_list as $department_item ) {
+			$departmen_id = $department_item->term_id;
+			$departmen_name = $department_item->name;
+			$departmen_class = ( $active_counter == 1 ) ? 'active' : null;
+			$active_counter++;
 
-			// Получаем нужные данные из массива
-			$dep_id = $repartment->term_id;
-			$dep_name = $repartment->name;
-			$dep_class = ($dep_count == 1) ? 'active' : null;
-
-			// Для свойства final_data создаем N элементов массива, где ключ массива будет равен ID департамента, каждый такой элемент будет содержать пустой массив
-			$this->final_data[$dep_id] = array();
-
-			// Строим HTML элементы всех департаментов
-			$this->html_departments .= '<li><a href="#" class="'. $dep_class .'" data-department="'. $dep_id .'">'. $dep_name .'</a></li>';
+			$this->array_with_members_in_departaments[$departmen_id] = array();
+			$this->html_departments .= '<li><a class="org-team-section__departments-link ' . $departmen_class . '" href="#" data-department="' . $departmen_id . '">' . $departmen_name . '</a></li>';
 		}
 
-		// Заканчиваем вносить данные в свойство (после цикла)
 		$this->html_departments .= '</ul>';
-
-		// В данном методе нет return, так как данные заносятся в свойства класса ($this->final_data, $this->html_departments)
 	}
 
-	/**
-	 * Метод, который обрабатывает данные всех сотрудников
-	 */
+
 	function get_team_lists() {
-		// Получение всех кастомных постов Team
-		$team_data = get_posts(array(
-			'post_type' => 'team',
+		$all_team = get_posts( array(
+			'post_type'   => 'team',
+			'post_status' =>'publish',
+			'order'       => 'DESC',
+			'orderby'	  => 'name',
 			'numberposts' => -1
 		));
 
-		// Перебор в цикле каждого сотрудника
-		foreach($team_data as $team_item) {
-			// Получение нужных данных из массива
-			$member_id = $team_item->ID;
+		foreach( $all_team as $team_item ) {
 			$member_title = $team_item->post_title;
-			$member_position = get_field('position', $member_id);
+			$member_id = $team_item->ID;
+			$member_position = get_field( 'employee_position', $member_id );
+			$member_quote = get_field( 'employee_quote', $member_id );
 
-			// Получение аватара
-			$member_avatar = get_the_post_thumbnail_url($member_id);
-			$member_avatar = (empty($member_avatar)) ? THEME_DIR_URI .'/assets/images/pages/team/no_avatar.jpg' : $member_avatar;
+			$member_avatar = get_the_post_thumbnail_url( $member_id );
+			$member_avatar = ( empty( $member_avatar ) ) ? THEME_DIR_URI .'/assets/images/team/no_avatar.png' : $member_avatar;
+			$member_avatar_alt = get_post_meta( get_post_thumbnail_id( $member_id ), '_wp_attachment_image_alt', true );
 
-			// ID департамента
-			$member_department_id = get_the_terms($member_id, 'departments');
-			$member_department_id = (isset($member_department_id[0])) ? $member_department_id[0]->term_id : null;
+			$member_department_id = get_the_terms( $member_id, 'departments' );
+			$member_department_id = ( isset( $member_department_id[0] ) ) ? $member_department_id[0]->term_id : null;
 
-			// Создание элемента массива для глобального свойства final_data, где мы в начале указываем ключ массива в виде ID департамента (1-й уровень), а в пустых [] — указываем, чтобы создалось N количество элементов 2-го уровня
-			$this->final_data[$member_department_id][] = array(
-				'avatar' => $member_avatar,
-				'name' => $member_title,
-				'position' => $member_position,
+			$this->array_with_members_in_departaments[$member_department_id][] = array(
+				'avatar'        => $member_avatar,
+				'avatar_alt'    => $member_avatar_alt,
+				'name'          => $member_title,
+				'position'      => $member_position,
+				'quote'			 => $member_quote,
 				'department_id' => $member_department_id
 			);
 		}
-
-		// В данном методе нет return, так как данные заносятся в свойства класса ($this->final_data)
 	}
 
-	/**
-	 * Создание HTML списка департаментов (с сотрудниками) на основании данных  свойства $this->final_data
-	 */
-	function display_departments_lists() {
+
+	function display_departments_list() {
 		$html_departments_list = null;
+		$active_counter = 1;
 
-		// Перебор департаментов в цикле (1 цикл - 1 департамент)
-		$dep_count = 0;
-		foreach($this->final_data as $key => $department_members) {
-			$dep_count++;
-			$dep_class = ($dep_count == 1) ? 'active' : null;
+		foreach( $this->array_with_members_in_departaments as $key => $department_member ) {
 
-			// Перебор сотрудников  в цикле (1 цикл - 1 сотрудник) (цикл в цикле, так как массив $this->final_data у нас состоит из 2 уровней: 1-й уровень - ID департамента, 2-й уровень - данные сотрудников)
+			$departmen_class = ( $active_counter == 1 ) ? 'active' : null;
+			$active_counter++;
 			$html_members = null;
-			foreach($department_members as $dep_member) {
-				// Подготавливаем HTML каждого сотрудника
+
+			foreach( $department_member as $department_member ) {
 				$html_members .= <<<HTML
-		<a href="#" class="team_member">
-			<div class="team_avatar"><img src="{$dep_member['avatar']}" alt=""></div>
-			<div class="team_name">{$dep_member['name']}</div>
-			<div class="team_position">{$dep_member['position']}</div>
+		<a href="#" class="team-member">
+			<div class="team-member__avatar">
+				<img src="{$department_member['avatar']}" alt="{$department_member['avatar_alt']}">
+			</div>
+			<div class="team-member__wrapper">
+				<div class="team-member__name">{$department_member['name']}</div>
+				<div class="team-member__position">{$department_member['position']}</div>
+				<div class="team-member__quote">{$department_member['quote']}</div>
+			</div>
 		</a>
 HTML;
 			}
 
-			// Создаем HTML-обертку департамента, внутри которого выводим всех сотрудников департамента
-			$html_departments_list .= <<<HTML
-		<div class="department_list {$dep_class}" data-department="{$key}">
-			<div class="list_inner">
+	$html_departments_list .= <<<HTML
+		<div class="workers-list {$departmen_class}" data-department="{$key}">
+			<div class="workers-list__wrapper">
 				{$html_members}
 			</div>
 		</div>
 HTML;
 
 		}
-
-		// Возвращаем готовый HTML
 		return $html_departments_list;
 	}
 
-	/**
-	 * Основной метод, который мы вызываем на странице archive-team.php
-	 */
+
 	function display() {
-		// Мы вызываем методы, которые вносят изменения в глобальные свойства класса, так что их мы выводим без присвояния к переменной
 		$this->get_departments();
 		$this->get_team_lists();
-
-		// Получаем HTML всех департаментов (с сотрудниками)
-		$html_departments_lists = $this->display_departments_lists();
+		$html_departments_lists = $this->display_departments_list();
 
 		$block = <<<HTML
-<div class="team_page container">
+<section class="org-team-section">
 	<div class="row">
-		<div class="team_departments">
+		<div class="org-team-section__departments">
 			{$this->html_departments}
 		</div>
-		<div class="team_lists">
+		<div class="org-team-section__members-lists">
 			{$html_departments_lists}
 		</div>
 	</div>
-</div>
+</section>
 HTML;
 
 		return $block;

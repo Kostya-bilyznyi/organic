@@ -74,7 +74,7 @@ module.exports = jQuery;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(2);
-module.exports = __webpack_require__(11);
+module.exports = __webpack_require__(12);
 
 
 /***/ }),
@@ -99,10 +99,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_jquery_countto_jquery_countTo_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_jquery_countto_jquery_countTo_js__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_masonry_layout_dist_masonry_pkgd_min_js__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_masonry_layout_dist_masonry_pkgd_min_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_masonry_layout_dist_masonry_pkgd_min_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__modules_teamArchive__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__modules_teamArchive___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__modules_teamArchive__);
 /**
  * Theme javascript functions file.
  *
  */
+
 
 
 
@@ -3743,6 +3746,30 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_LO
 
 /***/ }),
 /* 11 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function($) {$(document).ready(function () {
+  if ($('.org-team-section').length > 0) {
+    $('.org-team-section__departments-link').on('click', function (e) {
+      e.preventDefault();
+      var link = $(this);
+
+      if (link.hasClass('active')) {
+        return false;
+      }
+
+      var departmentId = link.attr('data-department');
+      $('.org-team-section__departments-link.active').removeClass('active');
+      link.addClass('active');
+      $('.workers-list.active').removeClass('active');
+      $(".workers-list[data-department=".concat(departmentId, "]")).addClass('active');
+    });
+  }
+});
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+
+/***/ }),
+/* 12 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin

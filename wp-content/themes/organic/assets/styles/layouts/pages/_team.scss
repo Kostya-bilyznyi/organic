@@ -26,3 +26,83 @@
     }
   }
 }
+
+.org-team-section {
+  &__departments {
+    padding: 20px 0;
+  }
+
+  &__departments-list {
+    text-align: center;
+
+    li {
+      display: inline-block;
+
+      a {
+        font-size: 20px;
+        color: #7ea889;
+        padding: 10px 12px;
+        border-radius: 10px;
+        transition: 0.3s ease-in-out;
+
+        &.active {
+          background: #7ea889;
+          color: #fff;
+          transition: 0.3s ease-in-out;
+        }
+      }
+    }
+  }
+
+  &__members-lists {
+    .workers-list {
+      flex-wrap: wrap;
+      display: none;
+      transition: 0.3s ease-in-out;
+
+      &.active {
+        display: block;
+        transition: 0.3s ease-in-out;
+      }
+
+      &__wrapper {
+        display: flex;
+        flex-direction: column;
+
+        .team-member {
+          width: 100%;
+          padding: 20px;
+          display: flex;
+
+          @media screen and (max-width: 640px) {
+            flex-direction: column;
+            align-items: center;
+          }
+
+          &__avatar {
+            border-radius: 50%;
+            width: 60%;
+            overflow: hidden;
+          }
+
+          &__wrapper {
+            padding: 20px;
+          }
+
+          &__name {
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            padding-top: 20px;
+          }
+
+          &__position {
+            text-transform: uppercase;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}

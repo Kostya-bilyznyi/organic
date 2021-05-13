@@ -67,7 +67,7 @@ $post_author = get_the_author();  ?>
               <!-- Comments Area-->
               <div class="comments comments-area container-small mt-4">
                 <div class="comment-respond">
-						<?php comments_template(); ?>
+						<?php comments_template(); ?>;
                 </div>
                 <!-- #respond-->
               </div>

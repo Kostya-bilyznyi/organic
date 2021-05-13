@@ -4104,6 +4104,129 @@ p.has-drop-cap:not(:focus)::first-letter {
   margin-top: 20px;
 }
 
+/* line 31, assets/styles/layouts/pages/_team.scss */
+
+.org-team-section__departments {
+  padding: 20px 0;
+}
+
+/* line 35, assets/styles/layouts/pages/_team.scss */
+
+.org-team-section__departments-list {
+  text-align: center;
+}
+
+/* line 38, assets/styles/layouts/pages/_team.scss */
+
+.org-team-section__departments-list li {
+  display: inline-block;
+}
+
+/* line 41, assets/styles/layouts/pages/_team.scss */
+
+.org-team-section__departments-list li a {
+  font-size: 20px;
+  color: #7ea889;
+  padding: 10px 12px;
+  border-radius: 10px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+/* line 48, assets/styles/layouts/pages/_team.scss */
+
+.org-team-section__departments-list li a.active {
+  background: #7ea889;
+  color: #fff;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+/* line 58, assets/styles/layouts/pages/_team.scss */
+
+.org-team-section__members-lists .workers-list {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: none;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+/* line 63, assets/styles/layouts/pages/_team.scss */
+
+.org-team-section__members-lists .workers-list.active {
+  display: block;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+/* line 68, assets/styles/layouts/pages/_team.scss */
+
+.org-team-section__members-lists .workers-list__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 72, assets/styles/layouts/pages/_team.scss */
+
+.org-team-section__members-lists .workers-list__wrapper .team-member {
+  width: 100%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 640px) {
+  /* line 72, assets/styles/layouts/pages/_team.scss */
+
+  .org-team-section__members-lists .workers-list__wrapper .team-member {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/* line 82, assets/styles/layouts/pages/_team.scss */
+
+.org-team-section__members-lists .workers-list__wrapper .team-member__avatar {
+  border-radius: 50%;
+  width: 60%;
+  overflow: hidden;
+}
+
+/* line 88, assets/styles/layouts/pages/_team.scss */
+
+.org-team-section__members-lists .workers-list__wrapper .team-member__wrapper {
+  padding: 20px;
+}
+
+/* line 92, assets/styles/layouts/pages/_team.scss */
+
+.org-team-section__members-lists .workers-list__wrapper .team-member__name {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* line 100, assets/styles/layouts/pages/_team.scss */
+
+.org-team-section__members-lists .workers-list__wrapper .team-member__position {
+  text-transform: uppercase;
+  text-align: center;
+}
+
 /* --------------------------------------------------------------
 # 404 Page
 -------------------------------------------------------------- */
