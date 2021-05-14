@@ -1,5 +1,5 @@
 <?php
-class AboutUs {
+class FlexibleContent {
 
 	function text_and_image_2_columns($data) {
 		$layout = $data['layout'];

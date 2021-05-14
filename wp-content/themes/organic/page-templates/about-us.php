@@ -3,9 +3,9 @@
  * Template Name: About us page
  *
  */
-require_once THEME_DIR . '/inc/classes/PageAboutUs.class.php';
+require_once THEME_DIR . '/inc/classes/FlexibleContent.class.php';
 
-$content = new AboutUs();
+$content = new FlexibleContent();
 $acf_fields = get_field('content');
 
 get_header(); ?>
@@ -32,6 +32,10 @@ get_header(); ?>
 
 						case 'big_text_small_text_columns_and_2_images':
 							echo $content->big_text_small_text_columns_and_2_images($about_block);
+							break;
+
+						case 'hero_section':
+							echo $content->hero_section($about_block);
 							break;
 					}
 

@@ -74,7 +74,7 @@ module.exports = jQuery;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(2);
-module.exports = __webpack_require__(12);
+module.exports = __webpack_require__(13);
 
 
 /***/ }),
@@ -101,10 +101,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_masonry_layout_dist_masonry_pkgd_min_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_masonry_layout_dist_masonry_pkgd_min_js__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__modules_teamArchive__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__modules_teamArchive___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__modules_teamArchive__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__modules_google_map__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__modules_google_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__modules_google_map__);
 /**
  * Theme javascript functions file.
  *
  */
+
 
 
 
@@ -3770,6 +3773,125 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_LO
 
 /***/ }),
 /* 12 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function($, jQuery) {//=================================\\
+// Google Map Settings \\
+//=================================\\
+var acf_map = $('.acf-map');
+
+if (acf_map.length) {
+  (function ($) {
+    /**
+     * initMap
+     *
+     * Renders a Google Map onto the selected jQuery element
+     *
+     * @date    22/10/19
+     * @since   5.8.6
+     *
+     * @param   jQuery $el The jQuery element.
+     * @return  object The map instance.
+     */
+    function initMap($el) {
+      // Find marker elements within map.
+      var $markers = $el.find('.marker'); // Create gerenic map.
+
+      var mapArgs = {
+        zoom: $el.data('zoom') || 13,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        disableDefaultUI: true
+      };
+      var map = new google.maps.Map($el[0], mapArgs); // Add markers.
+
+      map.markers = [];
+      $markers.each(function () {
+        initMarker($(this), map);
+      }); // Center map based on markers.
+
+      centerMap(map); // Return map instance.
+
+      return map;
+    }
+    /**
+     * initMarker
+     *
+     * Creates a marker for the given jQuery element and map.
+     *
+     * @date    22/10/19
+     * @since   5.8.6
+     *
+     * @param   jQuery $el The jQuery element.
+     * @param   object The map instance.
+     * @return  object The marker instance.
+     */
+
+
+    function initMarker($marker, map) {
+      // Get position from marker.
+      var lat = $marker.data('lat');
+      var lng = $marker.data('lng');
+      var latLng = {
+        lat: parseFloat(lat),
+        lng: parseFloat(lng)
+      };
+      var icon1 = $marker.data('marker'); // Create marker instance.
+
+      var marker = new google.maps.Marker({
+        position: latLng,
+        icon: icon1,
+        url: 'https://www.google.com/maps/search/?api=1&query=' + lat + ',' + lng,
+        map: map
+      }); // Append to reference for later use.
+
+      map.markers.push(marker); // Open Google Maps in a new tab when marker is clicked.
+
+      google.maps.event.addListener(marker, 'click', function () {
+        window.open(this.url, '_blank');
+      });
+    }
+    /**
+     * centerMap
+     *
+     * Centers the map showing all markers in view.
+     *
+     * @date    22/10/19
+     * @since   5.8.6
+     *
+     * @param   object The map instance.
+     * @return  void
+     */
+
+
+    function centerMap(map) {
+      // Create map boundaries from all map markers.
+      var bounds = new google.maps.LatLngBounds();
+      map.markers.forEach(function (marker) {
+        bounds.extend({
+          lat: marker.position.lat(),
+          lng: marker.position.lng()
+        });
+      }); // Case: Single marker.
+
+      if (map.markers.length == 1) {
+        map.setCenter(bounds.getCenter()); // Case: Multiple markers.
+      } else {
+        map.fitBounds(bounds);
+      }
+    } // Render maps on page load.
+
+
+    $(document).ready(function () {
+      $('.acf-map').each(function () {
+        initMap($(this));
+      });
+    });
+  })(jQuery);
+}
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0), __webpack_require__(0)))
+
+/***/ }),
+/* 13 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin

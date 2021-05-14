@@ -20,3 +20,22 @@ HTML;
 
 	return $block;
 }
+
+function init_google_map() {
+	function js_google_map() {
+		$key = get_field('general_data_google_api_key', 'option');
+		wp_enqueue_script( 'maps-javascript', "//maps.googleapis.com/maps/api/js?key=$key&language=en", [], null, true );
+	}
+	add_action('wp_enqueue_scripts', 'js_google_map');
+}
+
+
+if ( ! function_exists('local_acf_google_map_api') ) :
+
+	function local_acf_google_map_api( $api ) {
+		$api['key'] = get_field('general_data_google_api_key', 'option');
+		return $api;
+	}
+	add_filter('acf/fields/google_map/api', 'local_acf_google_map_api');
+
+endif;

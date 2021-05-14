@@ -19,6 +19,10 @@ function theme_scripts() {
 	// Main JS
 	wp_enqueue_script('main-javascript', asset_path('scripts/main.js'), [ 'jquery' ], '1.0.0', true);
 
+	// Enqueue the Google maps JS file.
+	// $key = get_field('general_data_google_api_key', 'option');
+	// wp_enqueue_script( 'maps-javascript', "//maps.googleapis.com/maps/api/js?key=$key&language=en", array( 'jquery' ), '1.0.0', true );
+
 	// Throw variables to front-end
 	$theme_vars = array(
 		'home'   => get_home_url(),

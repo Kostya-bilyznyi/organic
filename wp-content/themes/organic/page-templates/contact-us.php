@@ -5,40 +5,54 @@
  */
 // require_once THEME_DIR . '/inc/classes/PageAboutUs.class.php';
 
+init_google_map();
+require_once THEME_DIR . '/inc/classes/FlexibleContent.class.php';
+require_once THEME_DIR . '/inc/classes/ContactUs.class.php';
 
+$content = new FlexibleContent();
+$advansed_fields = new ContactUs();
+$acf_fields = get_field('content');
 get_header(); ?>
+
     <article class="entry">
       <div class="entry-content">
-        <!-- contact form-->
-        <div class="small-bg-contact-us">
-          <div class="container">
-            <div class="row gx-lg-5 card-post-style">
-              <div class="col-lg-12">
-                <artical>
-                  <div class="row gx-lg-5 pt-px-lg-151 pb-px-lg-151 pt-px-md-40 pb-px-md-70 pt-px-24 pb-px-60">
-                    <div class="col-lg-6 order-lg-1">
-                      <div class="d-lg-none"><img class="mb-px-lg-0 mb-px-md-40 mb-px-30 height-px-355 object-fit-cover w-100" src="assets/images/contact-us/c6.jpg" alt="contact-us-hero-image"/>
-                      </div>
-                    </div>
-                    <div class="col-lg-6 my-auto">
-                      <div class="position-relative">
-                        <div class="me-px-lg-80 mt-px-4">
-                          <h5 class="font-letter-space mb-px-7">About us</h5>
-                          <h1>Contact us</h1>
-                          <p class="lead mb-px-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vestibulum urna augue. Duis sit maximus commodo hendrerit lorem maximus mi.</p><img class="d-lg-block d-none position-absolute top-px-n-lg-60 start-px-n-lg-84" src="assets/images/flowers/flower.png" alt="hero flower image"/>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </artical>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="overflow-hidden">
+			<?php echo get_theme_page_title_block( get_the_title(), false, false );
+			if(!empty($acf_fields)) :
+				foreach($acf_fields as $about_block) :
+
+					$layout = $about_block['acf_fc_layout'];
+
+					switch($layout) {
+						case 'text_and_image_2_columns':
+							echo $content->text_and_image_2_columns($about_block);
+							break;
+
+						case '3_images_3_columns':
+							echo $content->images_3_columns($about_block);
+							break;
+
+						case 'text_and_image_3_columns':
+							echo $content->text_and_image_3_columns($about_block);
+							break;
+
+						case 'big_text_small_text_columns_and_2_images':
+							echo $content->big_text_small_text_columns_and_2_images($about_block);
+							break;
+
+						case 'hero_section':
+							echo $content->hero_section($about_block);
+							break;
+					}
+
+				endforeach;
+			endif; ?>
+
+			<?php
+			echo $advansed_fields->get_offises(); ?>
+        <!-- <div class="overflow-hidden">
           <div class="container mt-lg-8 mt-md-7 mt-4"> 
             <div class="row gx-lg-5">
-              <div class="col-lg-4 mb-0"><img class="height-px-408 w-100 object-fit-cover" src="assets/images/contact-us/c2.jpg" alt="contact-us-1">
+              <div class="col-lg-4 mb-0">
                 <div class="bg-texture-image py-4 px-4">
                   <div class="py-3 px-3">
                     <h4 class="mb-4">Our London Shop</h4>
@@ -47,7 +61,7 @@ get_header(); ?>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4"><img class="height-px-408 w-100 object-fit-cover" src="assets/images/contact-us/c3.jpg" alt="contact-us-2">
+              <div class="col-lg-4">
                 <div class="bg-texture-image py-4 px-4">
                   <div class="py-3 px-3">
                     <h4 class="mb-4">Our Amsterdam Shop</h4>
@@ -68,33 +82,11 @@ get_header(); ?>
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- form and map-->
-        <div class="container my-lg-8 my-md-7 my-5">
-          <div class="container">
-            <div class="row gx-lg-5">
-              <div class="col-lg-5">
-                <div class="position-relative"><img class="mb-lg-0 mb-5 height-px-383 w-100 object-fit-cover" src="assets/images/contact-us/c5.jpg" alt="contact-us-5"><img class="z-index-flower d-lg-block d-none position-absolute top-px-lg-10 start-px-n-lg-36" src="assets/images/flowers/1.png" alt="1 flower image"></div>
-                <div class="bg-texture-image py-4 px-4">
-                  <div class="py-3 px-3">
-                    <h4 class="mb-4">We're here to help</h4>
-                    <p class="mb-0">If you have any questions about our website </p>please email web@email.com, fill out the form 
-                    or call +44 650.800.3124.
-                    <p class="mt-4">Monday to Friday, 10am-5pm</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-7 my-auto">
-                <div class="ms-px-lg-32 me-px-lg-40">
-                  <!-- form-->
-                  <div class="pr-lg-5 pb-md-0">
-							<?php echo do_shortcode('[contact-form-7 id="215" title="Contact form 1"]'); ?>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+         <?php
+			echo $advansed_fields->get_form();
+         echo $advansed_fields->get_map(); ?>
       </div>
     </article>
 <?php

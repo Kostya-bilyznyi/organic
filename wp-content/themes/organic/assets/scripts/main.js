@@ -12,6 +12,7 @@ import 'flickity/dist/flickity.pkgd.min.js';
 import 'jquery-countto/jquery.countTo.js';
 import 'masonry-layout/dist/masonry.pkgd.min.js';
 import './modules/teamArchive';
+import './modules/google-map';
 
 (function ($) {
 	"use strict";

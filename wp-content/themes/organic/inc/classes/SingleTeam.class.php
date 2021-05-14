@@ -68,14 +68,24 @@ HTML;
 
 	function get_team_images() {
 		$left_image = $this->acf_fields['left_image'];
-		$left_image_url = $left_image['url'];
-		$left_image_alt = $left_image['alt'];
-		$left_image_html = '<img class="height-px-853 w-100 object-fit-cover" src="' . $left_image_url . '" alt="' . $left_image_alt . '">';
+		if( !empty( $left_image ) ) :
+			$left_image_url = $left_image['url'];
+			$left_image_alt = $left_image['alt'];
+			$left_image_html = '<img class="height-px-853 w-100 object-fit-cover" src="' . $left_image_url . '" alt="' . $left_image_alt . '">';
+		else :
+			$left_image = THEME_DIR_URI .'/assets/images/team/no_avatar.png';
+			$left_image_html = '<img class="height-px-853 w-100 object-fit-cover" src="' . $left_image . '" alt="left_image">';
+		endif; 
 
 		$right_image = $this->acf_fields['right_image'];
-		$right_image_url = $right_image['url'];
-		$right_image_alt = $right_image['alt'];
-		$right_image_html = '<img class="height-px-853 w-100 object-fit-cover" src="' . $right_image_url . '" alt="' . $right_image_alt . '">';
+		if( !empty( $right_image ) ) :
+			$right_image_url = $right_image['url'];
+			$right_image_alt = $right_image['alt'];
+			$right_image_html = '<img class="height-px-853 w-100 object-fit-cover" src="' . $right_image_url . '" alt="' . $right_image_alt . '">';
+		else :
+			$right_image = THEME_DIR_URI .'/assets/images/team/no_avatar.png';
+			$right_image_html = '<img class="height-px-853 w-100 object-fit-cover" src="' . $right_image . '" alt="right_image">';
+		endif;
 
 		$block = <<<HTML
 <div class="col-lg-6 mb-lg-0 mb-5">

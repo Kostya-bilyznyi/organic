@@ -48,13 +48,16 @@ class ArchiveTeam {
 			$member_department_id = get_the_terms( $member_id, 'departments' );
 			$member_department_id = ( isset( $member_department_id[0] ) ) ? $member_department_id[0]->term_id : null;
 
+			$member_link = get_permalink($member_id);
+
 			$this->array_with_members_in_departaments[$member_department_id][] = array(
 				'avatar'        => $member_avatar,
 				'avatar_alt'    => $member_avatar_alt,
 				'name'          => $member_title,
 				'position'      => $member_position,
 				'quote'			 => $member_quote,
-				'department_id' => $member_department_id
+				'department_id' => $member_department_id,
+				'link'			 => $member_link
 			);
 		}
 	}
@@ -72,7 +75,7 @@ class ArchiveTeam {
 
 			foreach( $department_member as $department_member ) {
 				$html_members .= <<<HTML
-		<a href="#" class="team-member">
+		<a href="{$department_member['link']}" class="team-member">
 			<div class="team-member__avatar">
 				<img src="{$department_member['avatar']}" alt="{$department_member['avatar_alt']}">
 			</div>
