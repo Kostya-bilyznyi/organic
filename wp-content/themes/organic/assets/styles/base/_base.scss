@@ -169,3 +169,17 @@ input:-webkit-autofill-hover {
 .single-team__info {
   text-align: center;
 }
+
+.img-100px {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.mb-px-60 {
+  margin-bottom: 60px;
+
+  @media screen and (max-width: 640px) {
+    margin-bottom: 0;
+  }
+}

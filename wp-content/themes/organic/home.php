@@ -51,7 +51,6 @@ $post_pagonation_htnl = '<div class="col-md-12 nav-wrapper">'. get_the_posts_pag
 						}
 					?>
               </div>
-              <!-- <div class="text-center align-items-center mt-5"><a class="btn btn-parsley" href="#">Load More</a></div> -->
             </div>
             <div class="col-lg-4 mb-7">
 					<?php dynamic_sidebar('blog-right-sidebar'); ?>

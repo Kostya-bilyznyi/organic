@@ -218,8 +218,179 @@ THRE;
 	</div>
 </div>
 MEGA;
+		return $block;
+	}
+
+
+	function text_and_slider($data) {
+
+		$content = $data['content'];
+		$link = $data['link'];
+		$link_url = $link['url'];
+		$link_title = $link['title'];
+		$link_html = '<a class="btn btn-parsley" href="' . $link_url . '">' . $link_title . '</a>';
+
+		$slider_list = $data['slider'];
+		$html_slider = null;
+		$slider_counter = 1;
+
+		foreach ( $slider_list as $slider_item ) {
+
+			$image_url = $slider_item['image']['url'];
+			$image_alt = $slider_item['image']['alt'];
+			$slide_content = $slider_item['text'];
+			$slider_class = ( $slider_counter == 1 ) ? 'active' : null;
+			$slider_counter++;
+			
+			$html_slider .= <<<HTML
+<div class="carousel-item pb-px-lg-50 {$slider_class}">
+	<div class="position-relative">
+		<img class="d-block w-100 height-px-520 object-fit-cover w-100" src="{$image_url}" alt="{$image_alt}">
+		<div class="position-absolute top-50 end-0">
+			<div class="me-px-50 mt-px-lg-145 mt-px-md-151">
+				<div class="bg-white mb-px-n-50 border-radius-home ps-px-30 pe-px-30 pt-px-28 pb-px-32">
+					{$slide_content}
+					<div class="mt-px-14">
+						<a class="h6 btn-link border-2 border-bottom shop-button-style" href="single-product.html">Add to cart</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+HTML;
+		}
+		
+
+		$block = <<<HTML
+<div class="bg-texture-image pt-px-lg-120 pb-px-lg-120 pt-px-md-80 pb-px-md-70 pt-px-30 pb-px-60 overflow-hidden">
+	<div class="container">
+		<div class="row gx-lg-5">
+			<div class="col-lg-5 order-lg-1 mb-lg-0 mb-px-md-40 mb-px-30">
+				<div class="position-relative">
+					<div class="carousel slide z-index-back me-px-lg-0 me-px-md-60" id="carouselExampleControls" data-bs-ride="carousel">
+						<div class="carousel-inner">
+							{$html_slider}
+						</div>
+						<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-7 my-auto pe-px-lg-150">
+				<div class="me-px-lg-100 me-px-md-60">
+					{$content}
+					{$link_html}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+HTML;
+		return $block;
+	}
+
+
+	function image_text_repiter($data) {
+		$image_url = $data['image']['url'];
+		$image_alt = $data['image']['alt'];
+		$html_image = '<img class="z-index-3 height-px-780 w-100 object-fit-cover" src="' . $image_url . '" alt="' . $image_alt . '">';
+		
+		$content = $data['content'];
+
+		$repiter_list = $data['advantages'];
+		$html_repiter = null;
+
+		foreach ( $repiter_list as $repiter_item ) {
+
+			$image_url = $repiter_item['image']['url'];
+			$image_alt = $repiter_item['image']['alt'];
+			$repiter_content = $repiter_item['content'];
+
+			$html_repiter .= <<<HTML
+<div class="row gx-lg-0 mb-px-md-45 mb-px-30">
+	<div class="col-3">
+		<img class="img-100px" src="{$image_url}" alt="{$image_alt}">
+	</div>
+	<div class="col-9">
+		{$repiter_content}
+	</div>
+</div>
+HTML;
+		}
+		
+		$block = <<<HTML
+<div class="container mt-px-lg-120 mb-px-lg-120 mt-px-md-80 mb-px-md-80 mt-px-60 mb-px-60">
+	<div class="row gx-lg-5">
+		<div class="col-lg-6 mb-lg-0 mb-px-30">
+			<div class="position-relative">
+				{$html_image}
+			</div>
+		</div>
+		<div class="col-lg-6 my-auto">
+			<div class="ms-px-lg-32">
+				{$content}
+			</div>
+			<div class="pe-px-lg-60">
+				{$html_repiter}
+			</div>
+		</div>
+	</div>
+</div>
+HTML;
+		return $block;
+	}
+
+
+	function two_images_and_quote($data) {
+		// Content
+		$content = $data['quote'];
+
+		// Front Image
+		$front_image_url = $data['front_image']['url'];
+		$front_image_alt = $data['front_image']['alt'];
+		$html_front_image = '<img class="mb-md-0 mb-px-40 height-px-550 object-fit-cover w-100" src="' . $front_image_url . '" alt="' . $front_image_alt . '">';
+		
+		// Back Image
+		$back_image_url = $data['back_image']['url'];
+		$back_image_alt = $data['back_image']['alt'];
+		$html_back_image = '<img class="height-px-460 object-fit-cover w-100" src="' . $back_image_url . '" alt="' . $back_image_alt . '">';
+
+
+		
+		$block = <<<HTML
+<div class="bg-texture-image overflow-hidden pt-px-lg-120 pb-px-16 pt-px-md-80 pt-px-60 mb-px-60">
+	<div class="container pb-px-lg-150 pb-px-md-60 pb-px-50">
+		<div class="row gx-lg-5">
+			<div class="col-lg-6">
+				<div class="position-relative">
+				<div class="me-px-lg-151 me-px-md-150">
+					<div class="pe-px-lg-30 pe-px-md-70">
+						{$html_back_image}
+					</div>
+				</div>
+				<div class="position-md-absolute top-px-lg-0 end-px-lg-0 top-px-md-15">
+					<div class="ms-px-md-151 mt-px-lg-150 mt-px-md-120">
+						<div class="ps-px-lg-85 pt-px-lg-70 ps-px-md-70">
+							{$html_front_image}
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="col-lg-6 my-auto">
+				<div class="ms-px-lg-32 mt-px-lg-150 mt-px-md-150 mt-px-30">
+					<i class="fas fa-quote-left text-grain-brown icon-left-quote mb-px-30"></i>
+					{$content}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+HTML;
 
 		return $block;
 	
 	}
 }
+
+

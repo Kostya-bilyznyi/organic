@@ -2807,6 +2807,29 @@ input:-webkit-autofill-hover {
   text-align: center;
 }
 
+/* line 173, assets/styles/base/_base.scss */
+
+.img-100px {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* line 179, assets/styles/base/_base.scss */
+
+.mb-px-60 {
+  margin-bottom: 60px;
+}
+
+@media screen and (max-width: 640px) {
+  /* line 179, assets/styles/base/_base.scss */
+
+  .mb-px-60 {
+    margin-bottom: 0;
+  }
+}
+
 /* --------------------------------------------------------------
 # Header
 -------------------------------------------------------------- */
