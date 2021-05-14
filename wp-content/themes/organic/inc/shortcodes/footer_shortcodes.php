@@ -64,7 +64,7 @@ add_shortcode( 'footer-copyright' , 'footer_copyright' );
 
 
 function footer_social_icons() {
-		$social_list = get_field('footer_social_networks', 'options');
+		$social_list = get_field( 'footer_social_networks', 'options' );
 		if( empty( $social_list ) ) {
 			return false;
 		}
@@ -92,3 +92,21 @@ ICON;
 }
 
 add_shortcode( 'footer-social-icons' , 'footer_social_icons' );
+
+
+function footer_form() {
+		$form_title = get_field( 'footer_form_title', 'options' );
+		$form_sub_title = get_field( 'footer_form_sub_title', 'options' );
+		$form_shortcode = do_shortcode( get_field( 'footer_form_shortcode', 'options' ) );
+
+
+	$block = <<<FORM
+<h5 class="mb-px-16">{$form_title}</h5>
+<p class="footer-text-size mb-4">{$form_sub_title}</p>
+{$form_shortcode}
+FORM;
+
+	return $block;
+}
+
+add_shortcode( 'footer-form' , 'footer_form' );

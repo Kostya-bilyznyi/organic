@@ -34,10 +34,7 @@
       <div class="footer-bottom-area">
         <div class="container">
           <div class="row gx-5">
-				 
 	 			<?php dynamic_sidebar('footer-col-5'); ?>
-
-
           </div>
         </div>
       </div>

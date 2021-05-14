@@ -27,11 +27,12 @@ class ArchiveTeam {
 
 	function get_team_lists() {
 		$all_team = get_posts( array(
-			'post_type'   => 'team',
-			'post_status' =>'publish',
-			'order'       => 'DESC',
-			'orderby'	  => 'name',
-			'numberposts' => -1
+			'post_type'        => 'team',
+			'post_status'      => 'publish',
+			'order'            => 'DESC',
+			'orderby'	       => 'name',
+			'suppress_filters' => false,
+			'numberposts'      => -1
 		));
 
 		foreach( $all_team as $team_item ) {

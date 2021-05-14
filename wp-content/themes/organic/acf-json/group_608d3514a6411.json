@@ -419,6 +419,63 @@
                     ]
                 },
                 {
+                    "key": "field_609e0ac5d9db5",
+                    "label": "Form title",
+                    "name": "form_title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_609e0adcd9db6",
+                    "label": "Form sub title",
+                    "name": "form_sub_title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_609e0aedd9db7",
+                    "label": "Form shortcode",
+                    "name": "form_shortcode",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
                     "key": "field_608d80542833a",
                     "label": "Copyright",
                     "name": "copyright",
@@ -457,5 +514,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1620206485
+    "modified": 1620970237
 }
