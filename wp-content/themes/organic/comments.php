@@ -3,14 +3,14 @@ $commenter = wp_get_current_commenter();
 $defaults = [
 		'fields' 			 => [
 			'author' => '<p class="comment-form-author">
-			<input id="author" class="form-control" placeholder="' . __( 'Name', 'organictxt' ) . '" name="author" type="text"" size="30"/>',
+			<input id="author" class="form-control" placeholder="' . __( 'Name', 'orgamic' ) . '" name="author" type="text"" size="30"/>',
 			'email'  => '<p class="comment-form-email">
-			<input id="email" class="form-control" placeholder="' . __( 'Email', 'organictxt' ) . '" name="email"  size="30" aria-describedby="email-notes"/>',
+			<input id="email" class="form-control" placeholder="' . __( 'Email', 'orgamic' ) . '" name="email"  size="30" aria-describedby="email-notes"/>',
 			'url'    => '<p class="comment-form-url">
-			<input id="url" class="form-control" placeholder="' . __( 'Website', 'organictxt' ) . '" name="url" size="30" />',       
+			<input id="url" class="form-control" placeholder="' . __( 'Website', 'orgamic' ) . '" name="url" size="30" />',       
 		],
 	'comment_field'        => '<p class="comment-form-comment">
-		<textarea placeholder="' . __( 'Message', 'organictxt' ) . '" name="comment" cols="45" rows="8"  aria-required="true" required="required"></textarea>
+		<textarea placeholder="' . __( 'Message', 'orgamic' ) . '" name="comment" cols="45" rows="8"  aria-required="true" required="required"></textarea>
 	</p>',
 	'comment_notes_after'  => '',
 	'id_form'              => 'commentform',

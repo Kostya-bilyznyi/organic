@@ -110,10 +110,10 @@
             "delay": 0
         },
         {
-            "key": "field_609e32a74c818",
-            "label": "Form shortcode",
-            "name": "form_shortcode",
-            "type": "text",
+            "key": "field_60a203649db1b",
+            "label": "Form",
+            "name": "form",
+            "type": "post_object",
             "instructions": "",
             "required": 1,
             "conditional_logic": 0,
@@ -122,11 +122,14 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
+            "post_type": [
+                "wpcf7_contact_form"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "multiple": 0,
+            "return_format": "id",
+            "ui": 1
         },
         {
             "key": "field_609e32b74c819",
@@ -164,5 +167,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1620980628
+    "modified": 1621230839
 }

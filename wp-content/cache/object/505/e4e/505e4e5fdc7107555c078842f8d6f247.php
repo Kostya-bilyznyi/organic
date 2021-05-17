@@ -1,0 +1,1 @@
+5¢`<?php exit; ?>a:1:{s:7:"content";a:1:{s:4:"data";a:1:{s:2:"en";O:8:"stdClass":9:{s:14:"translation_id";s:3:"437";s:13:"language_code";s:2:"en";s:10:"element_id";s:1:"2";s:20:"source_language_code";N;s:12:"element_type";s:12:"tax_nav_menu";s:8:"original";s:1:"1";s:4:"name";s:21:"Header menu (English)";s:7:"term_id";s:1:"2";s:9:"instances";s:2:"13";}}}}

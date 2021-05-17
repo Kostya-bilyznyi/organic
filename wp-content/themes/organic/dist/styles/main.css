@@ -3065,41 +3065,49 @@ input:-webkit-autofill-hover {
   }
 }
 
-/* line 167, assets/styles/layouts/blocks/header.scss */
+/* line 166, assets/styles/layouts/blocks/header.scss */
+
+.site-header .navbar li.mega-wpml-ls-item .mega-sub-menu {
+  padding: 0 20px 0 20px !important;
+  max-width: 88px !important;
+  background-color: transparent !important;
+}
+
+/* line 175, assets/styles/layouts/blocks/header.scss */
 
 .site-header .navbar .nav-item-account i {
   font-size: 1.191rem;
   padding-right: 5px;
 }
 
-/* line 174, assets/styles/layouts/blocks/header.scss */
+/* line 182, assets/styles/layouts/blocks/header.scss */
 
 .site-header .nav-modules {
   padding: 0;
   margin: 0;
 }
 
-/* line 178, assets/styles/layouts/blocks/header.scss */
+/* line 186, assets/styles/layouts/blocks/header.scss */
 
 .site-header .nav-modules li {
   margin-left: 0;
 }
 
-/* line 182, assets/styles/layouts/blocks/header.scss */
+/* line 190, assets/styles/layouts/blocks/header.scss */
 
 .site-header .nav-modules .nav-item-search {
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
-/* line 186, assets/styles/layouts/blocks/header.scss */
+/* line 194, assets/styles/layouts/blocks/header.scss */
 
 .site-header .nav-modules .nav-item-search:not(:last-child) {
   margin-right: 1.5rem;
 }
 
 @media (max-width: 767.98px) {
-  /* line 190, assets/styles/layouts/blocks/header.scss */
+  /* line 198, assets/styles/layouts/blocks/header.scss */
 
   .site-header .nav-modules .nav-item-search .navbar-search-bar {
     padding-top: 0.6666666667rem;
@@ -3107,7 +3115,7 @@ input:-webkit-autofill-hover {
   }
 }
 
-/* line 196, assets/styles/layouts/blocks/header.scss */
+/* line 204, assets/styles/layouts/blocks/header.scss */
 
 .site-header .nav-modules .nav-item-search .navbar-search-bar input {
   border-width: 1px;
@@ -3121,7 +3129,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (min-width: 992px) {
-  /* line 196, assets/styles/layouts/blocks/header.scss */
+  /* line 204, assets/styles/layouts/blocks/header.scss */
 
   .site-header .nav-modules .nav-item-search .navbar-search-bar input {
     width: 320px;
@@ -3130,7 +3138,7 @@ input:-webkit-autofill-hover {
   }
 }
 
-/* line 213, assets/styles/layouts/blocks/header.scss */
+/* line 221, assets/styles/layouts/blocks/header.scss */
 
 .site-header .nav-modules .nav-item-search .navbar-search-bar .btn {
   border-left: none;
@@ -3143,7 +3151,7 @@ input:-webkit-autofill-hover {
   font-size: 0.875rem;
 }
 
-/* line 226, assets/styles/layouts/blocks/header.scss */
+/* line 234, assets/styles/layouts/blocks/header.scss */
 
 .site-header .nav-modules .btn-link {
   font-size: 1.125rem;
@@ -3153,7 +3161,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (max-width: 767.98px) {
-  /* line 233, assets/styles/layouts/blocks/header.scss */
+  /* line 241, assets/styles/layouts/blocks/header.scss */
 
   .site-header .nav-modules .nav-item-social-nav {
     padding-top: 0.6666666667rem;
@@ -3161,7 +3169,7 @@ input:-webkit-autofill-hover {
   }
 }
 
-/* line 239, assets/styles/layouts/blocks/header.scss */
+/* line 247, assets/styles/layouts/blocks/header.scss */
 
 .site-header .nav-modules .nav-item-social-nav:not(:last-child) {
   margin-right: 1.2rem;
@@ -3169,28 +3177,28 @@ input:-webkit-autofill-hover {
   border-right: solid 1px #000;
 }
 
-/* line 246, assets/styles/layouts/blocks/header.scss */
+/* line 254, assets/styles/layouts/blocks/header.scss */
 
 .site-header .nav-modules .nav-item-social-nav a:not(:last-child) {
   margin-right: 1rem;
 }
 
 @media (max-width: 767.98px) {
-  /* line 246, assets/styles/layouts/blocks/header.scss */
+  /* line 254, assets/styles/layouts/blocks/header.scss */
 
   .site-header .nav-modules .nav-item-social-nav a:not(:last-child) {
     margin-right: 1.3rem;
   }
 }
 
-/* line 257, assets/styles/layouts/blocks/header.scss */
+/* line 265, assets/styles/layouts/blocks/header.scss */
 
 .site-header .navbar-toggler {
   border-radius: 0;
   background-color: #fff;
 }
 
-/* line 263, assets/styles/layouts/blocks/header.scss */
+/* line 271, assets/styles/layouts/blocks/header.scss */
 
 .btn-outline-black-header {
   border: solid;
@@ -3201,21 +3209,21 @@ input:-webkit-autofill-hover {
   padding-bottom: 10px;
 }
 
-/* line 273, assets/styles/layouts/blocks/header.scss */
+/* line 281, assets/styles/layouts/blocks/header.scss */
 
 .nav-pills .nav-link {
   padding: 0.75rem 2rem;
   border-radius: 2rem;
 }
 
-/* line 277, assets/styles/layouts/blocks/header.scss */
+/* line 285, assets/styles/layouts/blocks/header.scss */
 
 .nav-pills .nav-link.active {
   color: #fff;
 }
 
 @media (min-width: 992px) {
-  /* line 284, assets/styles/layouts/blocks/header.scss */
+  /* line 292, assets/styles/layouts/blocks/header.scss */
 
   .header.ml-negative {
     margin-left: -40px;
@@ -3223,7 +3231,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (min-width: 992px) {
-  /* line 290, assets/styles/layouts/blocks/header.scss */
+  /* line 298, assets/styles/layouts/blocks/header.scss */
 
   .header.mr-negative {
     margin-right: -40px;
@@ -3231,7 +3239,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (min-width: 992px) {
-  /* line 297, assets/styles/layouts/blocks/header.scss */
+  /* line 305, assets/styles/layouts/blocks/header.scss */
 
   .mt-negative {
     margin-top: -40px;
@@ -3239,7 +3247,7 @@ input:-webkit-autofill-hover {
 }
 
 @media (min-width: 768px) {
-  /* line 303, assets/styles/layouts/blocks/header.scss */
+  /* line 311, assets/styles/layouts/blocks/header.scss */
 
   .border-image {
     border: solid;
@@ -3250,14 +3258,14 @@ input:-webkit-autofill-hover {
 }
 
 @media (min-width: 992px) {
-  /* line 312, assets/styles/layouts/blocks/header.scss */
+  /* line 320, assets/styles/layouts/blocks/header.scss */
 
   .header-margin {
     margin-bottom: -145px;
   }
 }
 
-/* line 318, assets/styles/layouts/blocks/header.scss */
+/* line 326, assets/styles/layouts/blocks/header.scss */
 
 .navbar-icon-size {
   font-size: 17px;
@@ -3266,7 +3274,7 @@ input:-webkit-autofill-hover {
   color: #2a5631;
 }
 
-/* line 326, assets/styles/layouts/blocks/header.scss */
+/* line 334, assets/styles/layouts/blocks/header.scss */
 
 .nav-tabs .nav-link {
   border: 2px solid transparent;
@@ -3276,13 +3284,13 @@ input:-webkit-autofill-hover {
   font-size: 20px;
 }
 
-/* line 336, assets/styles/layouts/blocks/header.scss */
+/* line 344, assets/styles/layouts/blocks/header.scss */
 
 .mega-menu-link::before {
   display: none;
 }
 
-/* line 341, assets/styles/layouts/blocks/header.scss */
+/* line 349, assets/styles/layouts/blocks/header.scss */
 
 a.mega-menu-link {
   font-family: "Roboto", sans-serif !important;

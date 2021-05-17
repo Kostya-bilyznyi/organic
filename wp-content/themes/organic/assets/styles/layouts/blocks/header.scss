@@ -161,6 +161,14 @@
           }
         }
       }
+
+      &.mega-wpml-ls-item {
+        .mega-sub-menu {
+          padding: 0 20px 0 20px !important;
+          max-width: 88px !important;
+          background-color: transparent !important;
+        }
+      }
     }
 
     .nav-item-account {

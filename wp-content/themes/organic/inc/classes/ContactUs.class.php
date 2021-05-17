@@ -45,8 +45,8 @@ HTML;
 		$image_url = $image['url'];
 		$image_alt = $image['alt'];
 		$content = get_field( 'form_description' );
-		$form = do_shortcode( get_field( 'form_shortcode' ) );
-
+		$form_id = get_field( 'form' );
+		$form = do_shortcode( '[contact-form-7 id="' . $form_id . '" ]' );
 		$block = <<<HTML
 <div class="container my-lg-8 my-md-7 my-5">
 	<div class="container">

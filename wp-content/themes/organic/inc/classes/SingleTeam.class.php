@@ -20,12 +20,12 @@ HTML;
 		$position =  $this->acf_fields['position'];
 		$location_obj =  $this->acf_fields['location'];
 		$location =  $location_obj->name;
-		$location_html = __('Hello, I am from ', 'organictxt' ) . $location;
+		$location_html = __('Hello, I am from ', 'orgamic' ) . $location;
 
 
 		$departament_obj =  $this->acf_fields['departament'];
 		$departament =  $departament_obj->name;
-		$departament_html = __('I am working at ', 'organictxt' ) . $departament .  __(' departament.', 'organictxt' );
+		$departament_html = __('I am working at ', 'orgamic' ) . $departament .  __(' departament.', 'orgamic' );
 
 
 		$block = <<<HTML

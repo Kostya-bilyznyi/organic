@@ -1,0 +1,21 @@
+��`<?php exit; ?>a:1:{s:7:"content";a:46:{s:10:"_edit_lock";a:1:{i:0;s:12:"1621230858:1";}s:10:"_edit_last";a:1:{i:0;s:1:"1";}s:17:"_wp_page_template";a:1:{i:0;s:29:"page-templates/contact-us.php";}s:43:"_yoast_wpseo_estimated-reading-time-minutes";a:1:{i:0;s:0:"";}s:9:"sub_title";a:1:{i:0;s:8:"ABOUT US";}s:10:"_sub_title";a:1:{i:0;s:19:"field_6092bddc367dd";}s:5:"title";a:1:{i:0;s:10:"Contact us";}s:6:"_title";a:1:{i:0;s:19:"field_6092bdc8367dc";}s:7:"content";a:1:{i:0;s:42:"a:1:{i:0;s:24:"text_and_image_2_columns";}";}s:8:"_content";a:1:{i:0;s:19:"field_6093ac4778ee6";}s:13:"_thumbnail_id";a:1:{i:0;s:2:"98";}s:26:"_yoast_wpseo_content_score";a:1:{i:0;s:2:"30";}s:16:"content_0_layout";a:1:{i:0;s:7:"txt_img";}s:17:"_content_0_layout";a:1:{i:0;s:19:"field_6093acd878ee7";}s:15:"content_0_image";a:1:{i:0;s:3:"139";}s:16:"_content_0_image";a:1:{i:0;s:19:"field_6093ad4e78ee8";}s:17:"content_0_content";a:1:{i:0;s:283:"<h5 class="font-letter-space mb-px-7"><span style="color: #bc5e49;">CANTACT US</span></h5>
+<h1>Contact us</h1>
+<p class="lead mb-px-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vestibulum urna augue. Duis sit maximus commodo hendrerit lorem maximus mi.</p>";}s:18:"_content_0_content";a:1:{i:0;s:19:"field_6093ad6078ee9";}s:14:"content_0_link";a:1:{i:0;s:0:"";}s:15:"_content_0_link";a:1:{i:0;s:19:"field_6093ae4b7b459";}s:7:"offises";a:1:{i:0;s:1:"3";}s:8:"_offises";a:1:{i:0;s:19:"field_609e31da4c813";}s:10:"form_image";a:1:{i:0;s:2:"99";}s:11:"_form_image";a:1:{i:0;s:19:"field_609e323c4c816";}s:16:"form_description";a:1:{i:0;s:263:"<h4 class="mb-4"><span style="color: #2a5631;">We're here to help</span></h4>
+<p class="mb-0">If you have any questions about our website</p>
+please email web@email.com, fill out the form or call +44 650.800.3124.
+<p class="mt-4">Monday to Friday, 10am-5pm</p>";}s:17:"_form_description";a:1:{i:0;s:19:"field_609e32824c817";}s:14:"form_shortcode";a:1:{i:0;s:48:"[contact-form-7 id="215" title="Contact form 1"]";}s:15:"_form_shortcode";a:1:{i:0;s:19:"field_609e32a74c818";}s:3:"map";a:1:{i:0;s:544:"a:14:{s:7:"address";s:82:"Beetroot Academy Poltava, Kotlyarevs'koho Street, Poltava, Poltava Oblast, Ukraine";s:3:"lat";d:49.589003;s:3:"lng";d:34.5576236;s:4:"zoom";i:14;s:8:"place_id";s:27:"ChIJyTpqcIMv2EARpr6r9RDsIac";s:4:"name";s:24:"Beetroot Academy Poltava";s:13:"street_number";s:3:"2а";s:11:"street_name";s:22:"Kotlyarevs'koho Street";s:17:"street_name_short";s:18:"Kotlyarevs'koho St";s:4:"city";s:7:"Poltava";s:5:"state";s:17:"Poltavs'ka oblast";s:9:"post_code";s:5:"36000";s:7:"country";s:7:"Ukraine";s:13:"country_short";s:2:"UA";}";}s:4:"_map";a:1:{i:0;s:19:"field_609e32b74c819";}s:15:"offises_0_image";a:1:{i:0;s:3:"138";}s:16:"_offises_0_image";a:1:{i:0;s:19:"field_609e31fe4c814";}s:21:"offises_0_offise_info";a:1:{i:0;s:203:"<h4 class="mb-4"><span style="color: #2a5631;">Our London Shop</span></h4>
+<p class="mb-1">9235 Bayberry Drive</p>
+Hendersonville, NC 28792
+<p class="mb-1 mt-4">london@email.com​</p>
++51853 458 243";}s:22:"_offises_0_offise_info";a:1:{i:0;s:19:"field_609e320e4c815";}s:15:"offises_1_image";a:1:{i:0;s:1:"5";}s:16:"_offises_1_image";a:1:{i:0;s:19:"field_609e31fe4c814";}s:21:"offises_1_offise_info";a:1:{i:0;s:158:"<h4><span style="color: #2a5631;">OurAmsterdam Shop</span></h4>
+9235 Bayberry Drive
+
+Hendersonville, NC 28792
+
+singapore@email.com​
+
++8 800 222 35 35";}s:22:"_offises_1_offise_info";a:1:{i:0;s:19:"field_609e320e4c815";}s:15:"offises_2_image";a:1:{i:0;s:3:"100";}s:16:"_offises_2_image";a:1:{i:0;s:19:"field_609e31fe4c814";}s:21:"offises_2_offise_info";a:1:{i:0;s:209:"<h4 class="mb-4"><span style="color: #2a5631;">Our Singapore Shop</span></h4>
+<p class="mb-1">9235 Bayberry Drive</p>
+Hendersonville, NC 28792
+<p class="mb-1 mt-4">singapore@email.com​</p>
++51853 458 243";}s:22:"_offises_2_offise_info";a:1:{i:0;s:19:"field_609e320e4c815";}s:20:"_wpml_media_featured";a:1:{i:0;s:1:"0";}s:21:"_wpml_media_duplicate";a:1:{i:0;s:1:"0";}s:4:"form";a:1:{i:0;s:3:"215";}s:5:"_form";a:1:{i:0;s:19:"field_60a203649db1b";}}}

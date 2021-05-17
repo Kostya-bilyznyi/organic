@@ -6,7 +6,7 @@ $post_content = wp_trim_words(get_the_content(), 40, '...');
 $thumbnail_url = get_the_post_thumbnail_url();
 // $html_thumbnail = (!empty($thumbnail)) ? '<a class="blog-thumb mb-20 mb-md-0 mr-md-4 mr-xl-5 w-md-50 zoom-in d-block overflow-hidden" href="'. $post_url .'">'. $thumbnail .'</a>' : null;
 
-$txt_more = __('Read More', 'organictxt');
+$txt_more = __('Read More', 'orgamic');
 ?>
 
 <div class="col-md-12">

@@ -1,6 +1,6 @@
 <?php
 function archive_pot_posts() {
-	$widget_title = __('TOP POSTS', 'organictxt');
+	$widget_title = __('TOP POSTS', 'orgamic');
 	$html_articles = null;
 	$args = array(
 		'post_type' => 'post',

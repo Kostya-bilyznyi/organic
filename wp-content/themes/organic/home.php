@@ -5,7 +5,7 @@ $sub_title = get_field( 'sub_title', get_option( 'page_for_posts' ) );
 $title = get_field( 'title', get_option( 'page_for_posts' ) );
 $content = get_field( 'content', get_option( 'page_for_posts' ) );
 $post_thumbnail_url = get_the_post_thumbnail_url( get_option( 'page_for_posts' ) );
-$post_pagonation_htnl = '<div class="col-md-12 nav-wrapper">'. get_the_posts_pagination(array( 'prev_text' => '«', 'next_text' => '»' )) . '</div>'; ?>
+$post_pagonation_htnl = '<div class="col-md-12 nav-wrapper">' . get_the_posts_pagination(array( 'prev_text' => '«', 'next_text' => '»' )) . '</div>'; ?>
 
     <article class="entry">
       <div class="entry-content">

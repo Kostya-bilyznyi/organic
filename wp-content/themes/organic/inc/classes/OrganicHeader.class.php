@@ -67,7 +67,7 @@ LOGO;
 		] );
 
 		$block = <<<MENU
-<div class="col-lg-7">
+<div class="col-lg-8">
 	{$main_menu}
 </div>
 MENU;
@@ -91,7 +91,7 @@ MENU;
 		}
 
 		$block = <<<ICONS
-<div class="col-lg-3 d-none d-lg-block">
+<div class="col-lg-2 d-none d-lg-block">
 	<ul class="list-unstyled nav-modules text-end">
 		{$html_social}
 		<li class="list-inline-item"><span class="i fas fa-user-circle navbar-icon-size me-px-18" data-bs-toggle="modal" data-bs-target="#user-login"></span></li>

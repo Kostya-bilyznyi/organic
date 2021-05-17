@@ -19,10 +19,6 @@ function theme_scripts() {
 	// Main JS
 	wp_enqueue_script('main-javascript', asset_path('scripts/main.js'), [ 'jquery' ], '1.0.0', true);
 
-	// Enqueue the Google maps JS file.
-	// $key = get_field('general_data_google_api_key', 'option');
-	// wp_enqueue_script( 'maps-javascript', "//maps.googleapis.com/maps/api/js?key=$key&language=en", array( 'jquery' ), '1.0.0', true );
-
 	// Throw variables to front-end
 	$theme_vars = array(
 		'home'   => get_home_url(),
@@ -33,3 +29,9 @@ function theme_scripts() {
 }
 add_action('wp_enqueue_scripts', 'theme_scripts');
 
+function	load_admin_styles() {
+
+	//Admin CSS
+	wp_enqueue_style('admin-stylesheet', THEME_DIR_URI . '/assets/styles/admin.css' );
+}
+add_action('admin_enqueue_scripts', 'load_admin_styles');

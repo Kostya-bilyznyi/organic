@@ -97,13 +97,14 @@ add_shortcode( 'footer-social-icons' , 'footer_social_icons' );
 function footer_form() {
 		$form_title = get_field( 'footer_form_title', 'options' );
 		$form_sub_title = get_field( 'footer_form_sub_title', 'options' );
-		$form_shortcode = do_shortcode( get_field( 'footer_form_shortcode', 'options' ) );
+		$form_id = get_field( 'footer_form', 'options' );
+		$form = do_shortcode( '[contact-form-7 id="' . $form_id . '" ]' );
 
 
 	$block = <<<FORM
 <h5 class="mb-px-16">{$form_title}</h5>
 <p class="footer-text-size mb-4">{$form_sub_title}</p>
-{$form_shortcode}
+{$form}
 FORM;
 
 	return $block;

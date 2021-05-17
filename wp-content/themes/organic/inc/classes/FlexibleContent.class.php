@@ -238,8 +238,11 @@ MEGA;
 
 			$image_url = $slider_item['image']['url'];
 			$image_alt = $slider_item['image']['alt'];
-			$slide_content = $slider_item['text'];
 			$slider_class = ( $slider_counter == 1 ) ? 'active' : null;
+			$slide_content = $slider_item['text'];
+			$slide_link = $slider_item['link'];
+			$slide_link_url = $slide_link['url'];
+			$slide_link_title = $slide_link['title'];
 			$slider_counter++;
 			
 			$html_slider .= <<<HTML
@@ -251,7 +254,7 @@ MEGA;
 				<div class="bg-white mb-px-n-50 border-radius-home ps-px-30 pe-px-30 pt-px-28 pb-px-32">
 					{$slide_content}
 					<div class="mt-px-14">
-						<a class="h6 btn-link border-2 border-bottom shop-button-style" href="single-product.html">Add to cart</a>
+						<a class="h6 btn-link border-2 border-bottom shop-button-style" href="{$slide_link_url}">{$slide_link_title}</a>
 					</div>
 				</div>
 			</div>
