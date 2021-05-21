@@ -1,4 +1,4 @@
-ÚB¢`<?php exit; ?>a:4:{i:404;b:0;s:7:"headers";a:5:{s:11:"Status-Code";i:200;s:12:"Content-Type";s:24:"text/html; charset=UTF-8";i:0;a:2:{s:1:"n";s:4:"Link";s:1:"v";s:55:"<http://organic.loc/wp-json/>; rel="https://api.w.org/"";}i:1;a:2:{s:1:"n";s:4:"Link";s:1:"v";s:85:"<http://organic.loc/wp-json/wp/v2/pages/9/>; rel="alternate"; type="application/json"";}i:2;a:2:{s:1:"n";s:4:"Link";s:1:"v";s:36:"<http://organic.loc/>; rel=shortlink";}}s:4:"time";i:1621243106;s:7:"content";s:54189:" <!DOCTYPE html>
+à®`<?php exit; ?>a:4:{i:404;b:0;s:7:"headers";a:5:{s:11:"Status-Code";i:200;s:12:"Content-Type";s:24:"text/html; charset=UTF-8";i:0;a:2:{s:1:"n";s:4:"Link";s:1:"v";s:55:"<http://organic.loc/wp-json/>; rel="https://api.w.org/"";}i:1;a:2:{s:1:"n";s:4:"Link";s:1:"v";s:85:"<http://organic.loc/wp-json/wp/v2/pages/9/>; rel="alternate"; type="application/json"";}i:2;a:2:{s:1:"n";s:4:"Link";s:1:"v";s:36:"<http://organic.loc/>; rel=shortlink";}}s:4:"time";i:1621619832;s:7:"content";s:56458:" <!DOCTYPE html>
 <html lang="en-US">
   <head><style>img.lazy{min-height:1px}</style><link rel="preload" href="http://organic.loc/wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js" as="script">
 		<meta charset="UTF-8">
@@ -8,7 +8,7 @@
 <link rel="alternate" hreflang="en" href="http://organic.loc" />
 <link rel="alternate" hreflang="uk" href="http://organic.loc/uk/" />
 
-	<!-- This site is optimized with the Yoast SEO plugin v16.2 - https://yoast.com/wordpress/plugins/seo/ -->
+	<!-- This site is optimized with the Yoast SEO plugin v16.3 - https://yoast.com/wordpress/plugins/seo/ -->
 	<title>Home | Organic</title>
 	<link rel="canonical" href="http://organic.loc/" />
 	<meta property="og:locale" content="en_US" />
@@ -26,7 +26,7 @@
 <link rel='dns-prefetch' href='//www.google.com' />
 <link rel='dns-prefetch' href='//s.w.org' />
 		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/organic.loc\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.1"}};
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/organic.loc\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.2"}};
 			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
 		</script>
 		<style type="text/css">
@@ -43,11 +43,19 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-	<link rel='stylesheet' id='wp-block-library-css'  href='http://organic.loc/wp-includes/css/dist/block-library/style.min.css?ver=5.7.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='wp-block-library-css'  href='http://organic.loc/wp-includes/css/dist/block-library/style.min.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-vendors-style-css'  href='http://organic.loc/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-style.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-style-css'  href='http://organic.loc/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=4.9.1' type='text/css' media='all' />
 <link rel='stylesheet' id='contact-form-7-css'  href='http://organic.loc/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css'  href='http://organic.loc/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=5.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='http://organic.loc/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=5.3.0' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css'  href='http://organic.loc/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=5.3.0' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
 <link rel='stylesheet' id='wpml-menu-item-0-css'  href='//organic.loc/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/menu-item/style.css?ver=1' type='text/css' media='all' />
 <link rel='stylesheet' id='megamenu-css'  href='http://organic.loc/wp-content/uploads/maxmegamenu/style_en.css?ver=57cdf8' type='text/css' media='all' />
-<link rel='stylesheet' id='dashicons-css'  href='http://organic.loc/wp-includes/css/dashicons.min.css?ver=5.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://organic.loc/wp-includes/css/dashicons.min.css?ver=5.7.2' type='text/css' media='all' />
 <link rel='stylesheet' id='main-stylesheet-css'  href='http://organic.loc/wp-content/themes/organic/dist/styles/main.css?ver=1.0.0' type='text/css' media='all' />
 <script type='text/javascript' id='eio-lazy-load-js-extra'>
 /* <![CDATA[ */
@@ -58,18 +66,20 @@ var eio_lazy_vars = {"exactdn_domain":"","skip_autoscale":"0","threshold":"0"};
 <script type='text/javascript' src='https://code.jquery.com/jquery-2.2.4.min.js?ver=2.2.4' id='jquery-js'></script>
 <link rel="https://api.w.org/" href="http://organic.loc/wp-json/" /><link rel="alternate" type="application/json" href="http://organic.loc/wp-json/wp/v2/pages/9/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://organic.loc/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://organic.loc/wp-includes/wlwmanifest.xml" /> 
-<meta name="generator" content="WordPress 5.7.1" />
+<meta name="generator" content="WordPress 5.7.2" />
+<meta name="generator" content="WooCommerce 5.3.0" />
 <link rel='shortlink' href='http://organic.loc/' />
 <link rel="alternate" type="application/json+oembed" href="http://organic.loc/wp-json/oembed/1.0/embed/?url=http%3A%2F%2Forganic.loc%2F" />
 <link rel="alternate" type="text/xml+oembed" href="http://organic.loc/wp-json/oembed/1.0/embed/?url=http%3A%2F%2Forganic.loc%2F&#038;format=xml" />
 <meta name="generator" content="WPML ver:4.4.4 stt:1,54;" />
-<noscript><style>.lazyload[data-src]{display:none !important;}</style></noscript><style>.lazyload{background-image:none !important;}.lazyload:before{background-image:none !important;}</style><link rel="icon" href="http://organic.loc/wp-content/uploads/2021/04/favicon.ico" sizes="32x32" />
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<noscript><style>.lazyload[data-src]{display:none !important;}</style></noscript><style>.lazyload{background-image:none !important;}.lazyload:before{background-image:none !important;}</style><link rel="icon" href="http://organic.loc/wp-content/uploads/2021/04/favicon.ico" sizes="32x32" />
 <link rel="icon" href="http://organic.loc/wp-content/uploads/2021/04/favicon.ico" sizes="192x192" />
 <link rel="apple-touch-icon" href="http://organic.loc/wp-content/uploads/2021/04/favicon.ico" />
 <meta name="msapplication-TileImage" content="http://organic.loc/wp-content/uploads/2021/04/favicon.ico" />
 <style type="text/css">/** Mega Menu CSS: fs **/</style>
 	</head>
-  	<body class="home page-template-default page page-id-9 mega-menu-main-menu">
+  	<body class="home page-template-default page page-id-9 theme-organic woocommerce-no-js mega-menu-main-menu">
 		<div class="bg-bay-leaf py-2">
 	<div class="continer">
 		<a class="text-center" href="http://organic.loc/shop/">
@@ -506,12 +516,7 @@ var eio_lazy_vars = {"exactdn_domain":"","skip_autoscale":"0","threshold":"0"};
             </div>
             <div class="col-lg-2 col-md-6 col-12 mt-lg-0 mt-md-5 mt-4">
               <div class="ms-px-lg-14">
-					  <div class="footer-widget footer-widget-2"><h5 class="pb-px-17">Useful</h5><div class="menu-footer-menu-english-container"><ul id="menu-footer-menu-english" class="menu"><li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83"><a href="http://organic.loc/blog/">Blog</a></li>
-<li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-88"><a href="http://organic.loc/about-us/">About Us</a></li>
-<li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85"><a href="http://organic.loc/faq/">FAQ</a></li>
-<li id="menu-item-86" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-86"><a href="http://organic.loc/portfolio/">Portfolio</a></li>
-<li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87"><a href="http://organic.loc/servises/">Servises</a></li>
-</ul></div></div>              </div>
+					                </div>
             </div>
             <div class="col-lg-4 col-md-6 col-12">
               <div class="position-relative">
@@ -568,7 +573,14 @@ var eio_lazy_vars = {"exactdn_domain":"","skip_autoscale":"0","threshold":"0"};
       </div>
     </footer>
     <!-- End Footer-->
-		<link rel='stylesheet' id='font-awesome-css'  href='https://use.fontawesome.com/releases/v5.15.3/css/all.css?ver=5.7.1' type='text/css' media='all' />
+			<script type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<link rel='stylesheet' id='font-awesome-css'  href='https://use.fontawesome.com/releases/v5.15.3/css/all.css?ver=5.7.2' type='text/css' media='all' />
 <script type='text/javascript' src='http://organic.loc/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4' id='wp-polyfill-js'></script>
 <script type='text/javascript' id='wp-polyfill-js-after'>
 ( 'fetch' in window ) || document.write( '<script src="http://organic.loc/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="http://organic.loc/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="http://organic.loc/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="http://organic.loc/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="http://organic.loc/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="http://organic.loc/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' + 'ipt>' );( 'objectFit' in document.documentElement.style ) || document.write( '<script src="http://organic.loc/wp-includes/js/dist/vendor/wp-polyfill-object-fit.min.js?ver=2.3.4"></scr' + 'ipt>' );
@@ -579,7 +591,27 @@ var wpcf7 = {"api":{"root":"http:\/\/organic.loc\/wp-json\/","namespace":"contac
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://organic.loc/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.4.1' id='contact-form-7-js'></script>
-<script type='text/javascript' src='http://organic.loc/wp-includes/js/comment-reply.min.js?ver=5.7.1' id='comment-reply-js'></script>
+<script type='text/javascript' src='http://organic.loc/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70' id='jquery-blockui-js'></script>
+<script type='text/javascript' id='wc-add-to-cart-js-extra'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"http:\/\/organic.loc\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://organic.loc/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=5.3.0' id='wc-add-to-cart-js'></script>
+<script type='text/javascript' src='http://organic.loc/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4' id='js-cookie-js'></script>
+<script type='text/javascript' id='woocommerce-js-extra'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://organic.loc/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=5.3.0' id='woocommerce-js'></script>
+<script type='text/javascript' id='wc-cart-fragments-js-extra'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_6f4018fa7ab46e452a87961e4b2a2cf2","fragment_name":"wc_fragments_6f4018fa7ab46e452a87961e4b2a2cf2","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://organic.loc/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=5.3.0' id='wc-cart-fragments-js'></script>
+<script type='text/javascript' src='http://organic.loc/wp-includes/js/comment-reply.min.js?ver=5.7.2' id='comment-reply-js'></script>
 <script type='text/javascript' id='main-javascript-js-extra'>
 /* <![CDATA[ */
 var themeVars = {"home":"http:\/\/organic.loc","ajaxurl":"http:\/\/organic.loc\/wp-admin\/admin-ajax.php","is_auth":""};
@@ -600,17 +632,17 @@ var megamenu = {"timeout":"300","interval":"100"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://organic.loc/wp-content/plugins/megamenu/js/maxmegamenu.js?ver=2.9.3' id='megamenu-js'></script>
-<script type='text/javascript' src='http://organic.loc/wp-includes/js/wp-embed.min.js?ver=5.7.1' id='wp-embed-js'></script>
+<script type='text/javascript' src='http://organic.loc/wp-includes/js/wp-embed.min.js?ver=5.7.2' id='wp-embed-js'></script>
 	<script>window.w3tc_lazyload=1,window.lazyLoadOptions={elements_selector:".lazy",callback_loaded:function(t){var e;try{e=new CustomEvent("w3tc_lazyload_loaded",{detail:{e:t}})}catch(a){(e=document.createEvent("CustomEvent")).initCustomEvent("w3tc_lazyload_loaded",!1,!1,{e:t})}window.dispatchEvent(e)}}</script><script async src="http://organic.loc/wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js"></script></body>
 </html>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 176/180 objects using disk
+Object Caching 186/193 objects using disk
 Page Caching using disk 
 Lazy Loading
 Database Caching using disk (Request-wide modification query)
 
-Served from: organic.loc @ 2021-05-17 09:18:26 by W3 Total Cache
+Served from: organic.loc @ 2021-05-21 17:57:12 by W3 Total Cache
 -->";}

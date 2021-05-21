@@ -1,1 +1,1 @@
-…5¢`<?php exit; ?>a:1:{s:7:"content";a:2:{i:0;s:13:"page_on_front";i:1;s:14:"page_for_posts";}}
+õ§`<?php exit; ?>a:1:{s:7:"content";a:2:{i:0;s:13:"page_on_front";i:1;s:14:"page_for_posts";}}

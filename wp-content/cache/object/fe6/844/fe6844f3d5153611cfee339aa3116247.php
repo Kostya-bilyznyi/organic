@@ -1,1 +1,1 @@
-‡5¢`<?php exit; ?>a:1:{s:7:"content";a:1:{s:4:"data";s:32:"http://organic.loc/organic_logo/";}}
+õ§`<?php exit; ?>a:1:{s:7:"content";a:1:{s:4:"data";s:32:"http://organic.loc/organic_logo/";}}

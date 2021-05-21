@@ -100,7 +100,6 @@ function footer_form() {
 		$form_id = get_field( 'footer_form', 'options' );
 		$form = do_shortcode( '[contact-form-7 id="' . $form_id . '" ]' );
 
-
 	$block = <<<FORM
 <h5 class="mb-px-16">{$form_title}</h5>
 <p class="footer-text-size mb-4">{$form_sub_title}</p>

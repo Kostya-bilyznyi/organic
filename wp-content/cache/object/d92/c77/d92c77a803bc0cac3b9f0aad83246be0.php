@@ -1,1 +1,1 @@
-…5¢`<?php exit; ?>a:1:{s:7:"content";a:1:{s:4:"data";a:1:{s:14:"page_for_posts";a:2:{s:2:"en";s:2:"11";s:2:"uk";s:3:"335";}}}}
+õ§`<?php exit; ?>a:1:{s:7:"content";a:1:{s:4:"data";a:1:{s:14:"page_for_posts";a:2:{s:2:"en";s:2:"11";s:2:"uk";s:3:"335";}}}}
