@@ -1,1 +1,1 @@
-õ§`<?php exit; ?>a:1:{s:7:"content";a:1:{s:4:"data";s:67:"http://organic.loc/home/tesla-electric-pickup-cybertruck-ecocars-3/";}}
+—¬`<?php exit; ?>a:1:{s:7:"content";a:1:{s:4:"data";s:67:"http://organic.loc/home/tesla-electric-pickup-cybertruck-ecocars-3/";}}

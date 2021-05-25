@@ -11,8 +11,10 @@ import 'magnific-popup/dist/jquery.magnific-popup.min.js';
 import 'flickity/dist/flickity.pkgd.min.js';
 import 'jquery-countto/jquery.countTo.js';
 import 'masonry-layout/dist/masonry.pkgd.min.js';
+import 'select2/dist/js/select2.min.js';
 import './modules/teamArchive';
 import './modules/google-map';
+import './modules/fbiWanted';
 
 (function ($) {
 	"use strict";
@@ -73,6 +75,8 @@ import './modules/google-map';
 
 	/* Document Ready */
 	$(document).ready(function () {
+
+		$('.fbi-offices-page__list select').select2();
 
 		// Navigation
 		navigation();

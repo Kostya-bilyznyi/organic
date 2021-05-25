@@ -1,4 +1,4 @@
-õ§`<?php exit; ?>a:1:{s:7:"content";a:84:{s:10:"_edit_lock";a:1:{i:0;s:12:"1621175172:1";}s:10:"_edit_last";a:1:{i:0;s:1:"1";}s:17:"_wp_page_template";a:1:{i:0;s:7:"default";}s:43:"_yoast_wpseo_estimated-reading-time-minutes";a:1:{i:0;s:0:"";}s:17:"content_0_content";a:1:{i:0;s:606:"<h5 class="font-letter-space mb-px-8"><span style="color: #bc5e49;">GO ORGANIC</span></h5>
+—¬`<?php exit; ?>a:1:{s:7:"content";a:84:{s:10:"_edit_lock";a:1:{i:0;s:12:"1621175172:1";}s:10:"_edit_last";a:1:{i:0;s:1:"1";}s:17:"_wp_page_template";a:1:{i:0;s:7:"default";}s:43:"_yoast_wpseo_estimated-reading-time-minutes";a:1:{i:0;s:0:"";}s:17:"content_0_content";a:1:{i:0;s:606:"<h5 class="font-letter-space mb-px-8"><span style="color: #bc5e49;">GO ORGANIC</span></h5>
 <h1 class="hero-font mb-px-28"><span style="color: #2a5631;">Itâ€™s always better when itâ€™s natural. Eat organic &amp; be healthy</span></h1>
 <i class="fas fa-check text-parsley me-px-9"></i>Donec feugiat ipsum sed enim ullamcorper
 

@@ -1,1 +1,1 @@
-õ§`<?php exit; ?>a:1:{s:7:"content";s:40:"Energetic Themes â€¢ All Rights Reserved";}
+¸–¬`<?php exit; ?>a:1:{s:7:"content";s:40:"Energetic Themes â€¢ All Rights Reserved";}

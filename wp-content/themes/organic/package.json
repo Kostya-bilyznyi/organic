@@ -139,6 +139,7 @@
     "lazyload": "^2.0.0-rc.2",
     "lozad": "^1.16.0",
     "magnific-popup": "^1.1.0",
-    "masonry-layout": "^4.2.2"
+    "masonry-layout": "^4.2.2",
+    "select2": "^4.1.0-rc.0"
   }
 }

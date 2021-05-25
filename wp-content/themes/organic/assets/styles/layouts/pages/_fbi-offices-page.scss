@@ -1,0 +1,80 @@
+.fbi-offices-page {
+  padding: 0;
+  margin: 0;
+
+  &__list {
+    text-align: center;
+    padding: 30px 0;
+
+    select {
+      display: inline-block;
+      font-size: 28px;
+    }
+
+    .select2-container {
+      width: 200px !important;
+      margin: 10px 0;
+    }
+  }
+
+  &__error-message {
+    text-transform: uppercase;
+    color: red;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+  }
+}
+
+.fbi-criminal {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+
+  @media screen and (max-width: 640px) {
+    flex-direction: column;
+  }
+
+  &__avatar {
+    //  width: 100%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  &__wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+
+  &__reward {
+    font-style: italic;
+    font-weight: 800;
+    margin-bottom: 30px;
+  }
+}
+
+.fbi-loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin: 0 auto 20px auto;
+  display: none;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
