@@ -7,22 +7,20 @@ function ajax_get_fbi_data() {
 
 	$api_raw_data = file_get_contents($api_url);
 
-	// if(empty($api_raw_data->items)) {
-	// 	$output = array(
-	// 		'status' => 'error',
-	// 		'error' => __('Wrong office name', 'organic')
-	// 	);
-
-	// 	echo json_encode($output);
-	// 	die();
-	// }
-
-
 	$api_data = json_decode($api_raw_data);
+
+	if(empty($api_data->items)) {
+		$output = array(
+			'status' => 'error',
+			'error' => __('Wrong office name', 'organic')
+		);
+
+		echo json_encode($output);
+		die();
+	}
 
 	// $total_items = $api_data->total;
 	// $total_pages = ceil( $total_items/12 );
-
 
 	$criminal_info = $api_data->items;
 
