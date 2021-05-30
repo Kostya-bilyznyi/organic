@@ -1,1 +1,0 @@
-D¯`<?php exit; ?>a:1:{s:7:"content";s:92:"C:\OS\OpenServer\domains\organic.loc\wp-content\plugins\woocommerce/templates/loop/price.php";}

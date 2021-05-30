@@ -1,5 +1,5 @@
 <?php exit; ?>{
-    "version": "2.1.2",
+    "version": "2.1.3",
     "cluster.messagebus.debug": false,
     "cluster.messagebus.enabled": false,
     "cluster.messagebus.sns.region": "",
@@ -895,5 +895,9 @@
     "plugin.license_key": "",
     "plugin.type": "",
     "jquerymigrate.disabled": false,
-    "lazyload_process_background": true
+    "lazyload_process_background": true,
+    "pgcache.bad_behavior_path": "",
+    "newrelic": {
+        "monitoring_type": "apm"
+    }
 }

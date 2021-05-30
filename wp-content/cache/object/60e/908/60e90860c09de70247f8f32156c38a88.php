@@ -1,1 +1,0 @@
-~D¯`<?php exit; ?>a:1:{s:7:"content";s:115:"C:\OS\OpenServer\domains\organic.loc\wp-content\plugins\woocommerce/templates/single-product/product-thumbnails.php";}
