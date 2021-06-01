@@ -1,4 +1,4 @@
-4y�`<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":23:{s:2:"ID";s:3:"525";s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2021-05-27 06:52:48";s:13:"post_date_gmt";s:19:"2021-05-27 06:52:48";s:12:"post_content";s:357:"<div class="characteristics-simple__item ng-star-inserted">Діагональ екрана 43"
+U��`<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":23:{s:2:"ID";s:3:"525";s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2021-05-27 06:52:48";s:13:"post_date_gmt";s:19:"2021-05-27 06:52:48";s:12:"post_content";s:357:"<div class="characteristics-simple__item ng-star-inserted">Діагональ екрана 43"
 Роздільна здатність 3840x2160
 Частота екрану (інтерпольована) 2800 Гц (PQI)
 Операційна система Tizen

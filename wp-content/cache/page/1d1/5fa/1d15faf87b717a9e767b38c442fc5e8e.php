@@ -1,6 +1,6 @@
-~Ü≥`<?php exit; ?>a:4:{i:404;b:0;s:7:"headers";a:5:{s:11:"Status-Code";i:200;s:12:"Content-Type";s:24:"text/html; charset=UTF-8";i:0;a:2:{s:1:"n";s:4:"Link";s:1:"v";s:56:"<https://organic.loc/wp-json/>; rel="https://api.w.org/"";}i:1;a:2:{s:1:"n";s:4:"Link";s:1:"v";s:86:"<https://organic.loc/wp-json/wp/v2/pages/9/>; rel="alternate"; type="application/json"";}i:2;a:2:{s:1:"n";s:4:"Link";s:1:"v";s:37:"<https://organic.loc/>; rel=shortlink";}}s:4:"time";i:1622374510;s:7:"content";s:56164:" <!DOCTYPE html>
+©ù∂`<?php exit; ?>a:4:{i:404;b:0;s:7:"headers";a:5:{s:11:"Status-Code";i:200;s:12:"Content-Type";s:24:"text/html; charset=UTF-8";i:0;a:2:{s:1:"n";s:4:"Link";s:1:"v";s:56:"<https://organic.loc/wp-json/>; rel="https://api.w.org/"";}i:1;a:2:{s:1:"n";s:4:"Link";s:1:"v";s:86:"<https://organic.loc/wp-json/wp/v2/pages/9/>; rel="alternate"; type="application/json"";}i:2;a:2:{s:1:"n";s:4:"Link";s:1:"v";s:37:"<https://organic.loc/>; rel=shortlink";}}s:4:"time";i:1622577049;s:7:"content";s:57485:" <!DOCTYPE html>
 <html lang="en-US">
-  <head><style>img.lazy{min-height:1px}</style><link rel="preload" href="https://organic.loc/wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js" as="script">
+  <head><style>img.lazy{min-height:1px}</style><link rel="preload" href="https://organic.loc/wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js" as="script"> <script type="text/javascript">if(!gform){window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0});var gform={domLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded?o():window.addEventListener("DOMContentLoaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),null==t&&(t=10),gform.hooks[o][n].push({tag:i,callable:r,priority:t})},doHook:function(o,n,r){if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[o][n]){var t,i=gform.hooks[o][n];i.sort(function(o,n){return o.priority-n.priority});for(var e=0;e<i.length;e++)"function"!=typeof(t=i[e].callable)&&(t=window[t]),"action"==o?t.apply(null,r):r[0]=t.apply(null,r)}if("filter"==o)return r[0]},removeHook:function(o,n,r,t){if(null!=gform.hooks[o][n])for(var i=gform.hooks[o][n],e=i.length-1;0<=e;e--)null!=t&&t!=i[e].tag||null!=r&&r!=i[e].priority||i.splice(e,1)}}}</script>
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -79,19 +79,8 @@ var eio_lazy_vars = {"exactdn_domain":"","skip_autoscale":"0","threshold":"0"};
 <meta name="msapplication-TileImage" content="https://organic.loc/wp-content/uploads/2021/04/favicon.ico" />
 <style type="text/css">/** Mega Menu CSS: fs **/</style>
 	</head>
-  	<body class="home page-template-default page page-id-9 theme-organic woocommerce-no-js mega-menu-main-menu">
-		<div class="bg-bay-leaf py-2">
-	<div class="continer">
-		<a class="text-center" href="http://organic.loc/shop/">
-			<p class="font-size-14 text-white mb-0">
-				Black Friday | Hundreds of brands, up to 50% off!
-				<span>
-					<i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
-				</span>
-			</p>
-		</a>
-	</div>
-</div>		
+  	<body class="home page-template-default page page-id-9 theme-organic woocommerce-demo-store woocommerce-no-js mega-menu-main-menu">
+				
 		<div class="site-header">
 			<nav class="navbar navbar-expand-lg navbar-light pe-lg-7 ps-lg-6 px-4">
 				<div class="container-fluid px-0">
@@ -525,7 +514,7 @@ var eio_lazy_vars = {"exactdn_domain":"","skip_autoscale":"0","threshold":"0"};
 <p class="footer-text-size mb-4">Sign up here to get the latest news, updates and special offers delivered to your inbox.*</p>
 <div role="form" class="wpcf7" id="wpcf7-f219-o1" lang="en-US" dir="ltr">
 <div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
-<form action="/#wpcf7-f219-o1" method="post" class="wpcf7-form init mailchimp-ext-0.5.38" novalidate="novalidate" data-status="init">
+<form action="/#wpcf7-f219-o1" method="post" class="wpcf7-form init mailchimp-ext-0.5.39" novalidate="novalidate" data-status="init">
 <div style="display: none;">
 <input type="hidden" name="_wpcf7" value="219" />
 <input type="hidden" name="_wpcf7_version" value="5.4.1" />
@@ -573,7 +562,7 @@ var eio_lazy_vars = {"exactdn_domain":"","skip_autoscale":"0","threshold":"0"};
       </div>
     </footer>
     <!-- End Footer-->
-			<script type="text/javascript">
+		<p class="woocommerce-store-notice demo_store" data-notice-id="74eba5f9c9f4dbfc98de69fdffdc1df6" style="display:none;">Black Friday | Hundreds of brands, up to 50% off! <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i> <a href="#" class="woocommerce-store-notice__dismiss-link">Dismiss</a></p>	<script type="text/javascript">
 		(function () {
 			var c = document.body.className;
 			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
@@ -639,10 +628,10 @@ var megamenu = {"timeout":"300","interval":"100"};
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 34/335 objects using disk
+Object Caching 38/323 objects using disk
 Page Caching using disk 
 Lazy Loading
 Database Caching using disk (Request-wide modification query)
 
-Served from: organic.loc @ 2021-05-30 11:35:10 by W3 Total Cache
+Served from: organic.loc @ 2021-06-01 19:50:49 by W3 Total Cache
 -->";}

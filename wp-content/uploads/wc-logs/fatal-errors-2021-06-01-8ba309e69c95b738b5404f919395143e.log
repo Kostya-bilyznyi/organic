@@ -1,0 +1,2 @@
+2021-06-01T19:49:27+00:00 CRITICAL Out of memory (allocated 65011712) (tried to allocate 32768 bytes) in C:\OS\OpenServer\domains\organic.loc\wp-content\plugins\wordpress-seo\src\integrations\schema-blocks.php on line 1
+

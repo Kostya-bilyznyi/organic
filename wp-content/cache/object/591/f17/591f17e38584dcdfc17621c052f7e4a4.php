@@ -1,4 +1,5 @@
-6y³`<?php exit; ?>a:1:{s:7:"content";s:16598:"O:8:"stdClass":2:{s:6:"themes";a:0:{}s:7:"plugins";a:3:{s:19:"Custom Post Type UI";s:316:"<wpml-config>
+Ú
+¶`<?php exit; ?>a:1:{s:7:"content";s:16598:"O:8:"stdClass":2:{s:6:"themes";a:0:{}s:7:"plugins";a:3:{s:19:"Custom Post Type UI";s:316:"<wpml-config>
     <admin-texts>
         <key name="cptui_*">
             <key name="*">

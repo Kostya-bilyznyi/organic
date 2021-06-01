@@ -13,8 +13,9 @@ $header = new OrganicHeader();
 	</head>
   	<body <?php body_class(); ?>>
 		<?php wp_body_open();
-
-		echo $header->get_sale_section(); ?>
+		/*
+		echo $header->get_sale_section();
+		*/ ?>
 		
 		<div class="site-header">
 			<nav class="navbar navbar-expand-lg navbar-light pe-lg-7 ps-lg-6 px-4">

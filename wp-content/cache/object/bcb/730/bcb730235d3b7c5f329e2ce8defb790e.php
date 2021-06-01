@@ -1,1 +1,1 @@
->Ÿ°`<?php exit; ?>a:1:{s:7:"content";s:17:"fab fa-facebook-f";}
+”¶`<?php exit; ?>a:1:{s:7:"content";s:17:"fab fa-facebook-f";}

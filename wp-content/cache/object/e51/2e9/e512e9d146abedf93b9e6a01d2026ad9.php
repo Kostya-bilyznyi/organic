@@ -1,4 +1,4 @@
-�y�`<?php exit; ?>a:1:{s:7:"content";s:438279:"a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
+��`<?php exit; ?>a:1:{s:7:"content";s:441974:"a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 
 
 ";s:7:"attribs";a:1:{s:0:"";a:1:{s:7:"version";s:3:"2.0";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:1:{s:7:"channel";a:1:{i:0;a:6:{s:4:"data";s:61:"
@@ -59,6 +59,156 @@
 
 
 ";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:16:"WordPress Planet";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:28:"http://planet.wordpress.org/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"language";a:1:{i:0;a:5:{s:4:"data";s:2:"en";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:47:"WordPress Planet - http://planet.wordpress.org/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"item";a:50:{i:0;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:79:"WPTavern: Ujwal Thapa, Co-Founder of the WordPress Nepal Community, Passes Away";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:30:"https://wptavern.com/?p=117594";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:199:"https://wptavern.com/ujwal-thapa-co-founder-of-the-wordpress-nepal-community-passes-away?utm_source=rss&utm_medium=rss&utm_campaign=ujwal-thapa-co-founder-of-the-wordpress-nepal-community-passes-away";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:4024:"<p>&ldquo;Here is my resume of professional Failures,&rdquo; began his <a href="https://np.linkedin.com/in/ujwalthapa">LinkedIn profile</a>. On a site where most are apt to share success, <a href="https://www.whynepal.com/">Ujwal Thapa</a> started with nearly a two-decade history of dreams that did not quite work out. Or, maybe they did in some ways.</p>
+
+
+
+<p>Much of <a href="https://twitter.com/search?q=%23ujjwalthapa">Nepal is reeling</a> from <a href="https://nepalontheweb.com/2021/06/01/ujwal-thapa-founder-of-bibeksheel-nepali-party-passes-away/">his death today</a>. In the past week, he had been battling multiple health complications from Covid-19. The 44-year-old activist was the founder of the Bibeksheel Nepali political party, originally a peaceful movement that fought against political corruption and social injustice.</p>
+
+
+
+<p>However, many Nepali WordPress users will remember him as a co-founder of their community. The <a href="https://www.facebook.com/groups/wordpressnepal">WordPress Nepal</a> Facebook group has now grown to nearly 8,000 members.</p>
+
+
+
+<ul><li class="blocks-gallery-item"><img />WordCamp Nepal 2014</li><li class="blocks-gallery-item"><img />2015 WordCamp Kathmandu</li><li class="blocks-gallery-item"><img />WordPress Meetup In Biratnagar</li><li class="blocks-gallery-item"><img />WordPress Nepal Founders</li></ul>Photos shared by Ganga Kafle.
+
+
+
+<p>In a <a href="https://nepalbuzz.com/people/nepali-wordpress-stars-2015-4/">2015 interview</a> with Nepal Buzz, he noted his proudest WordPress-related achievement as building this community. &ldquo;That is not just creating tens and hundreds, but thousands of jobs in Nepal, and has the potential to create tens of thousands more, which basically means we are contributing to the nation by creating opportunities where there are none.&rdquo;</p>
+
+
+
+<p>Later in the interview, he said he was a provoker, and he continued to live the remainder of his life in that belief.</p>
+
+
+
+<p>&ldquo;I believe that the easiest way to bring change is to align all the positive people in the same direction,&rdquo; he said. &ldquo;So my job is to provoke and bring together people with similar interests, and align them in a similar direction, creating the change that they would never believe could come.&rdquo;</p>
+
+
+
+<p>Thapa founded <a href="http://digital.com.np/">Web Max Solutions</a> in 2002, amidst the Nepalese Civil War. At one point, the company had as many as 35 employees. Over 30 eventually moved on to start their own IT businesses. He also created the Entrepreneurs for Nepal Facebook group, which now has over 100,000 members. From May 2013 to October 2019, he served as the Chairperson of the BibekSheel Nepali party.</p>
+
+
+
+<p>Many in Nepal&rsquo;s WordPress community owe him a debt of gratitude for having the vision of building off the core platform. WordPress.org Themes Team representative Ganga Kafle credits at least part of his career and deep involvement with WordPress to Thapa, helping him land an initial internship with Web Experts Nepal.</p>
+
+
+
+<p>&ldquo;Ujwal Thapa is the person who introduced WordPress to me in 2012 in a meetup,&rdquo; he said. &ldquo;After that, I was in close relation with him. In 2014, after my graduation, I went to Ujwal and asked him about the internship, and he took me to that office and talked with the boss and finalized for the internship. That&rsquo;s how I jumped in WordPress, and now I am one of the leads of Themes Team.&rdquo;</p>
+
+
+
+<p>&ldquo;Once he said to me, &lsquo;WordPress is giving so much things for free, why you hesitate to put <em>Proudly Powered by WordPress</em>?'&rdquo; Kafle shared of the mentor, referencing the typical credit line in many WordPress site footers. &ldquo;He was in love with WordPress.&rdquo;</p>
+
+
+
+<p>You can view Thapa&rsquo;s WordCamp presentations as a <a href="https://wordpress.tv/speakers/ujwal-thapa/">speaker</a> and <a href="https://wordpress.tv/speakers/ujwal-thapa-moderator/">panel moderator</a> via WordPress.tv.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 01 Jun 2021 19:08:27 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:1;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:70:"WPTavern: Breaking Down WPMarmite’s 127-Shop Full Site Editing Study";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:30:"https://wptavern.com/?p=117541";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:179:"https://wptavern.com/breaking-down-wpmarmites-127-shop-full-site-editing-study?utm_source=rss&utm_medium=rss&utm_campaign=breaking-down-wpmarmites-127-shop-full-site-editing-study";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:6698:"<p class="has-drop-cap">Earlier today, the WPMarmite team released a massive <a href="https://wpmarmite.com/en/fse-study/">study of 127 WordPress theme shops</a>. It primarily focused on integration with the block editor. The team also surveyed 22 of the shops directly to dive deeper into what the future might look like when the Full Site Editing (FSE) project is entirely bundled into the core platform, which could be around the WordPress 5.9 release in late 2021.</p>
+
+
+
+<p>FSE is not a single thing that WordPress will drop on users all at once. It is an ongoing project with several independent but related components that will ship based on their readiness. The goal is to move the block system beyond just content, bringing blocks into all facets of a site&rsquo;s front end.</p>
+
+
+
+<p>Single post/page template editing and block-based widgets are expected to <a href="https://wptavern.com/full-site-editing-is-partly-a-go-for-wordpress-5-8">arrive with WordPress 5.8</a> in July. These are two user-facing components that serve as stepping stones toward a complete FSE experience.</p>
+
+
+
+<p>Putting study into context, FSE-related discussion for theme authors is mainly about block templates and global styles. These components will create a drastic change to theme development where templates are made up of blocks themselves and styles are configured via a JSON file. For the first time in WordPress&rsquo;s history, users will be able to directly edit both from an interface in their site admin without knowing any code.</p>
+
+
+
+<img />Upcoming site editor with templates (left panel) and global styles (right panel).
+
+
+
+<p><a href="https://wptavern.com/wordpress-5-0-bebo-released-lays-a-foundation-for-the-platforms-future">WordPress 5.0</a>, the first version to include blocks, launched two and a half years ago. Theme authors have had time to catch up, migrate old projects, and create new ones. WPMarmite&rsquo;s study gives a solid, at-a-glance view of how shops are fairing now that the shockwave of the block system&rsquo;s introduction has long settled.</p>
+
+
+
+<h2>The Study: Block Editor Support</h2>
+
+
+
+<p class="has-drop-cap">The primary takeaway from the 127-shop study was that 57% of them featured their compatibility with the block editor in some way. Short of testing themes from each site individually or directly asking them all, there is no other way to know how many actually offer support. My guess is the number is not much higher.</p>
+
+
+
+<p>Technically, all themes &ldquo;work&rdquo; with the WordPress editor. However, not all are designed from the ground up to offer an ideal experience with it. As a commercial theme shop, you would want to mention this support somewhere in your marketing.</p>
+
+
+
+<p>Even if that 57% is dead-on, a shop featuring block support does not always mean solid support. In my experience of viewing themes and their demos almost daily, &ldquo;support&rdquo; often means minimal adjustments to make sure the basics do not break the site. That number is far lower if you are counting themes that offer an immersive block-editor experience.</p>
+
+
+
+<p>The number that was surprising but not surprising was the percentage of shops currently providing block patterns. Only 3% (4 in total) bundle custom patterns.</p>
+
+
+
+<img />Inserting a block pattern into the WordPress editor.
+
+
+
+<p>While the patterns API has only been around since <a href="https://wptavern.com/wordpress-5-5-eckstine-introduces-block-directory-block-patterns-and-automatic-updates-for-themes-and-plugins">WordPress 5.5</a>, released less than a year ago, it is one of those crucial tools for the future of theme development. I thought the number was low. I just did not know it was <em>3% low</em>.</p>
+
+
+
+<p>If 57% of shops offer some level of block editor support, why are they stopping short of complete integration and not using the most powerful features at their disposal?</p>
+
+
+
+<p>Patterns are part of that immersive experience I mentioned. If a shop does not have any, I would question how much it actually supports the block system.</p>
+
+
+
+<p>In the WordPress.org free theme directory, that percentage is much higher. Currently, 514 themes <a href="https://wordpress.org/themes/tags/block-styles/">add block editor styles</a>, and 120 <a href="https://wordpress.org/themes/tags/block-patterns/">bundle at least one pattern</a>.</p>
+
+
+
+<p><em>Note: if you <a href="https://wordpress.org/themes/tags/block-patterns+block-styles/">combine those two filters</a>, the directory lists 107 themes. Some could be missing a tag.</em></p>
+
+
+
+<p>One data point the team missed was how many of these theme shops integrated with third-party page builders. I would wager that most of the ThemeForest authors support at least one additional builder, maybe two. It is almost a sure-fire bet that Elementor and Beaver Builder top that list. While the study was on the core block system, this would have given us a more accurate look at the current theme market.</p>
+
+
+
+<h2>The Survey: FSE and the Future</h2>
+
+
+
+<p class="has-drop-cap">Of the 127 shops, WPMarmite surveyed 22 of them with questions around FSE. The most telling statistic is that 82% of shops follow FSE-related news, citing WP Tavern as one of their sources. <em>Thank you, dear readers.</em></p>
+
+
+
+<p>On a more serious note, 86% of those surveyed believe that FSE will be a breakthrough for users. I am not surprised at this. Many features that theme authors have attempted to accomplish over the last decade are being rolled into the Gutenberg plugin. It is a slow process, but having the pieces built into WordPress provides standard APIs that will make themers&rsquo; jobs easier. In turn, this will allow them to launch features that users ask for with less code and a faster turnaround.</p>
+
+
+
+<p>The number I want to see higher is those actively preparing for block templates and global styles. According to the survey, only 22% are doing so.</p>
+
+
+
+<p>These components are continually in flux. However, the foundational elements are far more stable than they were just a few months ago. This makes it a good moment for others to start diving in &mdash; there is less chance of breaking changes with the system. I expect the percentage of commercial theme shops working with FSE to jump throughout the year. However, it could be a slow process getting to the point where such themes are commonplace. We may need to see a breakout block theme that quickly rises in popularity first. Everyone else will fall in line.</p>
+
+
+
+<p>In the meantime, if anyone wants to experiment with FSE, there are <a href="https://wordpress.org/themes/tags/full-site-editing/">six themes listed</a> in the directory.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 01 Jun 2021 00:36:21 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:2;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -249,7 +399,7 @@
 
 
 
-<p>Featured Image: Photo by <a href="https://unsplash.com/@ravipalwe?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ravi Palwe</a> on <a href="https://unsplash.com/s/photos/lego?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sat, 29 May 2021 18:23:58 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:18:"Birgit Pauli-Haack";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:1;a:6:{s:4:"data";s:13:"
+<p>Featured Image: Photo by <a href="https://unsplash.com/@ravipalwe?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ravi Palwe</a> on <a href="https://unsplash.com/s/photos/lego?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sat, 29 May 2021 18:23:58 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:18:"Birgit Pauli-Haack";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:3;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -320,7 +470,7 @@
 
 
 
-<p>I do not often write several paragraphs about one function that spans a mere 21 lines of code, but I am still a developer at heart and love seeing elegantly simple solutions. It is not about the font-loading technique; it is about solving problems. This code will undoubtedly be copied many thousands of times over in the coming years and modified for many more thousands of uses. If you are a theme developer and do not see it yet, you will.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sat, 29 May 2021 00:00:19 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:2;a:6:{s:4:"data";s:11:"
+<p>I do not often write several paragraphs about one function that spans a mere 21 lines of code, but I am still a developer at heart and love seeing elegantly simple solutions. It is not about the font-loading technique; it is about solving problems. This code will undoubtedly be copied many thousands of times over in the coming years and modified for many more thousands of uses. If you are a theme developer and do not see it yet, you will.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sat, 29 May 2021 00:00:19 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:4;a:6:{s:4:"data";s:11:"
 	
 	
 	
@@ -369,68 +519,7 @@
 
 
 <p>If you&#8217;d like more information about the program, check out this <a href="https://yoast.com/diversity-fund/">blog post</a>, and if you&#8217;d like to apply for the fund <a href="https://yoast.com/yoast-diversity-fund/apply/">click here</a>.</p>
-<p>The post <a rel="nofollow" href="https://heropress.com/yoast-pivots-diversity-fund/">Yoast Pivots Diversity Fund</a> appeared first on <a rel="nofollow" href="https://heropress.com">HeroPress</a>.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 28 May 2021 13:03:18 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:3;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:46:"BuddyPress: BuddyPress 8.0.0 Release Candidate";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:32:"https://buddypress.org/?p=319009";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:66:"https://buddypress.org/2021/05/buddypress-8-0-0-release-candidate/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3107:"<p>The first release candidate for BuddyPress 8.0.0 is now available!</p>
-
-
-
-<div class="wp-block-buttons is-content-justification-center">
-<div class="wp-block-button"><a class="wp-block-button__link has-white-color has-text-color has-background" href="https://downloads.wordpress.org/plugin/buddypress.8.0.0-RC1.zip">Let&#8217;s test it!</a></div>
-</div>
-
-
-
-<div class="wp-block-spacer"></div>
-
-
-
-<p>&#8220;Release Candidate&#8221; means that we think the new version is ready for release, but with more than 200,000 active installs, hundreds of BuddyPress plugins and Thousands of WordPress themes, it’s possible something was missed. BuddyPress 8.0.0 is slated for release&nbsp;on&nbsp;<strong>June 7, 2021</strong>, but&nbsp;<em>your</em>&nbsp;help is needed to get there — if you haven’t tried 8.0.0 yet,&nbsp;doing it now is a great idea!</p>
-
-
-
-<p>You can test the&nbsp;<a href="https://downloads.wordpress.org/plugin/buddypress.8.0.0-RC1.zip">8.0.0-RC</a>&nbsp;pre-release in 4 ways :</p>
-
-
-
-<ul><li>Try the&nbsp;<a href="https://wordpress.org/plugins/bp-beta-tester/">BP Beta Tester</a>&nbsp;plugin.</li><li><a href="https://downloads.wordpress.org/plugin/buddypress.8.0.0-RC1.zip">Download the release candidate here (zip file)</a>.</li><li>Check out our SVN repository:&nbsp;<code>svn co https://buddypress.svn.wordpress.org/trunk/</code></li><li>Clone our read-only Git repository:&nbsp;<code>git clone git://buddypress.git.wordpress.org/</code></li></ul>
-
-
-
-<p>A detailed changelog will be part of our official release note, but&nbsp;you can get a quick overview by reading the post about the&nbsp;<a href="https://buddypress.org/2021/04/buddypress-8-0-0-beta1/">8.0.0 Beta1</a>&nbsp;release.</p>
-
-
-
-<div class="wp-block-spacer"></div>
-
-
-
-<h2>Plugin and Theme Developers</h2>
-
-
-
-<p>Please test your plugins and themes against BuddyPress 8.0.0. If you find compatibility problems, please be sure to post to this specific&nbsp;<a href="https://buddypress.org/support/topic/buddypress-8-0-0-release-candidate/">support topic</a>&nbsp;so we can figure those out before the final release. We strongly advise you to have a look at the&nbsp;<a href="https://bpdevel.wordpress.com/category/development-notes/8-0/">8.0.0 developer notes</a>&nbsp;to figure out what to focus on during your testing.</p>
-
-
-
-<div class="wp-block-spacer"></div>
-
-
-
-<h2>How you can help</h2>
-
-
-
-<p>Do you speak a language other than English? <a href="https://translate.wordpress.org/projects/wp-plugins/buddypress/">Help us translate BuddyPress into as many languages as possible!</a> This release also marks the <a href="https://make.wordpress.org/polyglots/handbook/glossary/#string-freeze">string freeze</a> point of the 8.0.0 release schedule.</p>
-
-
-
-<p><em><strong>If you think you’ve found a bug</strong>, you can share it with us replying to this <a href="https://buddypress.org/support/topic/buddypress-8-0-0-release-candidate/">support topic</a> or if you’re comfortable writing a reproducible bug report,&nbsp;<a href="https://buddypress.trac.wordpress.org/">file one on BuddyPress Trac</a></em>.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 28 May 2021 04:30:05 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:12:"Mathieu Viet";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:4;a:6:{s:4:"data";s:13:"
+<p>The post <a rel="nofollow" href="https://heropress.com/yoast-pivots-diversity-fund/">Yoast Pivots Diversity Fund</a> appeared first on <a rel="nofollow" href="https://heropress.com">HeroPress</a>.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 28 May 2021 13:03:18 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:5;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -473,7 +562,7 @@
 
 
 
-<p>18 years of growth is a milestone worth recognizing on the web. Congratulations to the code contributors, translators, community organizers, WordPress leadership, and everyone else who has helped make this beloved publishing platform that continues to surprise the world.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 28 May 2021 03:29:05 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:5;a:6:{s:4:"data";s:13:"
+<p>18 years of growth is a milestone worth recognizing on the web. Congratulations to the code contributors, translators, community organizers, WordPress leadership, and everyone else who has helped make this beloved publishing platform that continues to surprise the world.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 28 May 2021 03:29:05 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:6;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -620,7 +709,7 @@
 
 
 
-<p>Now, can we do the same for the Columns, Gallery, and Query Loop blocks? Normalizing the system for gutters/gaps between flex items can save dozens upon dozens of lines of code in the long term.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 28 May 2021 00:41:56 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:6;a:6:{s:4:"data";s:13:"
+<p>Now, can we do the same for the Columns, Gallery, and Query Loop blocks? Normalizing the system for gutters/gaps between flex items can save dozens upon dozens of lines of code in the long term.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 28 May 2021 00:41:56 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:7;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -639,7 +728,7 @@
 
 
 
-<p>The overwhelming feeling is one of gratitude, so I want to say thank you to <em>every</em> person who has ever been involved with making WordPress as a contributor, a community organizer, or as an end-user of the software. It&#8217;s amazing what we can accomplish when we work together.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 27 May 2021 22:31:23 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:4:"Matt";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:7;a:6:{s:4:"data";s:13:"
+<p>The overwhelming feeling is one of gratitude, so I want to say thank you to <em>every</em> person who has ever been involved with making WordPress as a contributor, a community organizer, or as an end-user of the software. It&#8217;s amazing what we can accomplish when we work together.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 27 May 2021 22:31:23 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:4:"Matt";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:8;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -682,7 +771,7 @@
 
 
 
-<p>Thank you for your support of WordPress over the past 18 years. Your continued patronage will ensure that WordPress will keep going for the next 18 years and beyond!&nbsp;</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 27 May 2021 10:57:41 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:12:"Hari Shanker";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:8;a:6:{s:4:"data";s:13:"
+<p>Thank you for your support of WordPress over the past 18 years. Your continued patronage will ensure that WordPress will keep going for the next 18 years and beyond!&nbsp;</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 27 May 2021 10:57:41 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:12:"Hari Shanker";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:9;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -703,7 +792,7 @@
 
 
 
-<p>Grab a slice of cake or festive beverage and give it a scroll!</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 27 May 2021 06:00:00 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:7:"Josepha";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:9;a:6:{s:4:"data";s:13:"
+<p>Grab a slice of cake or festive beverage and give it a scroll!</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 27 May 2021 06:00:00 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:7:"Josepha";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:10;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -758,7 +847,7 @@
 
 
 
-<p>The ticket has not yet received much feedback as WordPress is taking a more cautious approach that will depend on how Google decides to implement its FLoC API. Without the support of any major browsers, WordPress&rsquo; support or opposition may be critical to the success or failure of FLoC adoption on the web. Once more information from the FLoC trial becomes available, WordPress contributors will be in a better position to decide a course of action.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 27 May 2021 02:25:31 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:10;a:6:{s:4:"data";s:13:"
+<p>The ticket has not yet received much feedback as WordPress is taking a more cautious approach that will depend on how Google decides to implement its FLoC API. Without the support of any major browsers, WordPress&rsquo; support or opposition may be critical to the success or failure of FLoC adoption on the web. Once more information from the FLoC trial becomes available, WordPress contributors will be in a better position to decide a course of action.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 27 May 2021 02:25:31 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:11;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -861,7 +950,7 @@
 
 
 
-<p>I enjoyed the process &mdash; <em>yes, I revel in both the fun and frustration</em>. Aside from everything that I think is broken, the overall system is <em>pretty dang sweet</em>. There are far more things that the development team has nailed down than there are that feel janky. However, calls for testing are all about finding the problems. I encourage all Tavern readers to join in and report your feedback.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 27 May 2021 01:04:46 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:11;a:6:{s:4:"data";s:13:"
+<p>I enjoyed the process &mdash; <em>yes, I revel in both the fun and frustration</em>. Aside from everything that I think is broken, the overall system is <em>pretty dang sweet</em>. There are far more things that the development team has nailed down than there are that feel janky. However, calls for testing are all about finding the problems. I encourage all Tavern readers to join in and report your feedback.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 27 May 2021 01:04:46 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:12;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -938,7 +1027,7 @@
 <p>ધ્રુવિન અને હું નવેમ્બર 2020 માં ગૌરવપૂર્ણ માતા પિતા બન્યા. હું જેટલી આ મારા નવા તબક્કાની મજા માણી રહી છું, એટલી જ હું વર્ડપ્રેસ ઇકોસિસ્ટમમાં મારુ સ્થાન miss કરી રહી chu.</p>
 <p>જ્યાં સુધી મને લાગતું નતું કે હું યોગ્ય સમય સમર્પિત કરી શકીશ ત્યાં સુધી મેં અનિશ્ચિત વિરામ લીધો હતો. હવે, હું મારી વ્યવસાયિક કારકિર્દી ફરી શરૂ કરવાની યોજના બનાવી રહી છું. હું મારી કારકિર્દીને Imaginate Solutions સાથે આગળ લઈ જઈશ. Imaginate Solutions પણ વિશિષ્ટ WooCommerce plugin બનાવનાર plugin કંપની છે.</p>
 <p>હું મારા આગળના ભવિષ્ય માટે ઉત્સાહિત છું!</p>
-<p>The post <a rel="nofollow" href="https://heropress.com/essays/wordpress-the-source-of-my-satisfaction-and-joy/">WordPress &#8211; The Source Of My Satisfaction And Joy &#8211; વર્ડપ્રેસ &#8211; સંતોષ અને આનંદ નો સાધન</a> appeared first on <a rel="nofollow" href="https://heropress.com">HeroPress</a>.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 26 May 2021 13:38:54 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:10:"Dhara Shah";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:12;a:6:{s:4:"data";s:13:"
+<p>The post <a rel="nofollow" href="https://heropress.com/essays/wordpress-the-source-of-my-satisfaction-and-joy/">WordPress &#8211; The Source Of My Satisfaction And Joy &#8211; વર્ડપ્રેસ &#8211; સંતોષ અને આનંદ નો સાધન</a> appeared first on <a rel="nofollow" href="https://heropress.com">HeroPress</a>.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 26 May 2021 13:38:54 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:10:"Dhara Shah";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:13;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -1047,7 +1136,7 @@
 
 
 
-<p><em>Thanks to <a href="https://profiles.wordpress.org/joen/">@joen</a> and <em><em><a href="https://profiles.wordpress.org/mkaz/">@mkaz</a></em></em></em> <em>for assistance writing and reviewing this post.</em></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 26 May 2021 12:17:41 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:15:"Chloe Bringmann";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:13;a:6:{s:4:"data";s:13:"
+<p><em>Thanks to <a href="https://profiles.wordpress.org/joen/">@joen</a> and <em><em><a href="https://profiles.wordpress.org/mkaz/">@mkaz</a></em></em></em> <em>for assistance writing and reviewing this post.</em></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 26 May 2021 12:17:41 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:15:"Chloe Bringmann";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:14;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -1118,7 +1207,7 @@
 
 
 
-<p>Please send virtual hugs to developers who are building the plugins and themes you use. They are a vital part of WordPress&rsquo;s success. Five-star ratings and donations never hurt either.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 26 May 2021 00:35:50 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:14;a:6:{s:4:"data";s:13:"
+<p>Please send virtual hugs to developers who are building the plugins and themes you use. They are a vital part of WordPress&rsquo;s success. Five-star ratings and donations never hurt either.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 26 May 2021 00:35:50 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:15;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -1153,7 +1242,7 @@
 
 
 
-<p><a href="https://mycodelesswebsite.com/">My Codeless Website</a> is a handy tool worth bookmarking that enables you to check through a list of sites quickly to see what site builders they are using. It&rsquo;s meant to appeal to entrepreneurs who need to take their businesses online so the rest of the site is geared towards client services. It would be valuable if this tool or another new tool could expand to detect the block plugins and libraries that a site is using so that visitors could get even more information on the website they find inspiring. </p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 25 May 2021 04:56:20 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:15;a:6:{s:4:"data";s:13:"
+<p><a href="https://mycodelesswebsite.com/">My Codeless Website</a> is a handy tool worth bookmarking that enables you to check through a list of sites quickly to see what site builders they are using. It&rsquo;s meant to appeal to entrepreneurs who need to take their businesses online so the rest of the site is geared towards client services. It would be valuable if this tool or another new tool could expand to detect the block plugins and libraries that a site is using so that visitors could get even more information on the website they find inspiring. </p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 25 May 2021 04:56:20 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:16;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -1268,7 +1357,7 @@
 
 
 
-<p>In two months, its Facebook community has grown to 2,000+ members. &ldquo;Very active, positive, and helpful,&rdquo; he said. &ldquo;You can&rsquo;t put a price tag on that.&rdquo;</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 24 May 2021 23:36:41 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:16;a:6:{s:4:"data";s:13:"
+<p>In two months, its Facebook community has grown to 2,000+ members. &ldquo;Very active, positive, and helpful,&rdquo; he said. &ldquo;You can&rsquo;t put a price tag on that.&rdquo;</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 24 May 2021 23:36:41 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:17;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -1379,7 +1468,7 @@
 
 
 
-<p>And that my friends is your smallest of big things. Thank you for tuning in today for the WordPress Briefing. I&#8217;m your host, Josepha Haden Chomphosy, and I&#8217;ll see you again in a couple of weeks!</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 24 May 2021 11:55:14 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:15:"Chloe Bringmann";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:17;a:6:{s:4:"data";s:13:"
+<p>And that my friends is your smallest of big things. Thank you for tuning in today for the WordPress Briefing. I&#8217;m your host, Josepha Haden Chomphosy, and I&#8217;ll see you again in a couple of weeks!</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 24 May 2021 11:55:14 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:15:"Chloe Bringmann";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:18;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -1617,7 +1706,7 @@
 
 
 
-<hr class="wp-block-separator is-style-wide" />";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sat, 22 May 2021 20:19:23 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:18:"Birgit Pauli-Haack";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:18;a:6:{s:4:"data";s:13:"
+<hr class="wp-block-separator is-style-wide" />";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sat, 22 May 2021 20:19:23 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:18:"Birgit Pauli-Haack";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:19;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -1724,7 +1813,7 @@
 
 
 
-<p>The most useful blocks do something that WordPress is incapable of doing alone or adding elements that do not exist.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sat, 22 May 2021 00:26:32 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:19;a:6:{s:4:"data";s:13:"
+<p>The most useful blocks do something that WordPress is incapable of doing alone or adding elements that do not exist.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sat, 22 May 2021 00:26:32 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:20;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -1835,7 +1924,7 @@
 
 
 
-<p></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 21 May 2021 23:29:19 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:4:"Matt";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:20;a:6:{s:4:"data";s:13:"
+<p></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 21 May 2021 23:29:19 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:4:"Matt";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:21;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -1858,7 +1947,7 @@
 
 
 
-<p>Open source maintainers who want to connect with others who share some of the same challenges, will want to add <a href="https://github.com/github/maintainerweek">Maintainer Week&rsquo;s activities</a> to the calendar. All of the upcoming events are free but registration is required on the <a href="https://upstream.live/register">Upstream</a> site.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 21 May 2021 20:37:42 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:21;a:6:{s:4:"data";s:13:"
+<p>Open source maintainers who want to connect with others who share some of the same challenges, will want to add <a href="https://github.com/github/maintainerweek">Maintainer Week&rsquo;s activities</a> to the calendar. All of the upcoming events are free but registration is required on the <a href="https://upstream.live/register">Upstream</a> site.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 21 May 2021 20:37:42 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:22;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -1917,7 +2006,7 @@
 
 
 
-<p> </p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 21 May 2021 02:16:22 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:22;a:6:{s:4:"data";s:13:"
+<p> </p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 21 May 2021 02:16:22 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:23;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -1984,64 +2073,7 @@
 
 
 
-<p>The downside in such a system is that it puts <em>yet another</em> input field in front of the end-user. Sometimes the route with the least effort is best. And, for a quick post note plugin, it is tough to beat the plugin&rsquo;s current solution.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 21 May 2021 00:25:07 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:23;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:34:"BuddyPress: BuddyPress 8.0.0-beta2";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:32:"https://buddypress.org/?p=318656";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:54:"https://buddypress.org/2021/05/buddypress-8-0-0-beta2/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:4249:"<p>Hello BuddyPress contributors!</p>
-
-
-
-<p>If you haven&#8217;t tested our first <a href="https://buddypress.org/2021/04/buddypress-8-0-0-beta1/">8.0.0 beta release</a>, here&#8217;s another opportunity to help us give the final touches to our next major release so that we make sure it will fit perfectly into your WordPress / BuddyPress specific configuration. Beta testing is very important and we need you all, whether you&#8217;re a regular or advanced user, a theme designer or a plugin author: please contribute!</p>
-
-
-
-<div class="wp-block-buttons is-content-justification-center">
-<div class="wp-block-button"><a class="wp-block-button__link has-white-color has-text-color has-background" href="https://downloads.wordpress.org/plugin/buddypress.8.0.0-beta2.zip">Test BuddyPress 8.0.0-beta2</a></div>
-</div>
-
-
-
-<div class="wp-block-spacer"></div>
-
-
-
-<h2>What&#8217;s new since beta1?</h2>
-
-
-
-<p>First we applied to ourselves the advice we just gave you into the first paragraph of this post: we&#8217;ve tested BuddyPress on WordPress 5.8-alpha and on latest stable WordPress &amp; Gutenberg&#8217;s plugin. Our goal was to check the very promising <a href="https://make.wordpress.org/core/2021/05/12/help-test-the-widgets-editor-for-wordpress-5-8/">Widgets Block Editor</a> that is announced to be part of the WordPress 5.8 release. This helped us <a href="https://buddypress.trac.wordpress.org/ticket/8465">anticipate some deprecation notices</a> and <a href="https://buddypress.trac.wordpress.org/ticket/8476">prevent an issue</a> to happen into the new Widgets Block Editor Administration screen. If you were worried about losing your favorite BuddyPress widgets once WordPress 5.8 is released: be reassured, we can tell you there&#8217;s a back-compatibility mechanism into the Widgets Block feature making sure legacy widgets can still be managed from the new Widgets Block Editor Administration screen. If you&#8217;re wondering if we have a plan about migrating these widgets as blocks, we confirm <strong>we do</strong> and we actually started building these <a href="https://github.com/buddypress/bp-blocks/issues/37">next BP Blocks</a>!</p>
-
-
-
-<p>We also tested the Full Site Editing feature. For now, there&#8217;s a breaking change preventing our BP Theme Compat API to behave as expected <a href="https://buddypress.trac.wordpress.org/ticket/8474">but we&#8217;re on it</a> and we&#8217;ll make sure BuddyPress is Full Site Editing ready <strong>before this feature is merged into WordPress core</strong>.</p>
-
-
-
-<p>We started documenting the new features arriving in <a href="https://bpdevel.wordpress.com/category/development-notes/8-0/">BuddyPress 8.0.0</a>, you can already learn about <a href="https://bpdevel.wordpress.com/2021/05/06/selectable-xprofile-sign-up-fields-in-8-0-0/">the selectable signup xProfile fields</a> and the <a href="https://bpdevel.wordpress.com/2021/05/05/new-xprofile-field-type-checkbox-acceptance-will-be-introduced-in-buddypress-8-0-0/">CheckBox Acceptance xProfile field</a>.</p>
-
-
-
-<p>Finally we&#8217;ve polished the very promising <a href="https://buddypress.trac.wordpress.org/ticket/8139">BP Members Invitations feature</a> and made sure it was <a href="https://buddypress.trac.wordpress.org/ticket/8430">easier to extend the BP Messages UI</a> into the BP Nouveau template pack.</p>
-
-
-
-<p>The final release is slated to early June and&nbsp;<strong>we need you to get there</strong>: do test this beta release of BuddyPress <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f64f.png" alt="🙏" class="wp-smiley" />.</p>
-
-
-
-<p>You can test BuddyPress 8.0.0-beta2 in 4 ways :</p>
-
-
-
-<ul><li>Try the <a href="https://wordpress.org/plugins/bp-beta-tester/">BP Beta Tester</a> plugin.</li><li><a href="https://downloads.wordpress.org/plugin/buddypress.8.0.0-beta2.zip">Download the beta here (zip file)</a>.</li><li>Check out our SVN repository: <code>svn co https://buddypress.svn.wordpress.org/trunk/</code></li><li>Clone our read-only Git repository: <code>git clone git://buddypress.git.wordpress.org/</code></li></ul>
-
-
-
-<p>Thanks in advance for your contributions&nbsp;<img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f970.png" alt="🥰" class="wp-smiley" /></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 20 May 2021 20:00:07 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:12:"Mathieu Viet";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:24;a:6:{s:4:"data";s:13:"
+<p>The downside in such a system is that it puts <em>yet another</em> input field in front of the end-user. Sometimes the route with the least effort is best. And, for a quick post note plugin, it is tough to beat the plugin&rsquo;s current solution.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 21 May 2021 00:25:07 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:24;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -4527,4 +4559,4 @@ Transcript<div><div class="chat-transcript"><div class="chat-stanza chat-row cha
 
 
 
-<p>Jetpack 9.7 also brings performance improvements to the Carousel feature, several bug fixes for Instant Search, and more. The full list of enhancements and fixes can be found in the <a href="https://wordpress.org/plugins/jetpack/#developers">changelog</a>.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 05 May 2021 03:35:31 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}}}}}}s:4:"type";i:128;s:7:"headers";O:42:"Requests_Utility_CaseInsensitiveDictionary":1:{s:7:" * data";a:8:{s:6:"server";s:5:"nginx";s:4:"date";s:29:"Sun, 30 May 2021 11:38:01 GMT";s:12:"content-type";s:8:"text/xml";s:4:"vary";s:15:"Accept-Encoding";s:13:"last-modified";s:29:"Sun, 30 May 2021 11:15:10 GMT";s:15:"x-frame-options";s:10:"SAMEORIGIN";s:4:"x-nc";s:9:"HIT ord 2";s:16:"content-encoding";s:4:"gzip";}}s:5:"build";s:14:"20201016172007";}";}
+<p>Jetpack 9.7 also brings performance improvements to the Carousel feature, several bug fixes for Instant Search, and more. The full list of enhancements and fixes can be found in the <a href="https://wordpress.org/plugins/jetpack/#developers">changelog</a>.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 05 May 2021 03:35:31 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}}}}}}s:4:"type";i:128;s:7:"headers";O:42:"Requests_Utility_CaseInsensitiveDictionary":1:{s:7:" * data";a:8:{s:6:"server";s:5:"nginx";s:4:"date";s:29:"Tue, 01 Jun 2021 19:49:57 GMT";s:12:"content-type";s:8:"text/xml";s:4:"vary";s:15:"Accept-Encoding";s:13:"last-modified";s:29:"Tue, 01 Jun 2021 19:45:08 GMT";s:15:"x-frame-options";s:10:"SAMEORIGIN";s:4:"x-nc";s:9:"HIT ord 2";s:16:"content-encoding";s:4:"gzip";}}s:5:"build";s:14:"20201016172007";}";}

@@ -1,1 +1,1 @@
-¬y≥`<?php exit; ?>a:1:{s:7:"content";s:46:"{"good":"12","recommended":"7","critical":"1"}";}
+ê∂`<?php exit; ?>a:1:{s:7:"content";s:46:"{"good":"12","recommended":"7","critical":"1"}";}

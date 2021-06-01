@@ -1,1 +1,1 @@
-=Ÿ°`<?php exit; ?>a:1:{s:7:"content";s:18:"fas fa-arrow-right";}
+”¶`<?php exit; ?>a:1:{s:7:"content";s:18:"fas fa-arrow-right";}
