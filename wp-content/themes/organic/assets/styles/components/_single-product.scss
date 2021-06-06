@@ -1,0 +1,60 @@
+.org-saleflash {
+  background-color: #7ba486 !important;
+  right: 35px;
+  top: 20px !important;
+  left: auto !important;
+  width: 50px;
+  height: 50px;
+}
+
+.org-single-product {
+  &__image-wrapper {
+    position: relative;
+  }
+
+  &__price {
+    font-size: 24px !important;
+
+    @media screen and (max-width: 640px) {
+      font-size: 16px !important;
+    }
+
+    del {
+      color: #7ba486;
+    }
+  }
+
+  &__btn {
+    transition: 0.15s ease-in-out !important;
+    border: 3px solid transparent !important;
+    padding: 11px 37px !important;
+    font-size: 1rem !important;
+    border-radius: 3rem !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    font-weight: 700 !important;
+    line-height: 28px !important;
+    color: #fff !important;
+    background-color: #2a5631 !important;
+    border-color: #2a5631 !important;
+
+    &:hover {
+      background-color: #bc5e49 !important;
+      border-color: #bc5e49 !important;
+    }
+  }
+
+  &__form-control {
+    background-color: transparent !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    text-align: center;
+
+    &:focus {
+      background-color: transparent !important;
+    }
+  }
+}

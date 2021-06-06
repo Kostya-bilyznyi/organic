@@ -1,4 +1,4 @@
-k¡¶`<?php exit; ?>a:4:{i:404;b:0;s:7:"headers";a:5:{s:11:"Status-Code";i:200;s:12:"Content-Type";s:24:"text/html; charset=UTF-8";i:0;a:2:{s:1:"n";s:4:"Link";s:1:"v";s:55:"<http://organic.loc/wp-json/>; rel="https://api.w.org/"";}i:1;a:2:{s:1:"n";s:4:"Link";s:1:"v";s:85:"<http://organic.loc/wp-json/wp/v2/pages/9/>; rel="alternate"; type="application/json"";}i:2;a:2:{s:1:"n";s:4:"Link";s:1:"v";s:36:"<http://organic.loc/>; rel=shortlink";}}s:4:"time";i:1622578011;s:7:"content";s:57382:" <!DOCTYPE html>
+'2½`<?php exit; ?>a:4:{i:404;b:0;s:7:"headers";a:5:{s:11:"Status-Code";i:200;s:12:"Content-Type";s:24:"text/html; charset=UTF-8";i:0;a:2:{s:1:"n";s:4:"Link";s:1:"v";s:55:"<http://organic.loc/wp-json/>; rel="https://api.w.org/"";}i:1;a:2:{s:1:"n";s:4:"Link";s:1:"v";s:85:"<http://organic.loc/wp-json/wp/v2/pages/9/>; rel="alternate"; type="application/json"";}i:2;a:2:{s:1:"n";s:4:"Link";s:1:"v";s:36:"<http://organic.loc/>; rel=shortlink";}}s:4:"time";i:1623008279;s:7:"content";s:57339:" <!DOCTYPE html>
 <html lang="en-US">
   <head><style>img.lazy{min-height:1px}</style><link rel="preload" href="http://organic.loc/wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js" as="script"> <script type="text/javascript">if(!gform){window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0});var gform={domLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded?o():window.addEventListener("DOMContentLoaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),null==t&&(t=10),gform.hooks[o][n].push({tag:i,callable:r,priority:t})},doHook:function(o,n,r){if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[o][n]){var t,i=gform.hooks[o][n];i.sort(function(o,n){return o.priority-n.priority});for(var e=0;e<i.length;e++)"function"!=typeof(t=i[e].callable)&&(t=window[t]),"action"==o?t.apply(null,r):r[0]=t.apply(null,r)}if("filter"==o)return r[0]},removeHook:function(o,n,r,t){if(null!=gform.hooks[o][n])for(var i=gform.hooks[o][n],e=i.length-1;0<=e;e--)null!=t&&t!=i[e].tag||null!=r&&r!=i[e].priority||i.splice(e,1)}}}</script>
 		<meta charset="UTF-8">
@@ -628,10 +628,9 @@ var megamenu = {"timeout":"300","interval":"100"};
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 182/188 objects using disk
 Page Caching using disk 
 Lazy Loading
 Database Caching using disk (Request-wide modification query)
 
-Served from: organic.loc @ 2021-06-01 20:06:51 by W3 Total Cache
+Served from: organic.loc @ 2021-06-06 19:37:59 by W3 Total Cache
 -->";}

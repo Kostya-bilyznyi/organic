@@ -15,3 +15,5 @@ require_once THEME_DIR .'/inc/acf/options_page.php';
 require_once THEME_DIR .'/inc/shortcodes/footer_shortcodes.php';
 require_once THEME_DIR .'/inc/shortcodes/archive-shortcodes.php';
 require_once THEME_DIR .'/inc/ajax/fbi-wanted.php';
+
+require_once THEME_DIR .'/inc/hooks/woocommerce/woocommerce_init.php';

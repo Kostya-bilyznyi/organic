@@ -3490,6 +3490,86 @@ article.comment-body {
   margin: 20px 0;
 }
 
+/* line 1, assets/styles/components/_single-product.scss */
+
+.org-saleflash {
+  background-color: #7ba486 !important;
+  right: 35px;
+  top: 20px !important;
+  left: auto !important;
+  width: 50px;
+  height: 50px;
+}
+
+/* line 11, assets/styles/components/_single-product.scss */
+
+.org-single-product__image-wrapper {
+  position: relative;
+}
+
+/* line 15, assets/styles/components/_single-product.scss */
+
+.org-single-product__price {
+  font-size: 24px !important;
+}
+
+@media screen and (max-width: 640px) {
+  /* line 15, assets/styles/components/_single-product.scss */
+
+  .org-single-product__price {
+    font-size: 16px !important;
+  }
+}
+
+/* line 22, assets/styles/components/_single-product.scss */
+
+.org-single-product__price del {
+  color: #7ba486;
+}
+
+/* line 27, assets/styles/components/_single-product.scss */
+
+.org-single-product__btn {
+  -webkit-transition: 0.15s ease-in-out !important;
+  transition: 0.15s ease-in-out !important;
+  border: 3px solid transparent !important;
+  padding: 11px 37px !important;
+  font-size: 1rem !important;
+  border-radius: 3rem !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  font-weight: 700 !important;
+  line-height: 28px !important;
+  color: #fff !important;
+  background-color: #2a5631 !important;
+  border-color: #2a5631 !important;
+}
+
+/* line 43, assets/styles/components/_single-product.scss */
+
+.org-single-product__btn:hover {
+  background-color: #bc5e49 !important;
+  border-color: #bc5e49 !important;
+}
+
+/* line 49, assets/styles/components/_single-product.scss */
+
+.org-single-product__form-control {
+  background-color: transparent !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  text-align: center;
+}
+
+/* line 56, assets/styles/components/_single-product.scss */
+
+.org-single-product__form-control:focus {
+  background-color: transparent !important;
+}
+
 /* --------------------------------------------------------------
 # Base styles
 -------------------------------------------------------------- */
@@ -3652,32 +3732,20 @@ input:-webkit-autofill-hover {
   font-weight: 700 !important;
 }
 
-/* line 118, assets/styles/base/_base.scss */
-
-#breadcrumbs {
-  margin-bottom: 20px;
-}
-
 /* line 122, assets/styles/base/_base.scss */
 
 .sep {
-  width: 6px;
-  height: 10px;
-  background-image: url(data:image/svg+xml;charset=utf8,%3Csvg%20width%3D%2211%22%20height%3D%2220%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%3Cpath%20d%3D%22M.38%2019.01c.49.49%201.28.49%201.77%200l8.31-8.31a.996.996%200%20000-1.41L2.15.98a1.25%201.25%200%2000-1.77%200%201.25%201.25%200%20000%201.77L7.62%2010%20.37%2017.25c-.48.48-.48%201.28.01%201.76z%22%20fill%3D%22%232A5631%22%2F%3E%0A%3C%2Fsvg%3E);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: inline-block;
-  margin: 0 5px;
+  color: #2a5631;
+  font-weight: 500;
 }
 
-/* line 134, assets/styles/base/_base.scss */
+/* line 136, assets/styles/base/_base.scss */
 
 .search__input-wrap {
   position: relative;
 }
 
-/* line 137, assets/styles/base/_base.scss */
+/* line 139, assets/styles/base/_base.scss */
 
 .search__input-wrap input[type="text"] {
   height: 52px;
@@ -3692,7 +3760,7 @@ input:-webkit-autofill-hover {
   background: transparent;
 }
 
-/* line 150, assets/styles/base/_base.scss */
+/* line 152, assets/styles/base/_base.scss */
 
 .search__input-wrap .search__button {
   position: absolute;
@@ -3710,19 +3778,19 @@ input:-webkit-autofill-hover {
   background: #000;
 }
 
-/* line 165, assets/styles/base/_base.scss */
+/* line 167, assets/styles/base/_base.scss */
 
 .margin-30-0 {
   margin: 30px auto;
 }
 
-/* line 169, assets/styles/base/_base.scss */
+/* line 171, assets/styles/base/_base.scss */
 
 .single-team__info {
   text-align: center;
 }
 
-/* line 173, assets/styles/base/_base.scss */
+/* line 175, assets/styles/base/_base.scss */
 
 .img-100px {
   width: 100px;
@@ -3731,25 +3799,53 @@ input:-webkit-autofill-hover {
      object-fit: cover;
 }
 
-/* line 179, assets/styles/base/_base.scss */
+/* line 181, assets/styles/base/_base.scss */
 
 .mb-px-60 {
   margin-bottom: 60px;
 }
 
 @media screen and (max-width: 640px) {
-  /* line 179, assets/styles/base/_base.scss */
+  /* line 181, assets/styles/base/_base.scss */
 
   .mb-px-60 {
     margin-bottom: 0;
   }
 }
 
-/* line 187, assets/styles/base/_base.scss */
+/* line 189, assets/styles/base/_base.scss */
 
 .woocommerce-store-notice,
 p.demo_store {
   background-color: #7ba486;
+}
+
+/* line 194, assets/styles/base/_base.scss */
+
+.woocommerce-product-gallery.woocommerce-product-gallery--with-images {
+  width: 100% !important;
+}
+
+/* line 199, assets/styles/base/_base.scss */
+
+#breadcrumbs a {
+  font-size: 0.875rem;
+  font-weight: 500 !important;
+  color: #2a5631;
+}
+
+/* line 205, assets/styles/base/_base.scss */
+
+#breadcrumbs .breadcrumb_last {
+  font-size: 0.875rem;
+  font-weight: 500 !important;
+  color: #747474;
+}
+
+/* line 212, assets/styles/base/_base.scss */
+
+.woocommerce-bgc {
+  background-color: #dfd7c3;
 }
 
 /* --------------------------------------------------------------

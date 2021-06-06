@@ -91,7 +91,7 @@
     ],
     "lazyload.embed_method": "async_head",
     "objectcache.configuration_overloaded": false,
-    "objectcache.enabled": true,
+    "objectcache.enabled": false,
     "objectcache.debug": false,
     "objectcache.debug_purge": false,
     "objectcache.enabled_for_wp_admin": false,
@@ -536,7 +536,9 @@
     "varnish.configuration_overloaded": false,
     "varnish.enabled": false,
     "varnish.debug": false,
-    "varnish.servers": [],
+    "varnish.servers": [
+        ""
+    ],
     "browsercache.configuration_overloaded": false,
     "browsercache.enabled": true,
     "browsercache.rewrite": false,
@@ -899,5 +901,8 @@
     "pgcache.bad_behavior_path": "",
     "newrelic": {
         "monitoring_type": "apm"
+    },
+    "fragmentcache": {
+        "engine": ""
     }
 }
