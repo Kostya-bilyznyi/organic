@@ -1,4 +1,4 @@
-V(�`<?php exit; ?>a:4:{i:404;b:0;s:7:"headers";a:5:{s:11:"Status-Code";i:200;s:12:"Content-Type";s:24:"text/html; charset=UTF-8";i:0;a:2:{s:1:"n";s:4:"Link";s:1:"v";s:55:"<http://organic.loc/wp-json/>; rel="https://api.w.org/"";}i:1;a:2:{s:1:"n";s:4:"Link";s:1:"v";s:89:"<http://organic.loc/wp-json/wp/v2/product/601/>; rel="alternate"; type="application/json"";}i:2;a:2:{s:1:"n";s:4:"Link";s:1:"v";s:42:"<http://organic.loc/?p=601>; rel=shortlink";}}s:4:"time";i:1623005766;s:7:"content";s:69439:"<!DOCTYPE html>
+2��`<?php exit; ?>a:4:{i:404;b:0;s:7:"headers";a:5:{s:11:"Status-Code";i:200;s:12:"Content-Type";s:24:"text/html; charset=UTF-8";i:0;a:2:{s:1:"n";s:4:"Link";s:1:"v";s:55:"<http://organic.loc/wp-json/>; rel="https://api.w.org/"";}i:1;a:2:{s:1:"n";s:4:"Link";s:1:"v";s:89:"<http://organic.loc/wp-json/wp/v2/product/601/>; rel="alternate"; type="application/json"";}i:2;a:2:{s:1:"n";s:4:"Link";s:1:"v";s:42:"<http://organic.loc/?p=601>; rel=shortlink";}}s:4:"time";i:1624476706;s:7:"content";s:71936:"<!DOCTYPE html>
 <html lang="en-US">
   <head><style>img.lazy{min-height:1px}</style><link rel="preload" href="http://organic.loc/wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js" as="script"> <script type="text/javascript">if(!gform){window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0});var gform={domLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded?o():window.addEventListener("DOMContentLoaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),null==t&&(t=10),gform.hooks[o][n].push({tag:i,callable:r,priority:t})},doHook:function(o,n,r){if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[o][n]){var t,i=gform.hooks[o][n];i.sort(function(o,n){return o.priority-n.priority});for(var e=0;e<i.length;e++)"function"!=typeof(t=i[e].callable)&&(t=window[t]),"action"==o?t.apply(null,r):r[0]=t.apply(null,r)}if("filter"==o)return r[0]},removeHook:function(o,n,r,t){if(null!=gform.hooks[o][n])for(var i=gform.hooks[o][n],e=i.length-1;0<=e;e--)null!=t&&t!=i[e].tag||null!=r&&r!=i[e].priority||i.splice(e,1)}}}</script>
 		<meta charset="UTF-8">
@@ -51,6 +51,8 @@ img.emoji {
 <link rel='stylesheet' id='wc-block-vendors-style-css'  href='http://organic.loc/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-style.css?ver=4.9.1' type='text/css' media='all' />
 <link rel='stylesheet' id='wc-block-style-css'  href='http://organic.loc/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=4.9.1' type='text/css' media='all' />
 <link rel='stylesheet' id='contact-form-7-css'  href='http://organic.loc/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='photoswipe-css'  href='http://organic.loc/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.min.css?ver=5.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='photoswipe-default-skin-css'  href='http://organic.loc/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.min.css?ver=5.3.0' type='text/css' media='all' />
 <link rel='stylesheet' id='woocommerce-layout-css'  href='http://organic.loc/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=5.3.0' type='text/css' media='all' />
 <link rel='stylesheet' id='woocommerce-smallscreen-css'  href='http://organic.loc/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=5.3.0' type='text/css' media='only screen and (max-width: 768px)' />
 <link rel='stylesheet' id='woocommerce-general-css'  href='http://organic.loc/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=5.3.0' type='text/css' media='all' />
@@ -259,13 +261,13 @@ var eio_lazy_vars = {"exactdn_domain":"","skip_autoscale":"0","threshold":"0"};
 
 		<div class="single_variation_wrap">
 			<div class="woocommerce-variation single_variation"></div><div class="woocommerce-variation-add-to-cart variations_button">
-	
-		<div class="quantity">
-				<label class="screen-reader-text" for="quantity_60bd1a463dbb3">Велосипед 26&quot; DOROZHNIK LUX quantity</label>
+		<div class="col-1">
+			<div class="quantity">
+				<label class="screen-reader-text" for="quantity_60d38c21eb38c">Велосипед 26&quot; DOROZHNIK LUX quantity</label>
 		<input
 			type="number"
-			id="quantity_60bd1a463dbb3"
-			class="input-text qty text"
+			id="quantity_60d38c21eb38c"
+			class="org-single-product__form-control form-control number-border border-2 border-flame-pea px-0"
 			step="1"
 			min="1"
 			max=""
@@ -276,9 +278,10 @@ var eio_lazy_vars = {"exactdn_domain":"","skip_autoscale":"0","threshold":"0"};
 			placeholder=""
 			inputmode="numeric" />
 			</div>
-	
-	<button type="submit" class="single_add_to_cart_button button alt">Add to cart</button>
-
+		</div>
+	<div class="col-6">
+		<button type="submit" class="single_add_to_cart_button button alt btn btn-parsley org-single-product__btn">Add to cart</button>
+	</div>
 	
 	<input type="hidden" name="add-to-cart" value="601" />
 	<input type="hidden" name="product_id" value="601" />
@@ -292,11 +295,11 @@ var eio_lazy_vars = {"exactdn_domain":"","skip_autoscale":"0","threshold":"0"};
 
 	
 	
-		<span class="sku_wrapper">SKU: <span class="sku">268256731</span></span>
+		<p class="sku_wrapper mb-0">SKU: <span class="sku">268256731</span></p>
 
 	
-	<span class="posted_in">Categories: <a href="http://organic.loc/product-category/bicycles/" rel="tag">Bicycles</a>, <a href="http://organic.loc/product-category/bicycles/female/" rel="tag">Female</a></span>
-	<span class="tagged_as">Tag: <a href="http://organic.loc/product-tag/for-ladies/" rel="tag">For ladies</a></span>
+	<p class="posted_in mb-0">Categories: <a href="http://organic.loc/product-category/bicycles/" rel="tag">Bicycles</a>, <a href="http://organic.loc/product-category/bicycles/female/" rel="tag">Female</a></p>
+	<p class="tagged_as mb-0">Tag: <a href="http://organic.loc/product-tag/for-ladies/" rel="tag">For ladies</a></p>
 	
 </div>
 
@@ -305,9 +308,8 @@ var eio_lazy_vars = {"exactdn_domain":"","skip_autoscale":"0","threshold":"0"};
 
 				<div class="woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-4 images" data-columns="4" style="opacity: 0; transition: opacity .25s ease-in-out;">
 	<figure class="woocommerce-product-gallery__wrapper">
-		<div data-thumb="http://organic.loc/wp-content/uploads/2021/06/8189103-100x100.jpg" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="http://organic.loc/wp-content/uploads/2021/06/8189103.jpg"><img width="600" height="400" src="http://organic.loc/wp-content/uploads/2021/06/8189103-600x400.jpg" class="wp-post-image" alt="" title="8189103" data-caption="" data-src="http://organic.loc/wp-content/uploads/2021/06/8189103.jpg" data-large_image="http://organic.loc/wp-content/uploads/2021/06/8189103.jpg" data-large_image_width="720" data-large_image_height="480" srcset="http://organic.loc/wp-content/uploads/2021/06/8189103-600x400.jpg 600w, http://organic.loc/wp-content/uploads/2021/06/8189103-300x200.jpg 300w, http://organic.loc/wp-content/uploads/2021/06/8189103-516x344.jpg 516w, http://organic.loc/wp-content/uploads/2021/06/8189103.jpg 720w" sizes="(max-width: 600px) 100vw, 600px" /></a></div><div data-thumb="http://organic.loc/wp-content/uploads/2021/06/8189108-100x100.jpg" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="http://organic.loc/wp-content/uploads/2021/06/8189108.jpg"><img width="100" height="100" src="http://organic.loc/wp-content/uploads/2021/06/8189108-100x100.jpg" class="" alt="" title="8189108" data-caption="" data-src="http://organic.loc/wp-content/uploads/2021/06/8189108.jpg" data-large_image="http://organic.loc/wp-content/uploads/2021/06/8189108.jpg" data-large_image_width="720" data-large_image_height="479" srcset="http://organic.loc/wp-content/uploads/2021/06/8189108-100x100.jpg 100w, http://organic.loc/wp-content/uploads/2021/06/8189108-150x150.jpg 150w, http://organic.loc/wp-content/uploads/2021/06/8189108-300x300.jpg 300w" sizes="(max-width: 100px) 100vw, 100px" /></a></div><div data-thumb="http://organic.loc/wp-content/uploads/2021/06/8189107-100x100.jpg" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="http://organic.loc/wp-content/uploads/2021/06/8189107.jpg"><img width="100" height="100" src="http://organic.loc/wp-content/uploads/2021/06/8189107-100x100.jpg" class="" alt="" title="8189107" data-caption="" data-src="http://organic.loc/wp-content/uploads/2021/06/8189107.jpg" data-large_image="http://organic.loc/wp-content/uploads/2021/06/8189107.jpg" data-large_image_width="630" data-large_image_height="630" srcset="http://organic.loc/wp-content/uploads/2021/06/8189107-100x100.jpg 100w, http://organic.loc/wp-content/uploads/2021/06/8189107-300x300.jpg 300w, http://organic.loc/wp-content/uploads/2021/06/8189107-150x150.jpg 150w, http://organic.loc/wp-content/uploads/2021/06/8189107-600x600.jpg 600w, http://organic.loc/wp-content/uploads/2021/06/8189107-516x516.jpg 516w, http://organic.loc/wp-content/uploads/2021/06/8189107.jpg 630w" sizes="(max-width: 100px) 100vw, 100px" /></a></div><div data-thumb="http://organic.loc/wp-content/uploads/2021/06/8189109-100x100.jpg" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="http://organic.loc/wp-content/uploads/2021/06/8189109.jpg"><img width="100" height="100" src="http://organic.loc/wp-content/uploads/2021/06/8189109-100x100.jpg" class="" alt="" title="8189109" data-caption="" data-src="http://organic.loc/wp-content/uploads/2021/06/8189109.jpg" data-large_image="http://organic.loc/wp-content/uploads/2021/06/8189109.jpg" data-large_image_width="720" data-large_image_height="480" srcset="http://organic.loc/wp-content/uploads/2021/06/8189109-100x100.jpg 100w, http://organic.loc/wp-content/uploads/2021/06/8189109-150x150.jpg 150w, http://organic.loc/wp-content/uploads/2021/06/8189109-300x300.jpg 300w" sizes="(max-width: 100px) 100vw, 100px" /></a></div>	</figure>
+		<div data-thumb="http://organic.loc/wp-content/uploads/2021/06/8189103-100x100.jpg" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="http://organic.loc/wp-content/uploads/2021/06/8189103.jpg"><img width="600" height="400" src="http://organic.loc/wp-content/uploads/2021/06/8189103-600x400.jpg" class="wp-post-image" alt="" title="8189103" data-caption="" data-src="http://organic.loc/wp-content/uploads/2021/06/8189103.jpg" data-large_image="http://organic.loc/wp-content/uploads/2021/06/8189103.jpg" data-large_image_width="720" data-large_image_height="480" srcset="http://organic.loc/wp-content/uploads/2021/06/8189103-600x400.jpg 600w, http://organic.loc/wp-content/uploads/2021/06/8189103-300x200.jpg 300w, http://organic.loc/wp-content/uploads/2021/06/8189103-516x344.jpg 516w, http://organic.loc/wp-content/uploads/2021/06/8189103.jpg 720w" sizes="(max-width: 600px) 100vw, 600px" /></a></div><div data-thumb="http://organic.loc/wp-content/uploads/2021/06/8189108-100x100.jpg" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="http://organic.loc/wp-content/uploads/2021/06/8189108.jpg"><img width="600" height="399" src="http://organic.loc/wp-content/uploads/2021/06/8189108-600x399.jpg" class="" alt="" title="8189108" data-caption="" data-src="http://organic.loc/wp-content/uploads/2021/06/8189108.jpg" data-large_image="http://organic.loc/wp-content/uploads/2021/06/8189108.jpg" data-large_image_width="720" data-large_image_height="479" srcset="http://organic.loc/wp-content/uploads/2021/06/8189108-600x399.jpg 600w, http://organic.loc/wp-content/uploads/2021/06/8189108-300x200.jpg 300w, http://organic.loc/wp-content/uploads/2021/06/8189108-516x343.jpg 516w, http://organic.loc/wp-content/uploads/2021/06/8189108.jpg 720w" sizes="(max-width: 600px) 100vw, 600px" /></a></div><div data-thumb="http://organic.loc/wp-content/uploads/2021/06/8189107-100x100.jpg" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="http://organic.loc/wp-content/uploads/2021/06/8189107.jpg"><img width="600" height="600" src="http://organic.loc/wp-content/uploads/2021/06/8189107-600x600.jpg" class="" alt="" title="8189107" data-caption="" data-src="http://organic.loc/wp-content/uploads/2021/06/8189107.jpg" data-large_image="http://organic.loc/wp-content/uploads/2021/06/8189107.jpg" data-large_image_width="630" data-large_image_height="630" srcset="http://organic.loc/wp-content/uploads/2021/06/8189107-600x600.jpg 600w, http://organic.loc/wp-content/uploads/2021/06/8189107-300x300.jpg 300w, http://organic.loc/wp-content/uploads/2021/06/8189107-150x150.jpg 150w, http://organic.loc/wp-content/uploads/2021/06/8189107-516x516.jpg 516w, http://organic.loc/wp-content/uploads/2021/06/8189107-100x100.jpg 100w, http://organic.loc/wp-content/uploads/2021/06/8189107.jpg 630w" sizes="(max-width: 600px) 100vw, 600px" /></a></div><div data-thumb="http://organic.loc/wp-content/uploads/2021/06/8189109-100x100.jpg" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="http://organic.loc/wp-content/uploads/2021/06/8189109.jpg"><img width="600" height="400" src="http://organic.loc/wp-content/uploads/2021/06/8189109-600x400.jpg" class="" alt="" title="8189109" data-caption="" data-src="http://organic.loc/wp-content/uploads/2021/06/8189109.jpg" data-large_image="http://organic.loc/wp-content/uploads/2021/06/8189109.jpg" data-large_image_width="720" data-large_image_height="480" srcset="http://organic.loc/wp-content/uploads/2021/06/8189109-600x400.jpg 600w, http://organic.loc/wp-content/uploads/2021/06/8189109-300x200.jpg 300w, http://organic.loc/wp-content/uploads/2021/06/8189109-516x344.jpg 516w, http://organic.loc/wp-content/uploads/2021/06/8189109.jpg 720w" sizes="(max-width: 600px) 100vw, 600px" /></a></div>	</figure>
 </div>
-
 			</div>
 		</div>
 	</div>
@@ -388,28 +390,28 @@ var eio_lazy_vars = {"exactdn_domain":"","skip_autoscale":"0","threshold":"0"};
 		<ul class="products columns-4">
 
 			
-					<li class="product type-product post-560 status-publish first instock product_cat-bicycles product_cat-mountain-bikes product_tag-for-real-mans has-post-thumbnail purchasable product-type-variable has-default-attributes">
-	<a href="http://organic.loc/product/%d0%b2%d0%b5%d0%bb%d0%be%d1%81%d0%b8%d0%bf%d0%b5%d0%b4-orbea-alma-29-h20-eagle-m/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="http://organic.loc/wp-content/ewww/lazy/placeholder-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail lazyload" alt=""   data-src="http://organic.loc/wp-content/uploads/2021/06/17503805-300x300.jpg" data-srcset="http://organic.loc/wp-content/uploads/2021/06/17503805-300x300.jpg 300w, http://organic.loc/wp-content/uploads/2021/06/17503805-150x150.jpg 150w, http://organic.loc/wp-content/uploads/2021/06/17503805-100x100.jpg 100w" data-sizes="auto" /><noscript><img width="300" height="300" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" data-src="http://organic.loc/wp-content/uploads/2021/06/17503805-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail lazy" alt="" data-srcset="http://organic.loc/wp-content/uploads/2021/06/17503805-300x300.jpg 300w, http://organic.loc/wp-content/uploads/2021/06/17503805-150x150.jpg 150w, http://organic.loc/wp-content/uploads/2021/06/17503805-100x100.jpg 100w" data-sizes="(max-width: 300px) 100vw, 300px" data-eio="l" /></noscript><h2 class="woocommerce-loop-product__title">Велосипед Orbea Alma 29 H20-Eagle M</h2>
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>40880</bdi></span></span>
-</a><a href="http://organic.loc/product/%d0%b2%d0%b5%d0%bb%d0%be%d1%81%d0%b8%d0%bf%d0%b5%d0%b4-orbea-alma-29-h20-eagle-m/" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="560" data-product_sku="127641945" aria-label="Select options for &ldquo;Велосипед Orbea Alma 29 H20-Eagle M&rdquo;" rel="nofollow">Select options</a></li>
-
-			
-					<li class="product type-product post-599 status-publish instock product_cat-bicycles product_cat-female product_tag-for-ladies has-post-thumbnail purchasable product-type-simple">
+					<li class="product type-product post-599 status-publish first instock product_cat-bicycles product_cat-female product_tag-for-ladies has-post-thumbnail purchasable product-type-simple">
 	<a href="http://organic.loc/product/%d0%b2%d0%b5%d0%bb%d0%be%d1%81%d0%b8%d0%bf%d0%b5%d0%b4-27-5-leon-xc-lady-16-5-2021/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="http://organic.loc/wp-content/ewww/lazy/placeholder-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail lazyload" alt=""   data-src="http://organic.loc/wp-content/uploads/2021/06/173960099-300x300.jpg" data-srcset="http://organic.loc/wp-content/uploads/2021/06/173960099-300x300.jpg 300w, http://organic.loc/wp-content/uploads/2021/06/173960099-150x150.jpg 150w, http://organic.loc/wp-content/uploads/2021/06/173960099-100x100.jpg 100w" data-sizes="auto" /><noscript><img width="300" height="300" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" data-src="http://organic.loc/wp-content/uploads/2021/06/173960099-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail lazy" alt="" data-srcset="http://organic.loc/wp-content/uploads/2021/06/173960099-300x300.jpg 300w, http://organic.loc/wp-content/uploads/2021/06/173960099-150x150.jpg 150w, http://organic.loc/wp-content/uploads/2021/06/173960099-100x100.jpg 100w" data-sizes="(max-width: 300px) 100vw, 300px" data-eio="l" /></noscript><h2 class="woocommerce-loop-product__title">Велосипед 27.5&#8243; Leon XC-LADY 16.5&#8243; 2021</h2>
 	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>13100</bdi></span></span>
 </a><a href="?add-to-cart=599" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="599" data-product_sku="293023253" aria-label="Add &ldquo;Велосипед 27.5&quot; Leon XC-LADY 16.5&quot; 2021&rdquo; to your cart" rel="nofollow">Add to cart</a></li>
 
 			
-					<li class="product type-product post-585 status-publish instock product_cat-bicycles product_cat-female product_tag-for-ladies has-post-thumbnail purchasable product-type-variable has-default-attributes">
-	<a href="http://organic.loc/product/%d0%b2%d0%b5%d0%bb%d0%be%d1%81%d0%b8%d0%bf%d0%b5%d0%b4-vento-mistral-27-5-17/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="http://organic.loc/wp-content/ewww/lazy/placeholder-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail lazyload" alt=""   data-src="http://organic.loc/wp-content/uploads/2021/06/131672777-300x300.jpg" data-srcset="http://organic.loc/wp-content/uploads/2021/06/131672777-300x300.jpg 300w, http://organic.loc/wp-content/uploads/2021/06/131672777-150x150.jpg 150w, http://organic.loc/wp-content/uploads/2021/06/131672777-100x100.jpg 100w" data-sizes="auto" /><noscript><img width="300" height="300" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" data-src="http://organic.loc/wp-content/uploads/2021/06/131672777-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail lazy" alt="" data-srcset="http://organic.loc/wp-content/uploads/2021/06/131672777-300x300.jpg 300w, http://organic.loc/wp-content/uploads/2021/06/131672777-150x150.jpg 150w, http://organic.loc/wp-content/uploads/2021/06/131672777-100x100.jpg 100w" data-sizes="(max-width: 300px) 100vw, 300px" data-eio="l" /></noscript><h2 class="woocommerce-loop-product__title">Велосипед Vento Mistral 27.5&#8243; 17&#8243;</h2>
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>11999</bdi></span></span>
-</a><a href="http://organic.loc/product/%d0%b2%d0%b5%d0%bb%d0%be%d1%81%d0%b8%d0%bf%d0%b5%d0%b4-vento-mistral-27-5-17/" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="585" data-product_sku="218609455" aria-label="Select options for &ldquo;Велосипед Vento Mistral 27.5&quot; 17&quot;&rdquo;" rel="nofollow">Select options</a></li>
+					<li class="product type-product post-576 status-publish instock product_cat-bicycles product_cat-mountain-bikes product_tag-for-real-mans has-post-thumbnail purchasable product-type-variable has-default-attributes">
+	<a href="http://organic.loc/product/%d0%b2%d0%b5%d0%bb%d0%be%d1%81%d0%b8%d0%bf%d0%b5%d0%b4-orbea-alma-h10-eagle-29-xl-2021/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="http://organic.loc/wp-content/ewww/lazy/placeholder-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail lazyload" alt=""   data-src="http://organic.loc/wp-content/uploads/2021/06/146235069-300x300.jpg" data-srcset="http://organic.loc/wp-content/uploads/2021/06/146235069-300x300.jpg 300w, http://organic.loc/wp-content/uploads/2021/06/146235069-150x150.jpg 150w, http://organic.loc/wp-content/uploads/2021/06/146235069-100x100.jpg 100w" data-sizes="auto" /><noscript><img width="300" height="300" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" data-src="http://organic.loc/wp-content/uploads/2021/06/146235069-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail lazy" alt="" data-srcset="http://organic.loc/wp-content/uploads/2021/06/146235069-300x300.jpg 300w, http://organic.loc/wp-content/uploads/2021/06/146235069-150x150.jpg 150w, http://organic.loc/wp-content/uploads/2021/06/146235069-100x100.jpg 100w" data-sizes="(max-width: 300px) 100vw, 300px" data-eio="l" /></noscript><h2 class="woocommerce-loop-product__title">Велосипед Orbea Alma H10-Eagle 29 XL 2021</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>49756</bdi></span></span>
+</a><a href="http://organic.loc/product/%d0%b2%d0%b5%d0%bb%d0%be%d1%81%d0%b8%d0%bf%d0%b5%d0%b4-orbea-alma-h10-eagle-29-xl-2021/" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="576" data-product_sku="249473466" aria-label="Select options for &ldquo;Велосипед Orbea Alma H10-Eagle 29 XL 2021&rdquo;" rel="nofollow">Select options</a></li>
 
 			
-					<li class="product type-product post-514 status-publish last instock product_cat-bicycles product_cat-mountain-bikes has-post-thumbnail taxable shipping-taxable purchasable product-type-variable has-default-attributes">
+					<li class="product type-product post-514 status-publish instock product_cat-bicycles product_cat-mountain-bikes has-post-thumbnail taxable shipping-taxable purchasable product-type-variable has-default-attributes">
 	<a href="http://organic.loc/product/%d0%ba%d0%b0%d1%80%d0%b1%d0%be%d0%bd%d0%be%d0%b2%d0%b8%d0%b9-%d0%b2%d0%b5%d0%bb%d0%be%d1%81%d0%b8%d0%bf%d0%b5%d0%b4-crosser-genesis-1-29-175-black-red-genesis-1/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="http://organic.loc/wp-content/ewww/lazy/placeholder-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail lazyload" alt=""   data-src="http://organic.loc/wp-content/uploads/2021/05/26550339-300x300.jpg" data-srcset="http://organic.loc/wp-content/uploads/2021/05/26550339-300x300.jpg 300w, http://organic.loc/wp-content/uploads/2021/05/26550339-100x100.jpg 100w, http://organic.loc/wp-content/uploads/2021/05/26550339-150x150.jpg 150w" data-sizes="auto" /><noscript><img width="300" height="300" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" data-src="http://organic.loc/wp-content/uploads/2021/05/26550339-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail lazy" alt="" data-srcset="http://organic.loc/wp-content/uploads/2021/05/26550339-300x300.jpg 300w, http://organic.loc/wp-content/uploads/2021/05/26550339-100x100.jpg 100w, http://organic.loc/wp-content/uploads/2021/05/26550339-150x150.jpg 150w" data-sizes="(max-width: 300px) 100vw, 300px" data-eio="l" /></noscript><h2 class="woocommerce-loop-product__title">Карбоновий Велосипед Crosser Genesis-1 29&#8243; 17,5&#8243; (Genesis-1)</h2>
 	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>15555</bdi></span></span>
 </a><a href="http://organic.loc/product/%d0%ba%d0%b0%d1%80%d0%b1%d0%be%d0%bd%d0%be%d0%b2%d0%b8%d0%b9-%d0%b2%d0%b5%d0%bb%d0%be%d1%81%d0%b8%d0%bf%d0%b5%d0%b4-crosser-genesis-1-29-175-black-red-genesis-1/" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="514" data-product_sku="278122508" aria-label="Select options for &ldquo;Карбоновий Велосипед Crosser Genesis-1 29&quot; 17,5&quot; (Genesis-1)&rdquo;" rel="nofollow">Select options</a></li>
+
+			
+					<li class="product type-product post-597 status-publish last instock product_cat-bicycles product_cat-female product_tag-for-ladies has-post-thumbnail purchasable product-type-simple">
+	<a href="http://organic.loc/product/%d0%b2%d0%b5%d0%bb%d0%be%d1%81%d0%b8%d0%bf%d0%b5%d0%b4-26-dorozhnik-ruby/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="http://organic.loc/wp-content/ewww/lazy/placeholder-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail lazyload" alt=""   data-src="http://organic.loc/wp-content/uploads/2021/06/54862125-300x300.png" data-srcset="http://organic.loc/wp-content/uploads/2021/06/54862125-300x300.png 300w, http://organic.loc/wp-content/uploads/2021/06/54862125-150x150.png 150w, http://organic.loc/wp-content/uploads/2021/06/54862125-100x100.png 100w" data-sizes="auto" /><noscript><img width="300" height="300" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" data-src="http://organic.loc/wp-content/uploads/2021/06/54862125-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail lazy" alt="" data-srcset="http://organic.loc/wp-content/uploads/2021/06/54862125-300x300.png 300w, http://organic.loc/wp-content/uploads/2021/06/54862125-150x150.png 150w, http://organic.loc/wp-content/uploads/2021/06/54862125-100x100.png 100w" data-sizes="(max-width: 300px) 100vw, 300px" data-eio="l" /></noscript><h2 class="woocommerce-loop-product__title">Велосипед 26&#8243; DOROZHNIK RUBY</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>7000</bdi></span></span>
+</a><a href="?add-to-cart=597" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="597" data-product_sku="273266403" aria-label="Add &ldquo;Велосипед 26&quot; DOROZHNIK RUBY&rdquo; to your cart" rel="nofollow">Add to cart</a></li>
 
 			
 		</ul>
@@ -518,7 +520,42 @@ var eio_lazy_vars = {"exactdn_domain":"","skip_autoscale":"0","threshold":"0"};
       </div>
     </footer>
     <!-- End Footer-->
-		<p class="woocommerce-store-notice demo_store" data-notice-id="74eba5f9c9f4dbfc98de69fdffdc1df6" style="display:none;">Black Friday | Hundreds of brands, up to 50% off! <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i> <a href="#" class="woocommerce-store-notice__dismiss-link">Dismiss</a></p><script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"Product","@id":"http:\/\/organic.loc\/product\/%d0%b2%d0%b5%d0%bb%d0%be%d1%81%d0%b8%d0%bf%d0%b5%d0%b4-26-dorozhnik-lux\/#product","name":"\u0412\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434 26\" DOROZHNIK LUX","url":"http:\/\/organic.loc\/product\/%d0%b2%d0%b5%d0%bb%d0%be%d1%81%d0%b8%d0%bf%d0%b5%d0%b4-26-dorozhnik-lux\/","description":"Aliquam a feugiat sem. Duis sit amet mollis nibh, vitae venenatis lectus. Praesent porta diam quis lacus commodo ornare. Nulla facilisi. Nam risus lacus, vulputate a nunc nec, bibendum aliquam dolor. Vestibulum finibus consequat orci at tincidunt. Pellentesque eu eros in sem ultricies interdum. In facilisis quam id tellus pretium fermentum.","image":"http:\/\/organic.loc\/wp-content\/uploads\/2021\/06\/8189103.jpg","sku":"268256731","offers":[{"@type":"Offer","price":"5800","priceValidUntil":"2022-12-31","priceSpecification":{"price":"5800","priceCurrency":"USD","valueAddedTaxIncluded":"false"},"priceCurrency":"USD","availability":"http:\/\/schema.org\/InStock","url":"http:\/\/organic.loc\/product\/%d0%b2%d0%b5%d0%bb%d0%be%d1%81%d0%b8%d0%bf%d0%b5%d0%b4-26-dorozhnik-lux\/","seller":{"@type":"Organization","name":"Organic","url":"http:\/\/organic.loc"}}]}</script>	<script type="text/javascript">
+		<p class="woocommerce-store-notice demo_store" data-notice-id="74eba5f9c9f4dbfc98de69fdffdc1df6" style="display:none;">Black Friday | Hundreds of brands, up to 50% off! <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i> <a href="#" class="woocommerce-store-notice__dismiss-link">Dismiss</a></p><script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"Product","@id":"http:\/\/organic.loc\/product\/%d0%b2%d0%b5%d0%bb%d0%be%d1%81%d0%b8%d0%bf%d0%b5%d0%b4-26-dorozhnik-lux\/#product","name":"\u0412\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434 26\" DOROZHNIK LUX","url":"http:\/\/organic.loc\/product\/%d0%b2%d0%b5%d0%bb%d0%be%d1%81%d0%b8%d0%bf%d0%b5%d0%b4-26-dorozhnik-lux\/","description":"Aliquam a feugiat sem. Duis sit amet mollis nibh, vitae venenatis lectus. Praesent porta diam quis lacus commodo ornare. Nulla facilisi. Nam risus lacus, vulputate a nunc nec, bibendum aliquam dolor. Vestibulum finibus consequat orci at tincidunt. Pellentesque eu eros in sem ultricies interdum. In facilisis quam id tellus pretium fermentum.","image":"http:\/\/organic.loc\/wp-content\/uploads\/2021\/06\/8189103.jpg","sku":"268256731","offers":[{"@type":"Offer","price":"5800","priceValidUntil":"2022-12-31","priceSpecification":{"price":"5800","priceCurrency":"USD","valueAddedTaxIncluded":"false"},"priceCurrency":"USD","availability":"http:\/\/schema.org\/InStock","url":"http:\/\/organic.loc\/product\/%d0%b2%d0%b5%d0%bb%d0%be%d1%81%d0%b8%d0%bf%d0%b5%d0%b4-26-dorozhnik-lux\/","seller":{"@type":"Organization","name":"Organic","url":"http:\/\/organic.loc"}}]}</script>
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="pswp__bg"></div>
+	<div class="pswp__scroll-wrap">
+		<div class="pswp__container">
+			<div class="pswp__item"></div>
+			<div class="pswp__item"></div>
+			<div class="pswp__item"></div>
+		</div>
+		<div class="pswp__ui pswp__ui--hidden">
+			<div class="pswp__top-bar">
+				<div class="pswp__counter"></div>
+				<button class="pswp__button pswp__button--close" aria-label="Close (Esc)"></button>
+				<button class="pswp__button pswp__button--share" aria-label="Share"></button>
+				<button class="pswp__button pswp__button--fs" aria-label="Toggle fullscreen"></button>
+				<button class="pswp__button pswp__button--zoom" aria-label="Zoom in/out"></button>
+				<div class="pswp__preloader">
+					<div class="pswp__preloader__icn">
+						<div class="pswp__preloader__cut">
+							<div class="pswp__preloader__donut"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+				<div class="pswp__share-tooltip"></div>
+			</div>
+			<button class="pswp__button pswp__button--arrow--left" aria-label="Previous (arrow left)"></button>
+			<button class="pswp__button pswp__button--arrow--right" aria-label="Next (arrow right)"></button>
+			<div class="pswp__caption">
+				<div class="pswp__caption__center"></div>
+			</div>
+		</div>
+	</div>
+</div>
+	<script type="text/javascript">
 		(function () {
 			var c = document.body.className;
 			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
@@ -551,9 +588,12 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://organic.loc/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=5.3.0' id='wc-add-to-cart-js'></script>
+<script type='text/javascript' src='http://organic.loc/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2' id='flexslider-js'></script>
+<script type='text/javascript' src='http://organic.loc/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1' id='photoswipe-js'></script>
+<script type='text/javascript' src='http://organic.loc/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1' id='photoswipe-ui-default-js'></script>
 <script type='text/javascript' id='wc-single-product-js-extra'>
 /* <![CDATA[ */
-var wc_single_product_params = {"i18n_required_rating_text":"Please select a rating","review_rating_required":"yes","flexslider":{"rtl":false,"animation":"slide","smoothHeight":true,"directionNav":false,"controlNav":"thumbnails","slideshow":false,"animationSpeed":500,"animationLoop":false,"allowOneSlide":false},"zoom_enabled":"","zoom_options":[],"photoswipe_enabled":"","photoswipe_options":{"shareEl":false,"closeOnScroll":false,"history":false,"hideAnimationDuration":0,"showAnimationDuration":0},"flexslider_enabled":""};
+var wc_single_product_params = {"i18n_required_rating_text":"Please select a rating","review_rating_required":"yes","flexslider":{"rtl":false,"animation":"slide","smoothHeight":true,"directionNav":false,"controlNav":"thumbnails","slideshow":false,"animationSpeed":500,"animationLoop":false,"allowOneSlide":false},"zoom_enabled":"","zoom_options":[],"photoswipe_enabled":"1","photoswipe_options":{"shareEl":false,"closeOnScroll":false,"history":false,"hideAnimationDuration":0,"showAnimationDuration":0},"flexslider_enabled":"1"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://organic.loc/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=5.3.0' id='wc-single-product-js'></script>
@@ -615,5 +655,5 @@ Page Caching using disk
 Lazy Loading
 Database Caching using disk (Request-wide modification query)
 
-Served from: organic.loc @ 2021-06-06 18:56:06 by W3 Total Cache
+Served from: organic.loc @ 2021-06-23 19:31:46 by W3 Total Cache
 -->";}

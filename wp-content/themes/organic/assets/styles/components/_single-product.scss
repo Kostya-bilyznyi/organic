@@ -58,3 +58,33 @@
     }
   }
 }
+
+.flex-viewport {
+  margin-bottom: 24px;
+}
+
+.woocommerce {
+  div.product {
+    div.images {
+      img {
+        object-fit: cover;
+        max-height: 400px;
+      }
+
+      .flex-control-thumbs {
+        margin-left: -24px;
+
+        img {
+          object-fit: cover;
+          max-height: 400px;
+        }
+
+        li {
+          margin-left: 24px;
+          margin-bottom: 24px;
+          width: calc(25% - 24px);
+        }
+      }
+    }
+  }
+}

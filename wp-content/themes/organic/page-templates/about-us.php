@@ -53,4 +53,4 @@ get_header(); ?>
 		</div>
 	</article>
 <?php
-get_footer(); ?>
+get_footer();

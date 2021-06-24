@@ -3570,6 +3570,42 @@ article.comment-body {
   background-color: transparent !important;
 }
 
+/* line 62, assets/styles/components/_single-product.scss */
+
+.flex-viewport {
+  margin-bottom: 24px;
+}
+
+/* line 69, assets/styles/components/_single-product.scss */
+
+.woocommerce div.product div.images img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 400px;
+}
+
+/* line 74, assets/styles/components/_single-product.scss */
+
+.woocommerce div.product div.images .flex-control-thumbs {
+  margin-left: -24px;
+}
+
+/* line 77, assets/styles/components/_single-product.scss */
+
+.woocommerce div.product div.images .flex-control-thumbs img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 400px;
+}
+
+/* line 82, assets/styles/components/_single-product.scss */
+
+.woocommerce div.product div.images .flex-control-thumbs li {
+  margin-left: 24px;
+  margin-bottom: 24px;
+  width: calc(25% - 24px);
+}
+
 /* --------------------------------------------------------------
 # Base styles
 -------------------------------------------------------------- */

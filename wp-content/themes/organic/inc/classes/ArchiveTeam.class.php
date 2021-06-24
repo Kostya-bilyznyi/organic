@@ -1,7 +1,7 @@
 <?php
 class ArchiveTeam {
 	public $html_departments; 
-	public $array_with_members_in_departaments; 
+	public $array_with_members_in_departaments;
 
 	function get_departments() {
 		$departments_list = get_terms( array(

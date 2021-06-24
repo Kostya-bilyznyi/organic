@@ -25,11 +25,11 @@ if ( ! function_exists( 'wc_get_gallery_image_html' ) ) {
 global $product;
 
 $attachment_ids = $product->get_gallery_image_ids();
-echo '<div class="row mt-4 z-index-flower">';
+// echo '<div class="row mt-4 z-index-flower">';
 if ( $attachment_ids && $product->get_image_id() ) {
 	foreach ( $attachment_ids as $attachment_id ) {
-
-		echo '<div class="col-3">' . apply_filters( 'woocommerce_single_product_image_thumbnail_html', wc_get_gallery_image_html( $attachment_id ), $attachment_id ) . '</div>'; // phpcs:disable WordPress.XSS.EscapeOutput.OutputNotEscaped
+		$image_url_small = wp_get_attachment_image_url($attachment_id, 'shop_catalog');
+		echo apply_filters( 'woocommerce_single_product_image_thumbnail_html', wc_get_gallery_image_html( $attachment_id ), $attachment_id ); // phpcs:disable WordPress.XSS.EscapeOutput.OutputNotEscaped
 	}
 }
-echo '</div">';
+// echo '</div">';

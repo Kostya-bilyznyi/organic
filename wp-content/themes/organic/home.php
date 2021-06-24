@@ -60,4 +60,8 @@ $post_pagonation_htnl = '<div class="col-md-12 nav-wrapper">' . get_the_posts_pa
       </div>
     </article>
 <?php
-get_footer(); ?>
+get_footer();
+
+
+
+
